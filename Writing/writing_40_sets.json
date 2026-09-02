@@ -1,0 +1,2282 @@
+﻿[
+    {
+        "id":  1,
+        "code":  "set_001",
+        "title":  "Bộ đề #001",
+        "club":  "Art club",
+        "part1":  [
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I'm doing great, thanks!"
+                      },
+                      {
+                          "question":  "Which is your favorite season?",
+                          "sample_answer":  "I love the spring."
+                      },
+                      {
+                          "question":  "Which sports is the most popular in your country?",
+                          "sample_answer":  "Football is popular."
+                      },
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I’m wearing a dress."
+                      },
+                      {
+                          "question":  "What is your favorite kind of music?",
+                          "sample_answer":  "I enjoy listening to pop."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me a painting or a photo that you like",
+                      "sample_answer":  "I really like the painting Starry Night by Vincent van Gogh. The colors and swirls in the sky make me feel calm and inspired to create art."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
+                          "sample_answer":  "I’ve had my old sketchbook for years. It holds a lot of memories, sketches from different stages of my life, and always reminds me of how much my art has evolved over time."
+                      },
+                      {
+                          "question":  "I would like to learn painting, but I have not found an effective way. Should I take a course at my local college? Please, give me some advice.",
+                          "sample_answer":  "If you're serious about learning painting, taking a course at your local college could be a great idea. Structured lessons with an experienced instructor can really boost your skills and provide useful feedback."
+                      },
+                      {
+                          "question":  "Street art – where people paint on the building – is becoming popular. However, some people criticize that it is bad. What is your opinion?",
+                          "sample_answer":  "I think street art can be a beautiful form of expression, but it also depends on the context and location. It’s important to respect the space, but when done well, it can really enhance a community's atmosphere."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear all members, The Art Club is organizing a talk to the public to attract more attention. We are going to invite an artist to give a talk to members. As a member of our club, could you give us an artist to join our talk and what topic should they share to gain more attention. We would like to have more both young and elderly members.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Tell your friend your feelings about this and what you plan to do.",
+                                    "sample_answer":  "Hi Linh,\n\nHave you heard about our Art Club's upcoming public talk? I'm really excited about it and think it's a wonderful chance to attract more members! I'm planning to suggest inviting an illustrator to talk about modern digital art. What do you think? Let me know your ideas!\n\nBest,\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Tell them your thoughts about this and what you would like to do.",
+                                    "sample_answer":  "Dear Club President,\n\nI am writing in response to your announcement regarding the upcoming public talk organized by our Art Club. I am delighted to share a few recommendations on this exciting initiative.\n\nIn my view, hosting an open session is an excellent way to increase our visibility and engage the wider community. To attract both younger and older generations, I would like to recommend inviting Mr. David Nguyen, a renowned local watercolorist and comic illustrator. He could deliver a presentation on \"Bridging Traditional Art and Modern Digital Illustration.\" This topic would not only fascinate younger audiences keen on creative digital careers, but also appeal to senior members who appreciate classical techniques. Furthermore, organizing a brief hands-on sketching workshop at the end would make the event much more memorable.\n\nI hope these suggestions are helpful. Please let me know if you need any assistance with the preparations.\n\nYours sincerely,\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  2,
+        "code":  "set_002",
+        "title":  "Bộ đề #002",
+        "club":  "Beautiful homes club",
+        "part1":  [
+                      {
+                          "question":  "What is your favorite time of the year?",
+                          "sample_answer":  "I like summer."
+                      },
+                      {
+                          "question":  "What is your favorite sport?",
+                          "sample_answer":  "I enjoy football."
+                      },
+                      {
+                          "question":  "Where do you wanna go on holiday?",
+                          "sample_answer":  "I want to visit Japan."
+                      },
+                      {
+                          "question":  "What is the weather today?",
+                          "sample_answer":  "It's sunny today."
+                      },
+                      {
+                          "question":  "What do you like to do in the evening?",
+                          "sample_answer":  "I watch TV shows."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why do you want to join beautiful homes club?",
+                      "sample_answer":  "I'm excited to join the Beautiful Homes Club because I love decorating and want to make my home more beautiful and cozy for my family to enjoy."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I have a bad relationship with my neighbors because they often make noise. Tell me how is your relationship with your neighbors?",
+                          "sample_answer":  "I have a good relationship with my neighbors. We often help each other out and respect each other's space, so there are rarely any conflicts. Communication is key in maintaining a peaceful atmosphere."
+                      },
+                      {
+                          "question":  "Do you prefer living in old buildings or modern buildings? Why?",
+                          "sample_answer":  "I prefer living in modern buildings because they tend to have better facilities, are more energy-efficient, and are designed with current trends in mind. Old buildings, though charming, often lack these features."
+                      },
+                      {
+                          "question":  "The house should be designed in a way that is good for the environment. Do you agree?",
+                          "sample_answer":  "Yes, I completely agree. Designing houses with environmental considerations, such as using sustainable materials, energy-efficient systems, and reducing waste, can help minimize our ecological footprint and promote a healthier planet."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, The cost of maintaining old building is very high and these building take up a lot of space. The government has a proposal that we knock down old buildings and build more modern blocks.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the government has proposed knocking down old buildings to make space for modern blocks. I think it’s a great idea because maintaining old buildings is expensive, and modern buildings would be more energy-efficient. What do you think?\n\nLooking forward to hearing your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear President,\n\nI am writing to express my opinion on the government’s proposal to knock down old buildings and replace them with modern blocks. While I understand that maintaining old buildings can be costly, I believe we should carefully consider the impact on local communities and historical sites before proceeding. It might be beneficial to explore ways to preserve some of these buildings while still allowing for modern development in other areas. I suggest we engage with local residents and architects to discuss the best course of action.\n\nI look forward to your response and hope we can find a solution that benefits everyone.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  3,
+        "code":  "set_003",
+        "title":  "Bộ đề #003",
+        "club":  "Book club",
+        "part1":  [
+                      {
+                          "question":  "What’s your favorite hobby?",
+                          "sample_answer":  "I love painting."
+                      },
+                      {
+                          "question":  "How do you get to work?",
+                          "sample_answer":  "I drive my car."
+                      },
+                      {
+                          "question":  "What do you like to do in the evening?",
+                          "sample_answer":  "I watch TV shows."
+                      },
+                      {
+                          "question":  "What kinds of movies do you like?",
+                          "sample_answer":  "I enjoy comedies."
+                      },
+                      {
+                          "question":  "What’s your favorite food?",
+                          "sample_answer":  "I love pizza."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "I am a final year student so I need to find a research a lot of materials such as books and scientific journals.",
+                      "sample_answer":  "I usually visit libraries, search online databases, and use academic platforms like Google Scholar and JSTOR to find relevant materials. These sources help me gather books, journals, and papers for my research."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. When and where do you like reading books?",
+                          "sample_answer":  "I like to read books in the evenings when I can relax. I usually read at home, in my cozy corner, with a cup of tea. It's a great way to unwind after a busy day."
+                      },
+                      {
+                          "question":  "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
+                          "sample_answer":  "If your friend enjoys fiction, I'd recommend a bestseller like 'The Night Circus.' For non-fiction, something motivational or educational, like 'Atomic Habits,' would be a great choice to inspire them."
+                      },
+                      {
+                          "question":  "Online books replace traditional books? What do you think about that?",
+                          "sample_answer":  "Online books are convenient and portable, but they don't fully replace traditional books. The experience of reading a physical book is unique and many still prefer the tactile feel and scent of paper."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, From next month we will no longer be able to continue our offer of one free book every month. Also, because of problems with our delivery service, please expect a wait 4-6 weeks before your order arrives.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just received an update that starting next month, we won't be able to get one free book each month anymore. Additionally, there will be delays in delivery, so expect your orders to arrive in 4-6 weeks.\n\nLet's catch up soon!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was surprised to learn that we will no longer be able to receive a free book each month and that there will be significant delays in delivery. As a loyal member, I rely on these benefits, and this news is quite disappointing. I understand that delivery issues can happen, but I hope the club can find alternative solutions to continue offering books or communicate any updates in advance. It would be greatly appreciated if the club could work on improving the service and offer alternative options for the members.\n\nBest regards,\n\nLinh"
+                                }
+                  }
+    },
+    {
+        "id":  4,
+        "code":  "set_004",
+        "title":  "Bộ đề #004",
+        "club":  "Business club",
+        "part1":  [
+                      {
+                          "question":  "What is your hobby?",
+                          "sample_answer":  "I like listening to music."
+                      },
+                      {
+                          "question":  "What is your favourite food?",
+                          "sample_answer":  "I love Pizza."
+                      },
+                      {
+                          "question":  "What is your favourite time of a day?",
+                          "sample_answer":  "The evening."
+                      },
+                      {
+                          "question":  "How do you get to work?",
+                          "sample_answer":  "I ride my bike."
+                      },
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I'm From Vietnam."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Where do you usually go shopping?",
+                      "sample_answer":  "I usually shop at premium stores in the city center for business attire and essentials. For gadgets, I prefer specialized outlets or online platforms."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I know there are a lot of successful small businesses these days. Tell me about a successful small business in your area.",
+                          "sample_answer":  "In my area, a bakery has become successful due to its high-quality products and friendly service. It expanded by offering unique recipes and became a local favorite. People recommend it to others."
+                      },
+                      {
+                          "question":  "I have a friend who wants to open a second coffee shop. She opened her first one a year ago and it was quite successful. What advice do you have to help her be more successful in her second shop?",
+                          "sample_answer":  "For the second shop, she should maintain product quality and focus on customer service. Choosing a good location, promoting on social media, and creating special promotions can help attract more customers and keep them loyal."
+                      },
+                      {
+                          "question":  "Can you tell me what qualities and skills are needed to create a successful small business?",
+                          "sample_answer":  "To build a successful small business, one needs qualities like perseverance, creativity, and adaptability. Important skills include problem-solving, communication, marketing, and the ability to understand customer needs and provide quality service."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Currently our club is planning to support local individuals who want to start up a small business. The club has 2 proposals: First, create a call center where customers can call to ask questions and request help. Second, create free courses to support local universities nearby. Let us know which option you would use and why.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Write a letter to a friend about your choice and the idea.",
+                                    "sample_answer":  "Hi Hang,\n\nI hope you're doing well! Our Business Club has two proposals: a call center for customer support or free courses for local universities. I think the free courses would be a better option as they would help students prepare for real-world challenges and create long-term benefits.\n\nLet me know what you think!\n\nBest,\n\nNguyen"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Write a letter to the club manager about your choice and why.",
+                                    "sample_answer":  "Dear Club President,\n\nI hope this email finds you well. I am writing in response to the club's plan to support local individuals in starting small businesses. After considering the two proposals, I believe creating free courses for local universities nearby would be the better option. These courses can help students gain essential knowledge about running a business and prepare them for future challenges. Additionally, offering these courses would create a strong connection between the club and the community.\n\nI appreciate your consideration of my opinion and look forward to hearing more about the club's plans.\n\nBest regards,\n\nNguyen Van Hung"
+                                }
+                  }
+    },
+    {
+        "id":  5,
+        "code":  "set_005",
+        "title":  "Bộ đề #005",
+        "club":  "Car club",
+        "part1":  [
+                      {
+                          "question":  "What is your favourite colour?",
+                          "sample_answer":  "Blue."
+                      },
+                      {
+                          "question":  "What is the weather like today?",
+                          "sample_answer":  "It's sunny."
+                      },
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I'm doing great."
+                      },
+                      {
+                          "question":  "Which is your favorite season?",
+                          "sample_answer":  "I love the spring."
+                      },
+                      {
+                          "question":  "What do you do on the weekend?",
+                          "sample_answer":  "I relax at home."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Do you usually travel by car?",
+                      "sample_answer":  "Yes, I usually travel by car, especially for trips to places that are not easily accessible by public transport. It’s more convenient and comfortable, especially for long distances."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Tell me about a time you traveled by car.",
+                          "sample_answer":  "I once traveled by car to a nearby beach. It was a scenic drive, and we stopped at some small towns along the way. The trip was smooth and enjoyable, with great conversations and beautiful views."
+                      },
+                      {
+                          "question":  "Tell me about memories when traveling by car.",
+                          "sample_answer":  "One memorable car trip was when my family drove to the mountains. We played music, shared stories, and had fun stops for snacks. It was one of those trips that felt timeless and unforgettable."
+                      },
+                      {
+                          "question":  "Should we take public transportation or buy a car?",
+                          "sample_answer":  "Whether to take public transportation or buy a car depends on your needs. If you live in a city with good transport, public transit may be better. However, owning a car gives flexibility and convenience for trips."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "There will be a car program running across Europe. The program invites the Car Club to send 2 representatives (1 main driver and 1 passenger) and both must have good driving skills.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Do you have any suggestions for the above positions.",
+                                    "sample_answer":  "Hi Linh,\n\nI heard about the car program across Europe. I think you should be the main driver because you have excellent driving skills. As for the passenger, I suggest I take the role since I'm good with navigation and assisting.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Do you have any suggestions for the above positions.",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear about the car program running across Europe. I have a suggestion for the positions. For the main driver, I recommend someone with strong driving skills and experience, like Linh. As for the passenger, I believe someone who is good at navigation and assisting with the trip details would be ideal, and I’d be happy to take on that role if needed. This way, we can ensure a smooth and enjoyable trip.\n\nI look forward to hearing your thoughts.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  6,
+        "code":  "set_006",
+        "title":  "Bộ đề #006",
+        "club":  "Cinema club",
+        "part1":  [
+                      {
+                          "question":  "What is your job?",
+                          "sample_answer":  "I’m a teacher."
+                      },
+                      {
+                          "question":  "What is your favorite food?",
+                          "sample_answer":  "I love pizza."
+                      },
+                      {
+                          "question":  "What do you usually do in the morning?",
+                          "sample_answer":  "I read the news."
+                      },
+                      {
+                          "question":  "Where did you go last night?",
+                          "sample_answer":  "I stayed at home."
+                      },
+                      {
+                          "question":  "What do you like doing with your friend?",
+                          "sample_answer":  "We watch movies together."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When and how often do you watch films?",
+                      "sample_answer":  "I usually watch films in the evenings after work. I try to watch at least two movies a week, mostly on weekends when I have more free time."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I like to sit near the screen when I go to the cinema? I never drink or eat anything during the film. What about you?",
+                          "sample_answer":  "I prefer sitting closer to the screen for a better experience, and I enjoy some snacks during the film. It helps me relax and enjoy the movie more. How about you?"
+                      },
+                      {
+                          "question":  "I don’t like watching old back-and-white. They are boring. I prefer modern films, which do you prefer, and why?",
+                          "sample_answer":  "I also prefer modern films because of the high-quality visuals and advanced technology. They are more engaging and entertaining, while black-and-white films feel less dynamic and harder to connect with."
+                      },
+                      {
+                          "question":  "Some people say we don’t need cinemas anymore. We can watch everything on TV or online at home? What do you think about this?",
+                          "sample_answer":  "While watching films online is convenient, I think cinemas offer a unique experience with a large screen and immersive sound. Watching in a theater still feels special and brings people together."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "As you know our weekly film shows are very popular. However, we have had a number of complaints about people using their mobile phones during the film. We have started asking people to turn off their phones before the film starts but this hasn’t solved the problem. We are thinking of banning mobile phones from our cinema in the future and would be interested to hear your view on this. Do you have any other suggestions?",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Tell your friend what suggestions you will make and why?",
+                                    "sample_answer":  "Hi Linh,\n\nI heard about the issue with people using their phones during the films. I think banning mobile phones could be a good solution. Alternatively, we could create a designated area for phone users, away from the main seating area. What do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Write about your ideas and what you think about the situation.",
+                                    "sample_answer":  "Dear Club President,\n\nI understand the frustration regarding people using their mobile phones during film screenings. While banning phones could be effective, I suggest we first try a “phone-free” zone. People who prefer to use their phones could sit there, which would keep the main areas free from distractions. Alternatively, we could provide phone holders that encourage people to store their phones securely before the film begins. This could help resolve the problem without taking drastic measures.\n\nI hope these suggestions help. I look forward to hearing your thoughts.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  7,
+        "code":  "set_007",
+        "title":  "Bộ đề #007",
+        "club":  "College club",
+        "part1":  [
+                      {
+                          "question":  "Which sport do you like to play the most?",
+                          "sample_answer":  "I like football."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched TV."
+                      },
+                      {
+                          "question":  "Do you like shopping?",
+                          "sample_answer":  "Yes, I do."
+                      },
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I’m wearing jeans."
+                      },
+                      {
+                          "question":  "What is your favorite kind of music?",
+                          "sample_answer":  "I enjoy pop music."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Please tell us about the days and times you can attend courses and what you would like to study?",
+                      "sample_answer":  "I am available on weekends, mainly on Saturday afternoons. I would love to study painting, especially focusing on modern art techniques and experimenting with different mediums."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the college. What course are you doing and why did you choose it?",
+                          "sample_answer":  "I’m studying graphic design because I’ve always been passionate about creativity and visual communication. This course will help me develop my skills and open up career opportunities in the creative industry."
+                      },
+                      {
+                          "question":  "Welcome! How do you feel about the college so far?",
+                          "sample_answer":  "So far, I’m really enjoying the college. The campus is vibrant and welcoming, and I’ve met some friendly people. The professors are knowledgeable and make learning engaging, which I appreciate."
+                      },
+                      {
+                          "question":  "Did you hear that the college sports club has closed? What do you think about this?",
+                          "sample_answer":  "Yes, I heard about the sports club closing. It's disappointing because many students enjoyed the activities and it was a great way to stay active. I hope they reconsider or offer alternatives in the future."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "We are writing to inform you that the end of course exams will now take place two weeks earlier than originally planned. You exam, which was scheduled for the 21st of next month, will now take place on the 7th of next month. We apologize for any difficulty this may cause.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Tell them what you think the college should do about the situation.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the exams have been moved up two weeks. I think the college should give us more notice and maybe adjust the study schedule. It’s going to be really stressful. What do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Tell them what you think the college should do about the situation.",
+                                    "sample_answer":  "Dear Club President,\n\nI was informed that the end-of-course exams have been moved up two weeks earlier than originally planned. This sudden change is quite concerning, and many students, including myself, are finding it difficult to adjust our study plans in such a short time. I believe the college should have given more notice to avoid causing unnecessary stress for students. It might be helpful to offer additional support, such as extra study sessions or extending the revision period. I also suggest the college communicates more clearly and in advance about such important changes.\n\nI hope you will consider this feedback and help make adjustments for the benefit of all students.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  8,
+        "code":  "set_008",
+        "title":  "Bộ đề #008",
+        "club":  "Community club",
+        "part1":  [
+                      {
+                          "question":  "Which sport is the most popular in your country?",
+                          "sample_answer":  "Football is popular."
+                      },
+                      {
+                          "question":  "What is your favorite animal?",
+                          "sample_answer":  "I love dogs."
+                      },
+                      {
+                          "question":  "What is the weather like today?",
+                          "sample_answer":  "It's sunny today."
+                      },
+                      {
+                          "question":  "Where did you go last night?",
+                          "sample_answer":  "I stayed home."
+                      },
+                      {
+                          "question":  "What is your favorite time of year?",
+                          "sample_answer":  "I love the spring."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why did you join this Community club?",
+                      "sample_answer":  "I joined the Community club to meet new people, participate in activities, and contribute to local causes. I enjoy being part of a group that makes a positive impact."
+                  },
+        "part3":  [
+                      {
+                          "question":  "My friend wants to go to the hair salon, but her car isn't working. Can you suggest some ways for her to get there?",
+                          "sample_answer":  "She can use public transportation or take a taxi. Alternatively, she could ask a friend or family member for a ride, or even use a ride-sharing service like Uber or Lyft."
+                      },
+                      {
+                          "question":  "Volunteering provides great learning opportunities and helps others a lot. Do you agree with this?",
+                          "sample_answer":  "Yes, volunteering not only helps others but also provides valuable learning experiences. It teaches practical skills, empathy, and the importance of contributing to the community, benefiting both the volunteer and those served."
+                      },
+                      {
+                          "question":  "Do you agree with the view that volunteering is a form of learning, especially for young people? Why?",
+                          "sample_answer":  "I agree that volunteering is a form of learning, especially for young people. It offers hands-on experiences, teaches responsibility, and fosters important social skills, all of which are crucial for personal and professional development."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear Member, Our club needs support with several tasks this year. First, we need more members who can actively participate in our ongoing projects. Second, we are looking for creative ideas to develop new activities. Could you share some suggestions with us to help support our projects this year?",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Write about your feelings and what you would like to do.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that our club needs more members and creative ideas to improve. I think we could organize some fun events and invite new members. We should also brainstorm fresh ideas for activities. What do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Write about your feelings and what you would like to do.",
+                                    "sample_answer":  "Dear Club President,\n\nI’m glad to hear the club is actively working to grow and improve this year. To support our projects, I suggest hosting interactive workshops or social events to encourage new members to join and participate. Additionally, we could organize a brainstorming session to gather creative ideas for future activities. This would engage both current and potential members and help us develop exciting initiatives. I’d love to contribute to these efforts by helping organize events and promote them on social media to attract more people.\n\nI look forward to hearing your thoughts.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  9,
+        "code":  "set_009",
+        "title":  "Bộ đề #009",
+        "club":  "Computer club",
+        "part1":  [
+                      {
+                          "question":  "What is your job?",
+                          "sample_answer":  "I’m a teacher."
+                      },
+                      {
+                          "question":  "What is your favorite subject in high school?",
+                          "sample_answer":  "I like math."
+                      },
+                      {
+                          "question":  "What is your favorite color?",
+                          "sample_answer":  "I love blue."
+                      },
+                      {
+                          "question":  "What do you like to do in the evening?",
+                          "sample_answer":  "I read books."
+                      },
+                      {
+                          "question":  "What is your favorite food?",
+                          "sample_answer":  "I love pizza."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When and where do you use a computer?",
+                      "sample_answer":  "I use a computer every day at home and at work. I primarily use it for work tasks, browsing the internet, and staying connected with friends through social media."
+                  },
+        "part3":  [
+                      {
+                          "question":  "My grandmother doesn’t know how to use the computer. Your solutions.",
+                          "sample_answer":  "I would suggest teaching her the basics step by step, starting with simple tasks like browsing the web or using email. It would be helpful to provide a patient, hands-on approach."
+                      },
+                      {
+                          "question":  "The last time you used your computer. Your purpose.",
+                          "sample_answer":  "The last time I used my computer was to finish some work tasks. I used it for writing reports and responding to emails. It’s an essential tool for productivity in my job."
+                      },
+                      {
+                          "question":  "Nowadays people use computers a lot. This is not good. Your opinion.",
+                          "sample_answer":  "While computers are useful tools, I believe overuse can lead to physical and mental health issues. It’s important to balance screen time with outdoor activities and personal interactions to maintain overall well-being."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "The club has a plan to adjust our website in order to attract more members. Your feelings and suggestions",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club plans to improve the website to attract more members. I think it’s a great idea! A more user-friendly design and highlighting our events can really help. What do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear that the club is planning to enhance the website to attract more members. This is a great step forward! I suggest making the website more visually appealing and easy to navigate. Additionally, we could highlight upcoming events, member testimonials, and success stories to show the benefits of joining the club. Another idea would be to create an interactive blog or forum to engage potential members. Promoting the club on social media and through email newsletters would also help spread the word.\n\nI’m happy to assist with any tasks to help improve the website.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  10,
+        "code":  "set_010",
+        "title":  "Bộ đề #010",
+        "club":  "Cooking club",
+        "part1":  [
+                      {
+                          "question":  "What do you do on the weekend?",
+                          "sample_answer":  "I relax at home."
+                      },
+                      {
+                          "question":  "Which sport do you like to play the most?",
+                          "sample_answer":  "I like football."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched TV."
+                      },
+                      {
+                          "question":  "Do you like shopping?",
+                          "sample_answer":  "Yes, I do."
+                      },
+                      {
+                          "question":  "What do you usually do in the morning?",
+                          "sample_answer":  "I read the news."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me about the day and time you can join the club and which food/dish you want to cook.",
+                      "sample_answer":  "I can join the club on Saturday afternoons. I would love to cook pasta with tomato sauce, or perhaps try making some homemade pizza. I enjoy cooking Italian food."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. Why did you decide to join the club?",
+                          "sample_answer":  "I decided to join the club because I wanted to meet new people, learn new skills, and participate in interesting activities. It seemed like a fun and engaging community to be a part of."
+                      },
+                      {
+                          "question":  "Hi! What do you think about the club’s price/ membership fee?",
+                          "sample_answer":  "I think the club’s membership fee is quite reasonable considering the activities and benefits offered. It’s affordable, and the variety of events makes it worth the cost for me."
+                      },
+                      {
+                          "question":  "How often do you go to the club?",
+                          "sample_answer":  "I usually go to the club twice a week. I try to attend the events that interest me most, such as workshops and social gatherings, to make the most of my membership."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, All classes will be canceled next week. Because the instructor will go on holiday. Classes will be announced later. Fees won’t be refunded to the participants.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Tell your friend your feelings about this and what you plan to do.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that all classes are canceled next week because the instructor is going on holiday. I’m disappointed because I was looking forward to attending. I plan to wait for the next announcement.\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Tell them your thoughts about this and what you would like to do.",
+                                    "sample_answer":  "Dear Club President,\n\nI was disappointed to hear that all classes are canceled next week due to the instructor's holiday. While I understand the situation, I was looking forward to the lessons. I suggest organizing some alternative activities during this time, such as practice sessions or discussions, to keep the participants engaged. Additionally, it would be helpful if the club could provide more notice in the future to better manage expectations. I look forward to hearing more about the upcoming schedule and any changes.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  11,
+        "code":  "set_011",
+        "title":  "Bộ đề #011",
+        "club":  "Debate club",
+        "part1":  [
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I’m from Vietnam."
+                      },
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "What do you do in your free time?",
+                          "sample_answer":  "I read books."
+                      },
+                      {
+                          "question":  "First language?",
+                          "sample_answer":  "My first language is Vietnamese."
+                      },
+                      {
+                          "question":  "Who do you usually go to the movies with?",
+                          "sample_answer":  "I go with friends."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "What do you usually talk about with your friend?",
+                      "sample_answer":  "I usually talk with my friends about school, hobbies, and future plans. Sometimes we also share funny stories, discuss films, or chat about our favorite music together."
+                  },
+        "part3":  [
+                      {
+                          "question":  "There are many ways to follow the news nowadays. How do you learn about world issues?",
+                          "sample_answer":  "I usually keep up with world issues by reading news articles, watching documentaries, and following updates on social media. I also listen to podcasts and discussions to get a broader perspective."
+                      },
+                      {
+                          "question":  "I will take part in a debate in front of 50 people next week. How can I make a good impression?",
+                          "sample_answer":  "To make a good impression, stay calm, confident, and well-prepared. Make eye contact, speak clearly, and back up your arguments with facts. Engaging with the audience and being respectful is key."
+                      },
+                      {
+                          "question":  "Before making a decision about an issue, you should consider both sides of it. What do you think about this?",
+                          "sample_answer":  "I completely agree. Considering both sides of an issue allows for a more balanced perspective, helps make informed decisions, and shows an open-minded approach. It’s crucial for critical thinking."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, please give two important benefits of learning debate and speaking in public to attract new members.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI think learning debate and public speaking has great benefits. First, it helps improve communication skills. Second, it builds confidence in expressing ideas clearly and persuasively. This could be great for attracting new members!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI believe learning debate and public speaking offers two major benefits that could attract new members to the club. Firstly, it greatly improves communication skills, allowing participants to express their thoughts clearly and persuasively. Secondly, it helps boost confidence, enabling members to speak in front of audiences and present ideas effectively. These skills are not only useful for personal growth but also beneficial for the club, as they can encourage more engagement in club activities. I would suggest incorporating more public speaking and debate-focused workshops to help new members develop these abilities.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  12,
+        "code":  "set_012",
+        "title":  "Bộ đề #012",
+        "club":  "English club",
+        "part1":  [
+                      {
+                          "question":  "What do you like doing with your friend?",
+                          "sample_answer":  "We love playing games."
+                      },
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I'm doing great!"
+                      },
+                      {
+                          "question":  "Where do you wanna go on holiday?",
+                          "sample_answer":  "I want to visit Japan."
+                      },
+                      {
+                          "question":  "What is your favorite sport?",
+                          "sample_answer":  "I enjoy playing basketball."
+                      },
+                      {
+                          "question":  "What is your favorite time of the year?",
+                          "sample_answer":  "I love the spring."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "•\tWhat do you usually use the internet for?",
+                      "sample_answer":  "I usually use the internet for browsing social media, watching videos, reading news, shopping online, and researching information for my work or studies."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I usually spend 6 hours a day studying English. How do you learn English?",
+                          "sample_answer":  "I learn English by practicing speaking, listening to podcasts, reading books, and watching English movies. I also take online courses to improve my grammar and writing skills regularly."
+                      },
+                      {
+                          "question":  "English is a popular language in the world. What are your thoughts on this idea?",
+                          "sample_answer":  "English's popularity is due to its use in international business, education, and communication. It's a global language that connects people across cultures, making it essential for global interaction and understanding."
+                      },
+                      {
+                          "question":  "When do you usually use English?",
+                          "sample_answer":  "I usually use English when communicating with friends, reading articles online, watching movies or shows, and during my work. It's also essential when traveling or attending international events."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Nowadays more and more new words and phrases are added to the language, so many people have strong reactions on this issue. Some people gladly accept others argue that there should be rules for language. Write a letter to your friend and the club manager to express your views and explain why so many people react like this.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI've been thinking a lot about the recent debate on new words being added to the language. Some people accept it while others want stricter rules. I personally think language evolves naturally and shouldn't be restricted. What do you think?\n\nLooking forward to your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI wanted to share my thoughts on the recent concerns regarding the addition of new words and phrases to our language. While many people are excited about these changes, some argue for stricter rules to maintain clarity. In my opinion, language is constantly evolving, and this adaptation should be embraced. It reflects society’s growth and diverse culture.\n\nI believe it's important to find a balance between preserving language integrity and allowing it to grow. Perhaps we could organize a discussion or workshop to explore both sides of this issue.\n\nI look forward to hearing your thoughts.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  13,
+        "code":  "set_013",
+        "title":  "Bộ đề #013",
+        "club":  "Film club",
+        "part1":  [
+                      {
+                          "question":  "What’s your favorite sport?",
+                          "sample_answer":  "I love football."
+                      },
+                      {
+                          "question":  "How many people in your family?",
+                          "sample_answer":  "There are four people."
+                      },
+                      {
+                          "question":  "What did you do yesterday?",
+                          "sample_answer":  "I went to work."
+                      },
+                      {
+                          "question":  "How do you go to school?",
+                          "sample_answer":  "I go by bike."
+                      },
+                      {
+                          "question":  "What’s your hobby?",
+                          "sample_answer":  "I enjoy reading books."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Please write some of your favorite films and why do you like watching them?",
+                      "sample_answer":  "Some of my favorite films are 'Inception' and 'The Dark Knight'. I enjoy them for their complex plots, amazing visuals, and the incredible performances by the actors."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi. Welcome to the club. How often do you watch films?",
+                          "sample_answer":  "I watch films about 2-3 times a week, mostly on weekends. I enjoy a variety of genres, from action to drama, and I love discussing them with friends afterward."
+                      },
+                      {
+                          "question":  "Hi. Can you remember the first film you what? What was it like?",
+                          "sample_answer":  "The first film I watched was a cartoon when I was very young. It was colorful and exciting, and I still remember how much it fascinated me at that time."
+                      },
+                      {
+                          "question":  "What would you like to learn from the film club?",
+                          "sample_answer":  "From the film club, I would like to learn more about different film genres, improve my film analysis skills, and engage in discussions that enhance my understanding of storytelling techniques."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "We are writing to tell you that the guest actor, James Mc Avoy, will unfortunately not be able to give a talk at our next club meeting due to personal reasons. He has requested we reschedule the talk for the next year in either January or March. Please contact the club secretary if you have a preference for one of the two months. Our meeting will take place as usual with a discussion on the advantages and disadvantages of learning on the Internet.",
+                      "task1":  {
+                                    "prompt":  "Write an email to your friend. Write about your feelings and what you would like to do (50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that James McAvoy won't be able to give the talk at our next meeting, which is such a disappointment! I was really looking forward to it. I hope we can reschedule for March or January next year.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email the the manager of the club. Write about your feelings and possible alternatives (120 – 150 words)",
+                                    "sample_answer":  "Dear Club Manager,\n\nI was disappointed to hear that James McAvoy won't be able to attend the meeting due to personal reasons. It’s unfortunate because we were all really looking forward to his talk. However, I completely understand, and I hope we can reschedule for either January or March next year as suggested. I believe this delay will give us all the chance to look forward to the talk even more.\n\nIn the meantime, I’m excited about the discussion on the advantages and disadvantages of learning on the internet. I’m sure it will be an engaging topic! Perhaps we could also consider inviting another guest speaker to fill in, or organize a fun activity related to the internet learning theme.\n\nI look forward to your feedback and suggestions.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  14,
+        "code":  "set_014",
+        "title":  "Bộ đề #014",
+        "club":  "Fitness club",
+        "part1":  [
+                      {
+                          "question":  "What is your hobby?",
+                          "sample_answer":  "I love reading books."
+                      },
+                      {
+                          "question":  "What's the weather like today?",
+                          "sample_answer":  "It's sunny and warm."
+                      },
+                      {
+                          "question":  "How do you relax?",
+                          "sample_answer":  "I listen to music."
+                      },
+                      {
+                          "question":  "What do you usually do in your free time?",
+                          "sample_answer":  "I watch movies."
+                      },
+                      {
+                          "question":  "Why do you learn English?",
+                          "sample_answer":  "To communicate globally."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Please talk about the last time you went for a run?",
+                      "sample_answer":  "The last time I went for a run was last weekend. It felt refreshing, and I ran for about 30 minutes in the park, enjoying the fresh air and nature."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I live in a tall building, I usually walk downstairs to exercise, how do you usually exercise?",
+                          "sample_answer":  "I usually exercise by going to the gym or doing home workouts like yoga or bodyweight exercises. I find them effective for staying fit without needing a lot of space or equipment."
+                      },
+                      {
+                          "question":  "I usually get up early to run in the morning because I usually get tired in the evening. What about you?",
+                          "sample_answer":  "I prefer exercising in the evening when I have more energy. I usually go for a jog or take a brisk walk around my neighborhood. It helps me relax after a busy day."
+                      },
+                      {
+                          "question":  "Nowadays, technology makes people's lives easier, but it also makes them lazy and dislike exercise. Do you agree with this opinion?",
+                          "sample_answer":  "I do agree that technology has made life more convenient, but it often leads to less physical activity. While tech helps in many ways, it’s essential to make time for regular exercise."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, some equipment in the club is old and needs to be replaced. Our club is planning to hold a sponsorship event to raise money for the upgrade of sports equipment. On the other hand, there are also some opinions that the club should increase the membership fee to 50%.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is planning a sponsorship event to raise money for new sports equipment. I think it’s a great idea! Some people also want to raise membership fees. What do you think?\n\nLet me know!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI understand that some of the equipment in our club is getting old, and I think hosting a sponsorship event to raise funds is a good idea. It would help us upgrade our sports equipment and improve our overall facilities.\n\nHowever, I have heard that some members suggest raising the membership fee by 50%. I believe this could lead to dissatisfaction among many members, especially those who already struggle with the current fees.\n\nI would like to propose exploring other options to raise funds, such as hosting charity events or reaching out to local businesses for donations. I am happy to help organize any activities or events that could support the club’s goals.\n\nI look forward to hearing your thoughts on this matter.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  15,
+        "code":  "set_015",
+        "title":  "Bộ đề #015",
+        "club":  "Food club",
+        "part1":  [
+                      {
+                          "question":  "What is your full name?",
+                          "sample_answer":  "Nguyen Van An."
+                      },
+                      {
+                          "question":  "What is your surname?",
+                          "sample_answer":  "My surname is Nguyen."
+                      },
+                      {
+                          "question":  "What did you do yesterday / last night / last week?",
+                          "sample_answer":  "I stayed at home."
+                      },
+                      {
+                          "question":  "What do you like to do every morning / in the afternoon / in the evening?",
+                          "sample_answer":  "I read books every morning."
+                      },
+                      {
+                          "question":  "What do you do in the free time?",
+                          "sample_answer":  "I enjoy watching movies."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When and where do you usually have meals?",
+                      "sample_answer":  "I usually have breakfast at home around 7 AM, lunch at work or school around noon, and dinner at home around 7 PM. I prefer eating with family."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Tell me the last time you had a good meal?",
+                          "sample_answer":  "The last time I had a great meal was at a family gathering last weekend. We had grilled fish, fried rice, and a delicious dessert. Everything was so tasty and satisfying."
+                      },
+                      {
+                          "question":  "I want to visit your country? Do you have any suggestions for me on what delicious food to eat?",
+                          "sample_answer":  "If you visit my country, I highly recommend trying pho, banh mi, and fresh spring rolls. These dishes are famous for their unique flavors and are a must-try when you're here."
+                      },
+                      {
+                          "question":  "3.\tToday, many people eat pizza. But it is not healthy and they should limit eating it. What is your opinion?",
+                          "sample_answer":  "I agree that pizza is delicious but not very healthy. It’s high in fat and calories, so it should be eaten in moderation. It’s fine as an occasional treat but not a regular meal."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, the club needs volunteers to be guest speakers for the talk show with a famous chef. Please suggest your desire to be a speaker and what topic will you talk about?",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Tell your friend what suggestions you will make and why?",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club needs volunteers to be guest speakers for the talk show with the famous chef. I plan to suggest talking about healthy cooking tips. What do you think?\n\nLet me know soon!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Tell the manager what suggestions you will make and why?",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear about the opportunity to volunteer as a guest speaker for the upcoming talk show with the famous chef. I would love to talk about healthy cooking techniques and how to prepare simple yet nutritious meals at home. I believe this topic will be useful for many club members, and it can inspire others to focus more on health-conscious cooking.\n\nI am passionate about this subject and would be happy to share some easy recipes and tips. Please let me know if you would like me to participate.\n\nBest regards,\n\nPhuong"
+                                }
+                  }
+    },
+    {
+        "id":  16,
+        "code":  "set_016",
+        "title":  "Bộ đề #016",
+        "club":  "Garden club",
+        "part1":  [
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I’m from Vietnam."
+                      },
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched a movie."
+                      },
+                      {
+                          "question":  "First language?",
+                          "sample_answer":  "My first language is Vietnamese."
+                      },
+                      {
+                          "question":  "What is your favorite color?",
+                          "sample_answer":  "I like blue."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why did you join the club?",
+                      "sample_answer":  "I joined the garden club because I love plants and gardening. I want to learn more about growing different types of plants and how to take care of them."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Describe your garden?",
+                          "sample_answer":  "My garden is small but cozy, with lots of flowers and a few vegetable plants. I have a small area for relaxing, and I love spending time there, especially in the morning."
+                      },
+                      {
+                          "question":  "Do people in your country like gardening?",
+                          "sample_answer":  "Yes, gardening is quite popular in my country. Many people enjoy growing flowers, vegetables, and fruits. It’s a great way to relax and connect with nature while having fresh produce."
+                      },
+                      {
+                          "question":  "What is your favorite season? Why?",
+                          "sample_answer":  "My favorite season is spring because the weather is mild, and everything starts to bloom. It’s a time of renewal, and I love seeing the flowers and trees come to life."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, we are writing to tell you that the talk and slide show on The Gardens of Japan by Mr.Seiko has been canceled because the speaker has been taken ill. Mr.Jones has kindly agreed to give his talk on The Gardens of England again. I know that many of you have already heard Mr. Jones before but I hope you will be happy to hear him once again. Please give your suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the talk on \"The Gardens of Japan\" has been canceled because Mr. Seiko is ill. Mr. Jones will give his talk on \"The Gardens of England\" again. I’ve heard him before, but I think it’ll still be interesting.\n\nLet me know if you plan to attend!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was disappointed to hear that the talk and slide show on \"The Gardens of Japan\" by Mr. Seiko has been canceled due to his illness. It’s unfortunate, as I was looking forward to it. However, I’m happy to hear that Mr. Jones will give his talk on \"The Gardens of England\" again. I’ve attended his previous talks, and I believe they are always informative and enjoyable.\n\nIn terms of suggestions, perhaps we could plan a future event on Japanese gardens once Mr. Seiko has recovered. Additionally, I would love to hear more about other international gardens or new gardening techniques in upcoming talks.\n\nThank you for your efforts in organizing these events. I look forward to hearing Mr. Jones again!\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  17,
+        "code":  "set_017",
+        "title":  "Bộ đề #017",
+        "club":  "Healthy club",
+        "part1":  [
+                      {
+                          "question":  "What do you usually do on weekends?",
+                          "sample_answer":  "I usually relax and read."
+                      },
+                      {
+                          "question":  "What do you do to keep fit?",
+                          "sample_answer":  "I jog and do yoga."
+                      },
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I’m wearing a jacket."
+                      },
+                      {
+                          "question":  "What language do you speak?",
+                          "sample_answer":  "I speak Vietnamese."
+                      },
+                      {
+                          "question":  "What is your first language?",
+                          "sample_answer":  "My first language is Vietnamese."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me the classes you want to take and what times and days are suitable for you?",
+                      "sample_answer":  "I would like to take yoga and cardio classes. I’m available on weekdays in the evenings, preferably around 6 PM. Weekend morning sessions would also work for me."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. How did you hear about the club?",
+                          "sample_answer":  "I heard about the club from a friend who has been a member for a while. She recommended it because of the great facilities and friendly atmosphere, so I decided to join."
+                      },
+                      {
+                          "question":  "Hi! What do you hope to achieve by joining the club?",
+                          "sample_answer":  "By joining the club, I hope to improve my overall fitness, learn new exercises, and make healthier lifestyle choices. I also want to meet new people who share similar fitness goals."
+                      },
+                      {
+                          "question":  "A manager of Fitness club has an announcement for club’s members",
+                          "sample_answer":  "The manager of the Fitness Club has announced new fitness classes starting next month. Members can sign up for a variety of classes including yoga, pilates, and high-intensity training."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear all, Because of personal reasons, the instructor will be away for the next two weeks. We will use our facilities by ourselves without the assistance of an instructor. I am so sorry about this situation and hope you doing well in next two weeks",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the instructor will be away for the next two weeks. We will have to use the facilities on our own during this time. It might be challenging, but we’ll manage.\n\nLet me know if you need help!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI understand that due to personal reasons, the instructor will be absent for the next two weeks, and we will be using the facilities without assistance. Although it’s unfortunate, I believe we can manage by following the usual routines and helping each other out. It might be a good opportunity for us to learn more independently and improve our skills.\n\nHowever, if any members feel uncertain, I suggest we organize a few group sessions where we can support each other. Additionally, it might be helpful to have a guideline available for everyone during this period.\n\nI hope everything goes well, and I look forward to seeing everyone continue their training.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  18,
+        "code":  "set_018",
+        "title":  "Bộ đề #018",
+        "club":  "Home living club",
+        "part1":  [
+                      {
+                          "question":  "What is your first school?",
+                          "sample_answer":  "My first school was ABC."
+                      },
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It's sunny today."
+                      },
+                      {
+                          "question":  "What is your favorite type of music?",
+                          "sample_answer":  "I love pop music."
+                      },
+                      {
+                          "question":  "What kinds of movies do you like?",
+                          "sample_answer":  "I like action movies."
+                      },
+                      {
+                          "question":  "What is your favorite film?",
+                          "sample_answer":  "My favorite film is Inception."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Describe where you live?",
+                      "sample_answer":  "I live in Hanoi, the capital of Vietnam. It's a bustling city known for its rich history, beautiful lakes, ancient temples, and vibrant street food culture."
+                  },
+        "part3":  [
+                      {
+                          "question":  "You have to stay in the bedroom but have to share with your brother. How do you feel?",
+                          "sample_answer":  "Sharing a bedroom with my brother can be challenging, but it also has its benefits. We get to spend time together, and it helps build a stronger bond despite the limited space."
+                      },
+                      {
+                          "question":  "It is better to live in the city than in the countryside. Do you agree? Why?",
+                          "sample_answer":  "Living in the city offers many conveniences such as better job opportunities, healthcare, and entertainment. However, the countryside provides peace, fresh air, and a slower pace of life, which some people prefer."
+                      },
+                      {
+                          "question":  "It is better to live in the city than in the countryside. Do you agree? Why?",
+                          "sample_answer":  "I agree that living in the city has its advantages, like access to modern amenities and social opportunities. However, I also appreciate the tranquility and natural beauty that the countryside offers."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Currently, there are many young families who want to buy a house or an apartment. The club wants the members to make suggestions to help them find homes.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is asking for suggestions on how to help young families find a home. I think we could suggest offering affordable housing options and providing helpful resources like financial advice.\n\nLet me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI understand that many young families are currently looking to buy a home or apartment. I believe the club can make a positive impact by offering practical suggestions to help them in their search.\n\nFirst, I suggest organizing a workshop where experts can provide advice on affordable housing options, mortgages, and how to find the best deals. Additionally, we could provide a list of trusted real estate agents and financial consultants who specialize in first-time home buyers.\n\nLastly, creating a community of people who have successfully purchased homes could be helpful for sharing their experiences and advice. I believe these steps will assist young families in their search and make the process easier for them.\n\nThank you for considering these suggestions. I look forward to your feedback.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  19,
+        "code":  "set_019",
+        "title":  "Bộ đề #019",
+        "club":  "Language club",
+        "part1":  [
+                      {
+                          "question":  "What is your favorite animal?",
+                          "sample_answer":  "I love cats."
+                      },
+                      {
+                          "question":  "What is your favorite hobby?",
+                          "sample_answer":  "I enjoy reading."
+                      },
+                      {
+                          "question":  "What is your favorite food?",
+                          "sample_answer":  "I love pizza."
+                      },
+                      {
+                          "question":  "What is your favorite time of the day?",
+                          "sample_answer":  "I prefer the evening."
+                      },
+                      {
+                          "question":  "What is your favorite season?",
+                          "sample_answer":  "I love the spring."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me your free time and interests?",
+                      "sample_answer":  "In my free time, I enjoy reading books, listening to music, and practicing languages. I also love traveling and learning about different cultures to improve my language skills."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Why did you choose this course?",
+                          "sample_answer":  "I chose this course because I want to improve my language skills, especially in speaking and writing. It seemed like a great opportunity to practice with others and expand my knowledge."
+                      },
+                      {
+                          "question":  "How have you found the course so far? What’s been difficult?",
+                          "sample_answer":  "The course has been quite interesting so far, but I find the grammar lessons a bit challenging. However, I enjoy the conversations and interactive activities which make learning more fun."
+                      },
+                      {
+                          "question":  "What are you hoping to do when you finish the course?",
+                          "sample_answer":  "After finishing the course, I hope to become fluent and confident in speaking the language. I also plan to use it for travel and potentially work opportunities in countries where it's spoken."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "You are taking an English Course at the American Dream Center. After studying for 2 months, you find the course effective and useful.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Write about your feelings and recommend the course to her/him .",
+                                    "sample_answer":  "Hi Linh,\n\nI’ve been attending an English course at the American Dream Center for two months now, and it’s been really effective! The lessons are useful and the teachers are great. I recommend it to you if you’re looking to improve your English!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). You have registered for an English course at A Level Speaking Center but in the end you can’t arrange the time to attend the course. Write about your feelings, the reason why you can’t attend and what you would like to do.",
+                                    "sample_answer":  "Dear Club President,\n\nI am writing to inform you that I have registered for the English course at A Level Speaking Center, but unfortunately, I am unable to attend due to scheduling conflicts. The course seems excellent, but my current commitments make it difficult to find time. I am disappointed as I was looking forward to improving my language skills.\n\nI would like to inquire about possible alternatives, such as rescheduling or enrolling in a future course. If possible, I would also appreciate any online learning options to stay on track. I am committed to improving my English and would love to continue with the center once I can arrange my schedule.\n\nThank you for your understanding. I look forward to your advice.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  20,
+        "code":  "set_020",
+        "title":  "Bộ đề #020",
+        "club":  "Language club 2",
+        "part1":  [
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I’m from Hanoi."
+                      },
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "What do you do in your free time?",
+                          "sample_answer":  "I read books."
+                      },
+                      {
+                          "question":  "First language?",
+                          "sample_answer":  "My first language is Vietnamese."
+                      },
+                      {
+                          "question":  "Who do you usually go to the movies with?",
+                          "sample_answer":  "I go with friends."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "In which cases do you often use foreign languages?",
+                      "sample_answer":  "I often use foreign languages when traveling, communicating with international friends, reading books or articles, and watching movies or shows in their original language to improve my skills."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I used to learn French and found it very interesting. Tell me about a memory you have with a foreign language?",
+                          "sample_answer":  "I have a great memory of using English when traveling abroad. I practiced speaking with locals, which helped me improve my fluency and gave me the confidence to continue learning the language."
+                      },
+                      {
+                          "question":  "I am very forgetful. Can you give me some tips on how to remember new words?",
+                          "sample_answer":  "To remember new words, try associating them with images, creating sentences, and reviewing them regularly. Flashcards and spaced repetition can also be helpful for reinforcing memory over time."
+                      },
+                      {
+                          "question":  "Some people learn English through videos and reading books. However, there are also many private classes and teachers. What do you think is the most effective way to learn?",
+                          "sample_answer":  "I believe a combination of methods is most effective. Private classes with teachers provide structure and feedback, while videos and books help with immersion. A balanced approach accelerates learning."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, The club will have a lecture soon. The club needs a guest speaker and a theme of learning language.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is organizing a lecture soon and is looking for a guest speaker. The theme will be about learning languages. It sounds like a great opportunity!\n\nLet me know if you’re interested!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was excited to hear about the upcoming lecture the club is organizing, and I believe it’s a wonderful opportunity to discuss the theme of learning languages. I would like to suggest a few ideas for the guest speaker and the presentation.\n\nFor the guest speaker, I recommend inviting someone who has experience in language learning, perhaps a polyglot or a language teacher. They could share practical tips and strategies for mastering a new language. As for the theme, I believe focusing on methods like immersive learning and language exchange would engage our members and provide them with valuable insights.\n\nI’m happy to assist with organizing or reaching out to potential speakers. I look forward to hearing your thoughts on these suggestions.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  21,
+        "code":  "set_021",
+        "title":  "Bộ đề #021",
+        "club":  "Movie club",
+        "part1":  [
+                      {
+                          "question":  "What is your favorite sport?",
+                          "sample_answer":  "I love football."
+                      },
+                      {
+                          "question":  "What is your favorite color?",
+                          "sample_answer":  "My favorite color is blue."
+                      },
+                      {
+                          "question":  "What is your favorite device?",
+                          "sample_answer":  "I like my phone."
+                      },
+                      {
+                          "question":  "What do you do?",
+                          "sample_answer":  "I’m a student."
+                      },
+                      {
+                          "question":  "Which job would you like to do in the future?",
+                          "sample_answer":  "I’d like to be a teacher."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why did you join the club?",
+                      "sample_answer":  "I joined the movie club because I love watching films and discussing them with others. It's a great way to discover new movies and share thoughts with fellow movie enthusiasts."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! When and where do you usually watch movies?",
+                          "sample_answer":  "I usually watch movies in the evenings at home with friends or family. Sometimes, I go to the theater for new releases. I enjoy watching a mix of genres depending on my mood."
+                      },
+                      {
+                          "question":  "I want to make movies for young children. Give me some suggestions?",
+                          "sample_answer":  "For making movies for young children, I suggest focusing on colorful visuals, engaging characters, and simple yet meaningful stories. Keep the content educational, fun, and age-appropriate to hold their attention."
+                      },
+                      {
+                          "question":  "How do you think technology affects the way we watch movies in the future?",
+                          "sample_answer":  "Technology will revolutionize the way we watch movies by offering more immersive experiences through VR and AR. Streaming services will continue to grow, and interactive films may become more common in the future."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, The club will be repaired. Please suggest an alternative meeting or activity.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is going to be repaired. We need to find an alternative place to meet. How about meeting at the park or organizing an outdoor activity for now? Let me know!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was informed that the club will be undergoing repairs soon, and I understand the situation. While we wait for the renovation to be completed, I would like to suggest organizing meetings at an alternative location, such as a nearby park or community center. We could also plan some outdoor activities or small workshops that will allow members to continue meeting and interacting.\n\nIf possible, we could even host a virtual event or discussion for members who are unable to attend in person. I believe these alternatives would help keep the members engaged and maintain the sense of community during this period of transition.\n\nI hope these suggestions are helpful, and I look forward to hearing your thoughts.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  22,
+        "code":  "set_022",
+        "title":  "Bộ đề #022",
+        "club":  "Museum club",
+        "part1":  [
+                      {
+                          "question":  "How do you go to school?",
+                          "sample_answer":  "I go by bike."
+                      },
+                      {
+                          "question":  "How do you get to work?",
+                          "sample_answer":  "I drive to work."
+                      },
+                      {
+                          "question":  "How do you relax?",
+                          "sample_answer":  "I listen to music."
+                      },
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I'm doing great!"
+                      },
+                      {
+                          "question":  "How many people are there in your family?",
+                          "sample_answer":  "There are four people."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me the last time you went to a museum?",
+                      "sample_answer":  "The last time I went to a museum was last month. I visited the History Museum in my city, and it was fascinating to learn about the culture and artifacts."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Please talk about the first museum you visited when you were a child?",
+                          "sample_answer":  "The first museum I visited was a children's museum. I remember being fascinated by the interactive exhibits and learning about science and nature in a fun, hands-on way. It left a lasting impression."
+                      },
+                      {
+                          "question":  "What kind of museum do you like?",
+                          "sample_answer":  "I like museums that focus on history and culture, especially those that showcase ancient artifacts or art. I enjoy learning about the past and how it shapes our present world."
+                      },
+                      {
+                          "question":  "Nowadays, many museums use technology to create online exhibitions. Do you think that will be successful?",
+                          "sample_answer":  "I believe online exhibitions can be very successful, especially in making museums more accessible. However, physical visits will still offer a more immersive and engaging experience that technology can't fully replicate."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, Currently, the museum club is considering that members must pay a fee to visit the museum.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Please give your opinions.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the museum club is considering charging a fee for visits. I think it's a great idea as it could help maintain the museum, but it might discourage some people from visiting. What do you think?\n\nLet me know!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Please give your opinions.",
+                                    "sample_answer":  "Dear Club President,\n\nI recently learned that the museum club is considering implementing a fee for visiting the museum. While I understand that it could generate funds for maintenance and improvements, I am concerned that it may limit access for some members.\n\nPerhaps we could explore alternative funding methods such as organizing events or applying for grants. Another idea could be offering a membership system where paying members could get discounts or exclusive access. I believe these options could ensure the museum remains accessible while still being financially sustainable.\n\nThank you for considering my suggestions. I look forward to hearing your thoughts.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  23,
+        "code":  "set_023",
+        "title":  "Bộ đề #023",
+        "club":  "Music club",
+        "part1":  [
+                      {
+                          "question":  "How many phones do you have?",
+                          "sample_answer":  "I have two phones."
+                      },
+                      {
+                          "question":  "How often do you go shopping?",
+                          "sample_answer":  "I shop once a week."
+                      },
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I’m from Hanoi."
+                      },
+                      {
+                          "question":  "Where do you live?",
+                          "sample_answer":  "I live in Hanoi."
+                      },
+                      {
+                          "question":  "Where would you like to live?",
+                          "sample_answer":  "I’d like to live abroad."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "What do you usually do when you listen to music?",
+                      "sample_answer":  "When I listen to music, I usually relax, close my eyes, and enjoy the rhythm. Sometimes, I sing along or focus on the lyrics to understand the song better."
+                  },
+        "part3":  [
+                      {
+                          "question":  "There are songs that make me relax and there are songs that make me sad. What about you?",
+                          "sample_answer":  "I agree! Some songs really help me relax, especially slow instrumental music. But there are also songs that bring back memories and make me feel sad, depending on the mood."
+                      },
+                      {
+                          "question":  "Playing loud music annoys people around you, what do you think?",
+                          "sample_answer":  "I think playing loud music can be disruptive, especially in shared spaces. It's important to respect others by using headphones or keeping the volume at a reasonable level when possible."
+                      },
+                      {
+                          "question":  "I want to learn how to play music and I want to find a good teacher. Can you give me some advice?",
+                          "sample_answer":  "To learn music, I recommend starting with simple instruments like piano or guitar. Look for a teacher who can adapt to your learning pace. Online lessons or local music schools are good options."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, The club wants to find volunteers to organize the event. The club does not require experience but you need to be free in the evenings.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Write an email about why you want to be a volunteer and contribute your ideas to the event.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is looking for volunteers to help organize the event. I think it’s a great opportunity to contribute and share my ideas. I’m available in the evenings, so I’d love to participate!\n\nLet me know if you want to join!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Write an email about why you want to be a volunteer and contribute your ideas to the event.",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear that the club is looking for volunteers to organize the upcoming event. I would love to contribute by helping with the planning and execution. I believe my experience in organizing smaller events can bring value to the team.\n\nI would also like to share some ideas for the event, such as incorporating interactive activities and creating a social media campaign to promote it. I’m available in the evenings, and I’m happy to contribute my time to make this event successful.\n\nI look forward to working with the team and contributing to the success of the event.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  24,
+        "code":  "set_024",
+        "title":  "Bộ đề #024",
+        "club":  "Nature club",
+        "part1":  [
+                      {
+                          "question":  "Where do you like to go in the summer?",
+                          "sample_answer":  "I like going to the beach."
+                      },
+                      {
+                          "question":  "A place you would like to visit in your country?",
+                          "sample_answer":  "I want to visit Hanoi."
+                      },
+                      {
+                          "question":  "When and where do you usually listen to music?",
+                          "sample_answer":  "I listen to music in the evening."
+                      },
+                      {
+                          "question":  "When do you usually watch TV?",
+                          "sample_answer":  "I watch TV at night."
+                      },
+                      {
+                          "question":  "When was the last time you went out?",
+                          "sample_answer":  "I went out last weekend."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Please tell me about your free time and hobbies?",
+                      "sample_answer":  "In my free time, I enjoy reading books, watching movies, and listening to music. I also like exploring new places, cooking, and spending time with my friends and family."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. Where do you like to visit?",
+                          "sample_answer":  "I like to visit natural places like mountains, beaches, and national parks. I enjoy exploring new environments, connecting with nature, and experiencing different cultures through travel."
+                      },
+                      {
+                          "question":  "Hi! Why did you decide to join the club?",
+                          "sample_answer":  "I decided to join the club because I love meeting new people, sharing common interests, and learning from others. I believe it's a great way to expand my knowledge and have fun."
+                      },
+                      {
+                          "question":  "The bigger the club, the more environmentally conscious people are, right?",
+                          "sample_answer":  "While having a larger club can encourage more environmentally conscious behavior, it's not guaranteed. A club's size doesn't necessarily correlate with its members' level of awareness or commitment to the environment."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, the club wants to make a plan for the young people because they just love to stay home and play games.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is planning to create a program to encourage young people to be more active instead of staying home playing games. I think it's a great idea! Let me know your thoughts.\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI understand that many young people prefer staying at home and playing games, and this is affecting their physical and social activities. I think the club can help by organizing events that encourage them to be more active and engage with others.\n\nMy suggestion is to create a fun and interactive program where young people can participate in games, sports, and team-building activities. These events should also include educational sessions about balancing technology use and physical activity.\n\nI would be happy to assist in organizing such events and believe this could help make a positive impact on the younger generation. Thank you for considering my ideas, and I look forward to your feedback.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  25,
+        "code":  "set_025",
+        "title":  "Bộ đề #025",
+        "club":  "Outdoor club",
+        "part1":  [
+                      {
+                          "question":  "Who do you usually go to the movies with?",
+                          "sample_answer":  "I go with friends."
+                      },
+                      {
+                          "question":  "Do you like to take photos?",
+                          "sample_answer":  "Yes, I love it."
+                      },
+                      {
+                          "question":  "Where do you like to go on holiday?",
+                          "sample_answer":  "I love the beach."
+                      },
+                      {
+                          "question":  "What’s your favorite color?",
+                          "sample_answer":  "My favorite color is blue."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched a movie."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Which outdoor activities do you like? Why?",
+                      "sample_answer":  "I enjoy hiking, cycling, and playing badminton. These activities help me stay active, relax, and enjoy nature. I also love the social aspect of outdoor sports with friends."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. Tell me about the outdoor activities in the bad weather",
+                          "sample_answer":  "In bad weather, indoor activities like indoor cycling, gym workouts, or even indoor rock climbing are great alternatives. You can still stay active and have fun while staying dry."
+                      },
+                      {
+                          "question":  "Hi! Please give your ideas and advice for hiking?",
+                          "sample_answer":  "For hiking, I recommend wearing comfortable shoes, carrying enough water, and checking the weather forecast. It’s important to pace yourself and carry a first-aid kit, especially on longer hikes."
+                      },
+                      {
+                          "question":  "What are the most popular outdoor activities in your country?",
+                          "sample_answer":  "In my country, football, badminton, and cycling are very popular outdoor activities. Many people also enjoy hiking, running, and going to the beach, especially during the warm months."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, The club organizes travel in the summer. Do you want to go to the mountains or the coast?  Please give a suggestion for both young and old people.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is organizing a summer trip. I’m thinking of suggesting both the mountains and the coast as options. The mountains are great for hiking and relaxation, while the coast is perfect for beach activities.\n\nLet me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear that the club is organizing a summer trip. I believe both the mountains and the coast offer great options for our members, and it’s important to cater to both young and old people.\n\nFor younger members, I suggest activities like hiking, swimming, and beach sports at the coast. It’s a perfect chance for them to have fun and stay active. For the older generation, a peaceful trip to the mountains with sightseeing and nature walks would be a great idea.\n\nThis way, we can offer something enjoyable for all ages, and everyone can appreciate the beauty of nature in their own way. I’d be happy to help organize or promote the trip!\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  26,
+        "code":  "set_026",
+        "title":  "Bộ đề #026",
+        "club":  "Photography club",
+        "part1":  [
+                      {
+                          "question":  "Who do you usually go to the movies with?",
+                          "sample_answer":  "I go with friends."
+                      },
+                      {
+                          "question":  "Who do you like spending time with?",
+                          "sample_answer":  "I like spending time alone."
+                      },
+                      {
+                          "question":  "Do you like taking photos?",
+                          "sample_answer":  "Yes, I love it."
+                      },
+                      {
+                          "question":  "Do you often use Facebook?",
+                          "sample_answer":  "I use Facebook occasionally."
+                      },
+                      {
+                          "question":  "Tell me the last time you watched TV.",
+                          "sample_answer":  "I watched TV last night."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Please tell me the last time you took a picture?",
+                      "sample_answer":  "The last time I took a picture was during a weekend trip to the mountains. I captured the beautiful scenery, with clear skies and vibrant greenery, which was truly breathtaking."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! Welcome to the club. How to have a beautiful picture?",
+                          "sample_answer":  "To have a beautiful picture, it's important to focus on lighting, composition, and framing. Also, using the right camera settings and editing afterward can enhance the image's appeal."
+                      },
+                      {
+                          "question":  "I often save my photos as files on my computer or print them out. How do you save your photos?",
+                          "sample_answer":  "I usually save my photos both digitally on cloud storage and on an external hard drive. I also occasionally print them out to create albums or frame my favorite shots."
+                      },
+                      {
+                          "question":  "What skills do you need to take good photos?",
+                          "sample_answer":  "To take good photos, you need skills in composition, understanding lighting, choosing the right angles, and mastering camera settings. Editing also plays an important role in enhancing the final image."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, the club organizes exhibitions to display the best photographs of club members. This exhibition must be suitable for both the young and the old. Please give suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is organizing an exhibition to display the best photographs. I think it’s a great idea! We should ensure the exhibition is engaging for both young and old people.\n\nLet me know if you’re interested in helping out!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear that the club is organizing an exhibition to display members' best photographs. I believe it is important to make the exhibition appealing to both young and old members.\n\nTo cater to everyone, we could consider displaying a variety of photography styles, such as landscape, portraits, and black-and-white photos, so there’s something for everyone to enjoy. Additionally, interactive elements like a photo voting system or a digital slideshow could keep visitors engaged.\n\nI would be happy to volunteer to help organize the event, assist with curating the photographs, or help with promoting it. I believe this exhibition will be a great opportunity for all members to showcase their work.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  27,
+        "code":  "set_027",
+        "title":  "Bộ đề #027",
+        "club":  "Reading club",
+        "part1":  [
+                      {
+                          "question":  "How is the weather today?",
+                          "sample_answer":  "The weather is sunny."
+                      },
+                      {
+                          "question":  "What is your favorite season of the year?",
+                          "sample_answer":  "I love the spring."
+                      },
+                      {
+                          "question":  "What do you like to do every morning?",
+                          "sample_answer":  "I like to read."
+                      },
+                      {
+                          "question":  "What do you like to do in your free time?",
+                          "sample_answer":  "I enjoy reading books."
+                      },
+                      {
+                          "question":  "What is your job?",
+                          "sample_answer":  "I’m a student."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When was the last time you read a book and how was the book?",
+                      "sample_answer":  "The last time I read a book was last week. It was a mystery novel, and I enjoyed it a lot. The plot was exciting, and the characters were very engaging."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I like reading sports magazines. What genre of books do you like to read? Why?",
+                          "sample_answer":  "I enjoy reading fiction, especially mystery and fantasy books. I love how these genres allow me to escape into different worlds and stimulate my imagination with complex plots and characters."
+                      },
+                      {
+                          "question":  "I have a lot of books for my studies, but I can't remember everything I read. Do you have any suggestions for me?",
+                          "sample_answer":  "To retain information, try summarizing key points after reading, and review your notes regularly. Additionally, breaking the material into smaller sections and studying in intervals can improve memory retention."
+                      },
+                      {
+                          "question":  "Children nowadays prefer playing games to reading books. Do you think this is worrying, why?",
+                          "sample_answer":  "It is worrying that children prefer playing games over reading, as reading helps with cognitive development, language skills, and imagination. We should encourage children to balance both activities for their growth."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "The club was invited to contribute to the design of the national library. Most people say that the library is a boring place and don't use it often. We need to make the library a modern and exciting place that attracts both young and old. Please contribute your suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is asked to help redesign the national library. I think it’s a great chance! We should make the library more interactive with modern technology and events.\n\nWhat do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear that the club has been invited to contribute to the redesign of the national library. I believe this is a great opportunity to make the library a more engaging and modern place for both young and old.\n\nTo make the library more appealing, we could add interactive exhibits, digital learning tools, and areas for social events. Incorporating comfortable seating areas, cafes, and art exhibitions would also attract more visitors. Additionally, hosting workshops, book clubs, and educational events for all ages could make the library a lively community hub.\n\nI am happy to contribute my ideas and assist in any way needed to bring these ideas to life. Thank you for considering my suggestions.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  28,
+        "code":  "set_028",
+        "title":  "Bộ đề #028",
+        "club":  "Science club",
+        "part1":  [
+                      {
+                          "question":  "What is your favorite color?",
+                          "sample_answer":  "My favorite color is blue."
+                      },
+                      {
+                          "question":  "What is your first school?",
+                          "sample_answer":  "My first school was ABC."
+                      },
+                      {
+                          "question":  "What do you do in your free time?",
+                          "sample_answer":  "I like reading books."
+                      },
+                      {
+                          "question":  "What is your favorite sport?",
+                          "sample_answer":  "I love football."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched a movie."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why do you like science?",
+                      "sample_answer":  "I like science because it helps me understand how the world works. It answers many questions and allows me to explore new discoveries and innovations that improve our lives."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Why did you decide to join our Science Club? How often can you go to the club?",
+                          "sample_answer":  "I decided to join the Science Club because I’m passionate about learning new scientific concepts and experiments. I can attend meetings twice a week, as I enjoy the hands-on activities and discussions."
+                      },
+                      {
+                          "question":  "In the past, you learnt about Science in school. Do you remember something about Science?",
+                          "sample_answer":  "Yes, I remember learning about the scientific method and topics like physics and biology in school. I especially enjoyed studying ecosystems and how different species interact with each other in nature."
+                      },
+                      {
+                          "question":  "Who is your favorite inventor or scientist? Why?",
+                          "sample_answer":  "My favorite scientist is Albert Einstein because of his groundbreaking theories in physics. His work revolutionized our understanding of space, time, and energy, which continues to impact science today."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear all members in our club, our club is preparing to organize the science exhibition next month. Both young people and elderly people can take part in our activities in the exhibition. Could you contribute some ideas for our event team? Whether our club issues tickets for participants? I would like to hear your contribution.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that our club is preparing for the science exhibition next month. I think it would be great if we could have interactive displays for all ages. Maybe we could issue tickets for entry, too. Let me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear about the upcoming science exhibition next month! I believe this event is a wonderful opportunity for both young and old to engage with science in a fun and educational way.\n\nTo ensure the success of the exhibition, I suggest we have interactive displays and hands-on experiments. We could also offer workshops for all age groups, allowing them to learn and participate actively. As for the tickets, I think it might be a good idea to issue tickets to manage the number of participants and to raise funds for future events.\n\nI am happy to contribute my ideas and help organize the event. I believe this exhibition will be a fantastic learning experience for everyone.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  29,
+        "code":  "set_029",
+        "title":  "Bộ đề #029",
+        "club":  "Social club",
+        "part1":  [
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I’m doing great, thanks!"
+                      },
+                      {
+                          "question":  "What’s your favorite hobby?",
+                          "sample_answer":  "I enjoy reading books."
+                      },
+                      {
+                          "question":  "How do you get to work?",
+                          "sample_answer":  "I drive to work."
+                      },
+                      {
+                          "question":  "What do you like to do in the evening?",
+                          "sample_answer":  "I like watching TV."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me about your best friend?",
+                      "sample_answer":  "My best friend is someone who is always supportive and understanding. We share common interests and have fun together, whether it's hanging out or working on projects."
+                  },
+        "part3":  [
+                      {
+                          "question":  "What do you do when you go out with your friends?",
+                          "sample_answer":  "When I go out with my friends, we often visit cafes, watch movies, or just hang out and chat. It’s always fun to catch up and relax together in a comfortable setting."
+                      },
+                      {
+                          "question":  "Is it easier for young people to have friends?",
+                          "sample_answer":  "Yes, I believe it’s easier for young people to make friends today. Social media and online platforms allow them to meet and connect with others, making it more accessible to build relationships."
+                      },
+                      {
+                          "question":  "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
+                          "sample_answer":  "I agree that technology makes it easier to meet new people, but it’s important to build deeper connections in person. Online interactions can be helpful but might not always lead to meaningful friendships."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, we would like to organize some monthly face to face meetings. We would like your suggestions about when and where we could meet. It suits both young and older people. Please send us your suggestions and your reasons.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is organizing monthly face-to-face meetings. I think meeting on weekends at a local park or community center would be great. It's convenient for both young and older people.\n\nLet me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI think organizing monthly face-to-face meetings is a fantastic idea. To make it accessible for both young and older members, I suggest holding the meetings at a central location like a local park or community center. Weekends would work best for most people, as it allows everyone to attend without interfering with work or school.\n\nI also recommend considering different themes or activities for each meeting, like discussions, workshops, or outdoor activities, to keep it engaging for everyone. This will help build stronger connections between members while accommodating different preferences.\n\nI’m happy to assist with organizing and promoting these meetings, and I look forward to seeing this idea come to life.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  30,
+        "code":  "set_030",
+        "title":  "Bộ đề #030",
+        "club":  "Sports club",
+        "part1":  [
+                      {
+                          "question":  "Tell me the last time you watched TV?",
+                          "sample_answer":  "I watched TV last night."
+                      },
+                      {
+                          "question":  "Why do you learn English?",
+                          "sample_answer":  "I learn English for travel."
+                      },
+                      {
+                          "question":  "What is your favorite subject in high school?",
+                          "sample_answer":  "My favorite subject is Math."
+                      },
+                      {
+                          "question":  "What do you like doing with your friend?",
+                          "sample_answer":  "I like going shopping."
+                      },
+                      {
+                          "question":  "Where do you wanna go on holiday?",
+                          "sample_answer":  "I want to go to Paris."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why did you decide to join the club?",
+                      "sample_answer":  "I joined the sports club to stay fit, meet new people, and enjoy playing sports. I love being active, and this club provides a great opportunity to do so regularly."
+                  },
+        "part3":  [
+                      {
+                          "question":  "When was the last time you played sports?",
+                          "sample_answer":  "The last time I played sports was last weekend. I went jogging in the park with a friend. It felt refreshing and helped me clear my mind after a busy week."
+                      },
+                      {
+                          "question":  "I usually play sports with my friends and watch sports programs. What about you?",
+                          "sample_answer":  "I also play sports with my friends and enjoy watching sports events on TV. It’s a great way to bond with others and stay motivated to stay active and healthy."
+                      },
+                      {
+                          "question":  "I like playing sports with my friend but my brother likes playing sports alone. What do you think about this issue?",
+                          "sample_answer":  "I think it’s perfectly fine for your brother to enjoy playing sports alone if that’s what he prefers. People have different preferences, and some enjoy solitary activities for peace and focus."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, the club needs suggestions about the organization of a sports competition for young members.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is planning to organize a sports competition for young members. I think it would be fun to include a variety of sports like football, basketball, and running.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear that the club is organizing a sports competition for young members. I think this event is a great way to engage everyone and promote a healthy lifestyle.\n\nTo make it more exciting and inclusive, I suggest organizing different types of activities such as football, basketball, and a relay race. We could also include fun games like tug-of-war or obstacle courses.\n\nTo attract more participants, we could offer small prizes or certificates for winners. I am happy to assist with organizing the event and helping in any way needed. Please let me know how I can contribute.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  31,
+        "code":  "set_031",
+        "title":  "Bộ đề #031",
+        "club":  "Technology club",
+        "part1":  [
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I'm doing great, thanks!"
+                      },
+                      {
+                          "question":  "Which is your favorite season?",
+                          "sample_answer":  "I love the spring."
+                      },
+                      {
+                          "question":  "Which sports is the most popular in your country?",
+                          "sample_answer":  "Football is popular."
+                      },
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I’m wearing a dress."
+                      },
+                      {
+                          "question":  "What is your favorite kind of music?",
+                          "sample_answer":  "I enjoy listening to pop."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "What do you usually use your laptop for?",
+                      "sample_answer":  "I usually use my laptop for work, studying, and entertainment. I browse the internet, watch videos, do research, and sometimes play games or connect with friends online."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Do you often watch movies on your laptop or go to the theater?",
+                          "sample_answer":  "I prefer watching movies in the theater because of the large screen and immersive sound. However, I do watch movies on my laptop when I want convenience and comfort at home."
+                      },
+                      {
+                          "question":  "I used to work on a laptop and it stopped and I lost all my notes. Tell me about a bad time with your computer?",
+                          "sample_answer":  "Once, my laptop crashed while I was working on an important project, and I lost all my notes. It was incredibly frustrating, but I learned to back up my data regularly afterward."
+                      },
+                      {
+                          "question":  "Technological improvements have made our lives easier. what do you think?",
+                          "sample_answer":  "Technological improvements have certainly made life easier. With advanced tools, we can communicate faster, work more efficiently, and have access to vast amounts of information right at our fingertips."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear member, members often post on the website's club. But lately there’s been a few negatives on the other member's post. We are thinking of changing the website to identify anyone who makes a comment. Please give your opinion to fix the situation.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the club is considering identifying users who post comments on the website. I think this is a good idea to prevent negativity and ensure more respectful interactions.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am aware of the negative comments on the club’s website recently, and I believe implementing a system that identifies users posting comments is a great idea to address the issue. This could help reduce disrespectful behavior and foster a more positive atmosphere within the club.\n\nAdditionally, I suggest we introduce guidelines for posting comments, encouraging members to express their opinions constructively. It may also help to appoint moderators to monitor content and ensure compliance.\n\nI’m happy to assist in developing or enforcing these changes and believe that with these improvements, the club’s website will be a more welcoming and supportive space for all members.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  32,
+        "code":  "set_032",
+        "title":  "Bộ đề #032",
+        "club":  "Television club",
+        "part1":  [
+                      {
+                          "question":  "Who do you usually go to the movies with?",
+                          "sample_answer":  "I go with friends."
+                      },
+                      {
+                          "question":  "Do you like to take photos?",
+                          "sample_answer":  "Yes, I love it."
+                      },
+                      {
+                          "question":  "Where do you like to go on holiday?",
+                          "sample_answer":  "I love the beach."
+                      },
+                      {
+                          "question":  "What’s your favorite color?",
+                          "sample_answer":  "My favorite color is blue."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched a movie."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Do you usually watch TV?",
+                      "sample_answer":  "I don't watch TV often, but I enjoy watching movies or series occasionally. I prefer streaming services because they offer more flexibility in what to watch."
+                  },
+        "part3":  [
+                      {
+                          "question":  "What do you like to do when you watch TV?",
+                          "sample_answer":  "When I watch TV, I like to relax and enjoy the show with a snack. Sometimes, I also multitask by browsing the internet or chatting with friends while watching."
+                      },
+                      {
+                          "question":  "Do you like watching TV alone or with others?",
+                          "sample_answer":  "I enjoy watching TV with others, especially family or friends. It’s more fun to share reactions and discuss the plot, but I also enjoy some solo time with my favorite shows."
+                      },
+                      {
+                          "question":  "Is it good for children to watch TV programs too much?",
+                          "sample_answer":  "It's not good for children to watch too much TV. It can lead to a sedentary lifestyle and affect their development. It’s important for kids to engage in other activities as well."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, we need to set up an event and choose a place so that foreigners can attend. Please give your suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that our television club is organizing an event for foreigners. We should consider hosting it at a central location like a community hall or a public park. It would be great for accessibility!\n\nLet me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear that our television club is organizing an event for foreigners. I suggest hosting it at a location that's central and easy to reach, such as a community hall or public park. These places would offer enough space for a large crowd and ensure accessibility for everyone.\n\nFor the event itself, we could showcase popular TV shows, host Q\u0026A sessions with directors or actors, and create interactive exhibits about television history. These activities will engage attendees of all ages and backgrounds.\n\nI am happy to help organize and promote this event, and I believe it will be a great opportunity to bring people together.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  33,
+        "code":  "set_033",
+        "title":  "Bộ đề #033",
+        "club":  "Travel club",
+        "part1":  [
+                      {
+                          "question":  "What is your favorite subject in high school?",
+                          "sample_answer":  "I love studying math."
+                      },
+                      {
+                          "question":  "What do you like doing with your friend?",
+                          "sample_answer":  "I enjoy going shopping."
+                      },
+                      {
+                          "question":  "Where do you wanna go on holiday?",
+                          "sample_answer":  "I want to go to Paris."
+                      },
+                      {
+                          "question":  "Why are you interested in travel?",
+                          "sample_answer":  "I love exploring new places."
+                      },
+                      {
+                          "question":  "Tell me a place you often visit?",
+                          "sample_answer":  "I often visit the park."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Why are you interested in travel?",
+                      "sample_answer":  "I’m interested in travel because it allows me to experience different cultures, try new foods, and explore beautiful landscapes. It’s a great way to broaden my perspective and learn."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Tell me a time you had a trip in bad weather.",
+                          "sample_answer":  "I once went on a hiking trip, and the weather turned bad with heavy rain and wind. Despite the tough conditions, we continued, and it became an unforgettable adventure. The weather made it more challenging but memorable."
+                      },
+                      {
+                          "question":  "Traveling a long distance by some means of transportation is not good for the environment? Do you agree?",
+                          "sample_answer":  "Yes, I agree that traveling long distances by transportation, especially air travel, negatively impacts the environment due to high carbon emissions. It's important to consider alternatives like trains or more eco-friendly options to reduce harm."
+                      },
+                      {
+                          "question":  "What are the most interesting places to visit in your country?",
+                          "sample_answer":  "Some of the most interesting places to visit in my country include Ha Long Bay, the ancient town of Hoi An, and the bustling city of Ho Chi Minh, each offering a unique cultural and natural experience."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, Travel club is planning to encourage tourists to visit an area. We also want visitors coming to our areas to behave politely. Please raise your voice and give some suggestions for this plan.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI heard the Travel Club is planning to encourage tourists to visit the area. It’s important to ensure they behave politely. We could provide guidelines or even have guides to teach proper manners.\n\nWhat do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear that the Travel Club is planning to promote tourism in the area. It’s important to ensure that visitors behave respectfully. I suggest providing clear guidelines on acceptable behavior for tourists, including respecting local customs and traditions.\n\nWe could also create welcome packages with information on etiquette and local norms. Organizing awareness sessions or having volunteers available to assist tourists would further encourage good behavior. Additionally, offering incentives for respectful tourists, like discounts at local businesses, could be effective.\n\nI am happy to help implement these ideas and ensure that visitors have a positive experience while maintaining respect for the area.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  34,
+        "code":  "set_034",
+        "title":  "Bộ đề #034",
+        "club":  "Travel club 2",
+        "part1":  [
+                      {
+                          "question":  "Where are you from?",
+                          "sample_answer":  "I’m from Hanoi."
+                      },
+                      {
+                          "question":  "Where do you live?",
+                          "sample_answer":  "I live in Hanoi."
+                      },
+                      {
+                          "question":  "Where would you like to live?",
+                          "sample_answer":  "I’d like to live in Paris."
+                      },
+                      {
+                          "question":  "Where do you like to go in the summer?",
+                          "sample_answer":  "I like going to the beach."
+                      },
+                      {
+                          "question":  "A place you would like to visit in your country?",
+                          "sample_answer":  "I’d like to visit Hoi An."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me a place you often visit?",
+                      "sample_answer":  "I often visit a nearby park. It’s a peaceful place where I enjoy walking, reading, or just relaxing. I love the natural surroundings and the fresh air there."
+                  },
+        "part3":  [
+                      {
+                          "question":  "What is the most exciting journey you’ve been on?",
+                          "sample_answer":  "The most exciting journey I’ve been on was a trip to the mountains last year. I hiked through beautiful trails, enjoyed stunning views, and experienced the thrill of being surrounded by nature."
+                      },
+                      {
+                          "question":  "Can you remember the first time you went on a journey by yourself? What was it like?",
+                          "sample_answer":  "I remember my first solo journey when I traveled to a nearby city. It was both exciting and intimidating, but I learned so much about independence, navigation, and making new connections."
+                      },
+                      {
+                          "question":  "Some people like taking photos when they have vacation. Your opinion?",
+                          "sample_answer":  "I believe taking photos during vacations is a great way to preserve memories and capture beautiful moments. It allows us to relive the experiences and share them with others, making the trip more memorable."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, the club wants members to give their opinions to make it easier for those traveling abroad for the first time and suggest the best way to communicate easily abroad. Please raise your voice and give some suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI heard that the Travel Club is asking for ideas to help those traveling abroad for the first time. I think providing a guide on common phrases and using translation apps would be helpful.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI’m excited to hear that the club is looking for ways to support travelers abroad, especially those traveling for the first time. I suggest providing a travel guide with common phrases in different languages to help with communication. Also, recommending useful apps like Google Translate and local language learning apps could ease the process.\n\nAdditionally, organizing workshops or online resources to familiarize members with cultural norms and etiquette in different countries would be valuable. It’s important to prepare travelers for common situations they might encounter abroad.\n\nI am happy to assist in gathering resources or organizing these initiatives. I believe these efforts will make international travel a smoother experience for first-time travelers.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  35,
+        "code":  "set_035",
+        "title":  "Bộ đề #035",
+        "club":  "Walking club",
+        "part1":  [
+                      {
+                          "question":  "How is the weather today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "What is your favorite season of the year?",
+                          "sample_answer":  "I love the spring."
+                      },
+                      {
+                          "question":  "What do you usually do in your free time?",
+                          "sample_answer":  "I like reading books."
+                      },
+                      {
+                          "question":  "What is your favorite sport?",
+                          "sample_answer":  "I love football."
+                      },
+                      {
+                          "question":  "What is a place you would like to visit in your country?",
+                          "sample_answer":  "I’d like to visit Hoi An."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "The last time you went for a walk?",
+                      "sample_answer":  "The last time I went for a walk was yesterday evening. I walked in the park, enjoyed the fresh air, and relaxed while watching the sunset. It was very refreshing."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I often go for a walk. What about you?",
+                          "sample_answer":  "I also enjoy going for walks, especially in nature. I find it helps me relax, clear my mind, and stay active. Walking is a peaceful way to connect with the environment."
+                      },
+                      {
+                          "question":  "I prefer to go to the countryside for a walk. Walking in the city is stressful and noisy. What do you think?",
+                          "sample_answer":  "I agree with you. The countryside offers a much more peaceful environment for walking compared to the city. The noise and traffic in urban areas can make walking stressful and less enjoyable."
+                      },
+                      {
+                          "question":  "In the past, people walked long distances as part of their lives. These days, they don't walk anymore. Why?",
+                          "sample_answer":  "These days, many people rely on cars and public transport for convenience and speed. With modern technology, walking has become less necessary for most daily activities, leading to a more sedentary lifestyle."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, The club has planned to organize a walk across European countries. There were a few members of the group who suggested it, but it was said that it was unrealistic. Please send us your suggestions and your reasons.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the Walking Club is planning a walk across European countries. While it might seem ambitious, I think it's a great idea! We could take it step by step and make it manageable.\n\nLet me know what you think!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was excited to hear about the plan to organize a walk across European countries. While some might find it unrealistic, I believe we can make it happen by starting with smaller regions or countries and gradually building up. This will allow us to gauge interest and adapt the plans as needed.\n\nWe can also involve local communities along the route, creating a cultural exchange and raising awareness about walking and healthy living. The event could be organized in stages over several years, making it more feasible.\n\nI am happy to assist in organizing and promoting the event. I believe it will be an unforgettable experience that encourages healthy habits and fosters connections among participants.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  36,
+        "code":  "set_036",
+        "title":  "Bộ đề #036",
+        "club":  "Writing club",
+        "part1":  [
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      },
+                      {
+                          "question":  "How are you?",
+                          "sample_answer":  "I’m doing great, thanks!"
+                      },
+                      {
+                          "question":  "What’s your favorite hobby?",
+                          "sample_answer":  "I love reading books."
+                      },
+                      {
+                          "question":  "How do you get to work?",
+                          "sample_answer":  "I drive to work."
+                      },
+                      {
+                          "question":  "What do you like to do in the evening?",
+                          "sample_answer":  "I like watching TV."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "Tell me about the last time you wrote something.",
+                      "sample_answer":  "The last time I wrote something was when I completed a project report for work. It took some time, but I was satisfied with the outcome and learned new things."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I usually write at the coffee shop. What about you?",
+                          "sample_answer":  "I usually write at home in a quiet space. I find it helps me concentrate better, allowing me to focus on my thoughts without distractions like noise or crowds."
+                      },
+                      {
+                          "question":  "Do you prefer handwriting or typing?",
+                          "sample_answer":  "I prefer typing because it's faster and more efficient. I can also easily edit and organize my work. However, I sometimes enjoy handwriting for its personal touch and slower pace."
+                      },
+                      {
+                          "question":  "There are many people who like to write, but only a few become writers. What makes a successful writer?",
+                          "sample_answer":  "A successful writer combines creativity, persistence, and a deep understanding of their audience. It’s not just about writing well, but also about being dedicated, disciplined, and constantly improving their craft."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear members, many people complain that the website is unprofessional and difficult to use. Please send us your suggestions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that many people are complaining about the website being unprofessional and hard to use. I think we could suggest a more user-friendly design and improve its navigation.\n\nLet me know your thoughts!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI was informed that many members are unhappy with the current state of the club website, citing it as unprofessional and difficult to navigate. I believe a website redesign is necessary to make it more user-friendly.\n\nMy suggestions include simplifying the layout, improving the search function, and making the design more visually appealing. Adding more interactive features, such as forums or a blog, could enhance the user experience and engagement.\n\nI would be happy to assist in gathering feedback from members and working with a designer to bring these ideas to life. Improving the website would definitely improve members' satisfaction and participation.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  37,
+        "code":  "set_037",
+        "title":  "Bộ đề #037",
+        "club":  "Fashion club",
+        "part1":  [
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I'm wearing a blue shirt."
+                      },
+                      {
+                          "question":  "How many people are in your family?",
+                          "sample_answer":  "There are four people."
+                      },
+                      {
+                          "question":  "What did you do yesterday?",
+                          "sample_answer":  "I studied and watched TV."
+                      },
+                      {
+                          "question":  "How do you go to school?",
+                          "sample_answer":  "I go by bus."
+                      },
+                      {
+                          "question":  "What's your hobby?",
+                          "sample_answer":  "My hobby is reading."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When was the last time you went shopping for clothes?",
+                      "sample_answer":  "The last time I went shopping for clothes was last weekend. I bought a couple of t-shirts and a jacket for the upcoming season."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Some people like to buy clothes to try on themselves. Some prefer to buy online. How do you like it and why?",
+                          "sample_answer":  "I prefer to buy clothes online because it’s more convenient and I can easily compare prices and styles. I also like reading reviews before making a purchase decision."
+                      },
+                      {
+                          "question":  "Hi! Why did you decide to join the club?",
+                          "sample_answer":  "I decided to join the fashion club because I am passionate about fashion trends and styling. I wanted to meet like-minded individuals and enhance my knowledge about the fashion industry."
+                      },
+                      {
+                          "question":  "Why do people like fashion?",
+                          "sample_answer":  "People like fashion because it allows them to express their creativity and individuality. It’s a way to stay connected to current trends, and for many, it’s also a form of art and self-confidence."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "We are going to hold an event with a famous designer. It needs to be suitable for both the young and the old. Please give your ideas",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI have an idea for the upcoming event with the designer. We can have a fashion show that showcases both modern and classic styles. It should appeal to all ages, with something for both the young and the old. I think it would be great if we included interactive activities so that everyone feels involved.\n\nWhat do you think?\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI would like to suggest some ideas for the upcoming event with the famous designer. The event should offer a mix of contemporary and timeless fashion, with options that appeal to both younger and older attendees. Perhaps we could have a fashion showcase that includes different age groups, demonstrating how style evolves over time. Additionally, I believe we should include interactive activities such as styling workshops or discussions about the future of fashion, making the event enjoyable for everyone.\n\nI’m excited to help organize and contribute to the success of the event. Please let me know your thoughts.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  38,
+        "code":  "set_038",
+        "title":  "Bộ đề #038",
+        "club":  "English club 2",
+        "part1":  [
+                      {
+                          "question":  "Where did you go last night?",
+                          "sample_answer":  "I went to the cinema."
+                      },
+                      {
+                          "question":  "What do you like doing with your friend?",
+                          "sample_answer":  "I like watching movies."
+                      },
+                      {
+                          "question":  "Which sport do you like to play the most?",
+                          "sample_answer":  "I love playing football."
+                      },
+                      {
+                          "question":  "What did you do last night?",
+                          "sample_answer":  "I watched a movie."
+                      },
+                      {
+                          "question":  "Do you like shopping?",
+                          "sample_answer":  "Yes, I enjoy it."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When do you usually have to come into contact with English?",
+                      "sample_answer":  "I usually come into contact with English when I watch movies, read books, or communicate with friends online. It's also necessary for work and school tasks."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Tell me about your English learning experience?",
+                          "sample_answer":  "My English learning experience has been quite challenging but rewarding. I started with basic grammar and vocabulary, then gradually moved on to speaking and listening practice through movies, books, and conversations."
+                      },
+                      {
+                          "question":  "I can read and write, but I can't speak English. Do you have any advice for me?",
+                          "sample_answer":  "I suggest practicing speaking regularly, even if it's with yourself or language exchange partners. Listening to English podcasts and mimicking native speakers can help improve pronunciation and fluency in speaking."
+                      },
+                      {
+                          "question":  "English is a popular language in the world. What are your thoughts on this opinion?",
+                          "sample_answer":  "I agree that English is a global language. Its widespread use in business, media, and education makes it essential for communication across cultures, providing more opportunities for travel and career advancement."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "The english club will organize a talk to attract both old and young people. Please give your opinions.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words).",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard about the talk that the English club is organizing. I think it’s a great idea to attract both young and old people. We could have some interactive activities and maybe a Q\u0026A session. It’ll be fun!\n\nLet me know if you want to join!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words).",
+                                    "sample_answer":  "Dear Club President,\n\nI am excited to hear about the upcoming talk organized by the English club. I think it’s a fantastic way to attract both young and older generations. To ensure the event is engaging for everyone, I suggest including a variety of activities, such as a discussion on current trends or an interactive segment where the audience can participate. It could also be interesting to invite a guest speaker who has experience with English language learning across ages.\n\nI believe this approach will help create a more inclusive atmosphere, attracting diverse audiences. I would be happy to assist in organizing the event or promoting it.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  39,
+        "code":  "set_039",
+        "title":  "Bộ đề #039",
+        "club":  "English club 3",
+        "part1":  [
+                      {
+                          "question":  "What are you wearing today?",
+                          "sample_answer":  "I’m wearing a shirt."
+                      },
+                      {
+                          "question":  "What language do you speak?",
+                          "sample_answer":  "I speak Vietnamese."
+                      },
+                      {
+                          "question":  "What is your first language?",
+                          "sample_answer":  "My first language is Vietnamese."
+                      },
+                      {
+                          "question":  "What is your first school?",
+                          "sample_answer":  "My first school was ABC School."
+                      },
+                      {
+                          "question":  "What’s the weather like today?",
+                          "sample_answer":  "It’s sunny today."
+                      }
+                  ],
+        "part2":  {
+                      "question":  "When do you usually use English?",
+                      "sample_answer":  "I usually use English when I watch movies, read books, or communicate with friends online. It's also necessary for school and work-related tasks."
+                  },
+        "part3":  [
+                      {
+                          "question":  "Hi! I heard that you attended a club meeting this afternoon. How do you feel about the meeting?",
+                          "sample_answer":  "I really enjoyed the club meeting this afternoon. The discussions were engaging, and I liked how everyone shared their ideas. It was a great chance to learn something new."
+                      },
+                      {
+                          "question":  "We have weekly meetings on Saturday afternoons. What topic are you expecting us to talk about?",
+                          "sample_answer":  "I'm hoping we will talk about improving our English communication skills. Maybe we could discuss some effective ways to practice speaking or introduce some interesting language games."
+                      },
+                      {
+                          "question":  "We are thinking of holding some English games next week. Can you suggest some?",
+                          "sample_answer":  "For the English games, I suggest playing word association or a spelling bee competition. These games are fun and can help everyone improve their vocabulary and spelling skills."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear Members, we are sorry to inform you that the Talk show has been canceled as the guests are unexpectedly busy. We do not have any back-up plan, so there will be no meeting this week. We will inform you of the reopening of the Talk show as soon as we can. We are sorry for the inconvenience.",
+                      "task1":  {
+                                    "prompt":  "Write a short email to your friend (about 50 words). Write about your feelings and what you would like to do.",
+                                    "sample_answer":  "Hi Linh,\n\nI just heard that the Talk show has been canceled because the guests are busy. I'm really disappointed because I was looking forward to it. How about we hang out this week instead?\n\nLet me know!\n\nBest,\n\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the president of the club (about 120-150 words). Write about your feelings suggest possible.",
+                                    "sample_answer":  "Dear Club President,\n\nI was disappointed to hear that the Talk show has been canceled. Many of us were really looking forward to it. While I understand the situation, I believe we should find a way to keep members engaged. Perhaps we could reschedule the event with the guests or arrange another activity like a discussion session or a group chat to maintain excitement. Additionally, we could explore having other speakers or organizing smaller events in the meantime.\n\nPlease consider these options to keep the club members engaged during this break. I am happy to help with any of these ideas.\n\nBest regards,\n\nJimmy"
+                                }
+                  }
+    },
+    {
+        "id":  40,
+        "code":  "set_040",
+        "title":  "Bộ đề #040",
+        "club":  "Nature club 2",
+        "part1":  [
+                      {
+                          "question":  "What's your favourite time of the year?",
+                          "sample_answer":  "Tet holiday"
+                      },
+                      {
+                          "question":  "What's the weather like today?",
+                          "sample_answer":  "Sunny"
+                      },
+                      {
+                          "question":  "What's your favourite sport?",
+                          "sample_answer":  "Soccer"
+                      },
+                      {
+                          "question":  "What's your favourite season?",
+                          "sample_answer":  "Spring"
+                      },
+                      {
+                          "question":  "What's your favourite colour?",
+                          "sample_answer":  "Black"
+                      }
+                  ],
+        "part2":  {
+                      "question":  "What do you like doing when you spend time outdoors?",
+                      "sample_answer":  "I enjoy playing sports like football and basketball, hiking in the mountains, and spending time with friends outdoors, which helps me stay active and healthy."
+                  },
+        "part3":  [
+                      {
+                          "question":  "I went for a walk in the forest last month and I got lost. Can you tell me about a time when you got lost?",
+                          "sample_answer":  "Last year, my friends and I visited a remote beach. After enjoying the view, we wandered off and got lost for a while. It was challenging but an adventure in itself."
+                      },
+                      {
+                          "question":  "I like visiting the mountains because they are so peaceful. What kinds of places do you like to visit and why?",
+                          "sample_answer":  "I enjoy visiting places like beaches, forests, and lakes. They provide a peaceful atmosphere where I can relax, enjoy nature, and disconnect from the stress of daily life. It's rejuvenating."
+                      },
+                      {
+                          "question":  "Large group holidays in areas of natural beauty are becoming more and more popular. I'm not sure that's a good thing. Do you agree? Why or why not?",
+                          "sample_answer":  "I understand the popularity of large group holidays, but I feel they can impact the environment negatively. Smaller, sustainable trips would preserve nature and offer a more personal experience."
+                      }
+                  ],
+        "part4":  {
+                      "notice":  "Dear Member, this year we are planning a campaign to encourage young children to think more about nature and the natural world. Unfortunately, a lot of children prefer staying indoors and playing computer games. How can we get them to spend more time outdoors and explore? Please send us your ideas for encouraging young people to become more engaged with nature. Also, what do you think is the best way for us to communicate our messages to them?",
+                      "task1":  {
+                                    "prompt":  "Write an email to your friend, who is also a member of the club. Write about your ideas and how to communicate them. Write about 50 words.",
+                                    "sample_answer":  "Hi Linh,\n\nI just got an email from the Nature Club asking for ideas to get kids more involved with nature. I think organizing fun outdoor activities like hiking or sports competitions could help. Also, promoting these activities on social media can reach more kids. What do you think?\n\nBest,\nPhuong"
+                                },
+                      "task2":  {
+                                    "prompt":  "Write an email to the manager of the club. Tell the manager your suggestions for promoting nature to young people and how best to communicate them. Write 120-150 words.",
+                                    "sample_answer":  "Dear Club Manager,\n\nI received your email about encouraging children to explore nature more. I believe we should organize outdoor events like nature walks, camping trips, and environmental workshops to engage them. Additionally, using social media to share stories, photos, and videos of nature experiences could inspire them to step outside. We could also collaborate with schools to promote these events directly to students.\n\nBest regards,\n\nDenis"
+                                }
+                  }
+    }
+]
