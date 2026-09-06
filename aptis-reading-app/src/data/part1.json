@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "part1_1",
+    "topic": "Set 1",
+    "text": "Where is the train [0] in this town?\nThe bus [1] here every morning.\nThe traffic light is [2] so you can go now.\nWe usually have [3] at 7 p.m.\nDo you like watching [4] on weekends?",
+    "options": [
+      [
+        "station",
+        "school",
+        "market"
+      ],
+      [
+        "runs",
+        "stops",
+        "flies"
+      ],
+      [
+        "red",
+        "yellow",
+        "green"
+      ],
+      [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      [
+        "books",
+        "movies",
+        "hotdog"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_2",
+    "topic": "Set 2",
+    "text": "I always study in the [0] before school.\nMy [1] and I play football after class.\nI always [2] my bag on the chair.\nApples are very [3] for your health.\nWe eat rice and [4] every day.",
+    "options": [
+      [
+        "morning",
+        "sea",
+        "roof"
+      ],
+      [
+        "friends",
+        "dog",
+        "tree"
+      ],
+      [
+        "leave",
+        "go",
+        "love"
+      ],
+      [
+        "hate",
+        "lovely",
+        "good"
+      ],
+      [
+        "food",
+        "books",
+        "games"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_3",
+    "topic": "Set 3",
+    "text": "Where is your [0] ?\nDo you talk to [1] at work?\nIs the task [2] for you?\nWhat do you [3] in the morning?\nWhat do you like to [4] on TV?",
+    "options": [
+      [
+        "home",
+        "sea",
+        "park"
+      ],
+      [
+        "customers",
+        "bird",
+        "chair"
+      ],
+      [
+        "easy",
+        "go",
+        "bring"
+      ],
+      [
+        "prepare",
+        "big",
+        "team"
+      ],
+      [
+        "watch",
+        "read",
+        "take"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_4",
+    "topic": "Set 4",
+    "text": "Do you jog in the [0] in the morning?\nDoes the gym offer [1] for yoga?\nIs English [2] for you?\nWhat do you eat for [3] every day?\nDo you practice [4] to relax?",
+    "options": [
+      [
+        "park",
+        "moon",
+        "tree"
+      ],
+      [
+        "classes",
+        "running",
+        "books"
+      ],
+      [
+        "easy",
+        "try",
+        "bye"
+      ],
+      [
+        "breakfast",
+        "love",
+        "cold"
+      ],
+      [
+        "meditation",
+        "book",
+        "healthy"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_5",
+    "topic": "Set 5",
+    "text": "Is your neighborhood [0] ?\nHow do you usually [1] to work?\nWhen did you meet your friend [2] ?\nCan you [3] French?\nDo you like going out [4] with your friends?",
+    "options": [
+      [
+        "friendly",
+        "hate",
+        "big"
+      ],
+      [
+        "run",
+        "walk",
+        "buy"
+      ],
+      [
+        "first",
+        "love",
+        "bring"
+      ],
+      [
+        "speak",
+        "big",
+        "most"
+      ],
+      [
+        "alone",
+        "together",
+        "morning"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_6",
+    "topic": "Set 6",
+    "text": "I go to school by  [0] .\nThe buildings in my city are very  [1] .\nThere are many green  [2]  near my home.\nI eat  [3]  with my family every morning.\nI play  [4]  to feel relaxed.",
+    "options": [
+      [
+        "spaceship",
+        "plane",
+        "bicycle"
+      ],
+      [
+        "hate",
+        "tall",
+        "went"
+      ],
+      [
+        "road",
+        "buy",
+        "trees"
+      ],
+      [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      [
+        "games",
+        "make",
+        "time"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_7",
+    "topic": "Set 7",
+    "text": "I want to  [0]  my grandparents this weekend.\nMy  [1]  is very clean and bright.\nThe weather is  [2]  today.\nWe went to the city by  [3] .\nI can  [4]  English very well.",
+    "options": [
+      [
+        "visit",
+        "clean",
+        "run"
+      ],
+      [
+        "room",
+        "father",
+        "mother"
+      ],
+      [
+        "big",
+        "hot",
+        "small"
+      ],
+      [
+        "spaceship",
+        "plane",
+        "train"
+      ],
+      [
+        "make",
+        "speak",
+        "love"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_8",
+    "topic": "Set 8",
+    "text": "My uncle works on a  [0] .\nThe children were very  [1]  about the trip.\nTurn  [2]  at the next corner.\nWe walked along the  [3]  to the park.\nI usually  [4]  milk in the morning.",
+    "options": [
+      [
+        "farm",
+        "compare",
+        "spare"
+      ],
+      [
+        "run",
+        "excited",
+        "most"
+      ],
+      [
+        "big",
+        "left",
+        "go"
+      ],
+      [
+        "water",
+        "street",
+        "cloud"
+      ],
+      [
+        "stone",
+        "drink",
+        "school"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_9",
+    "topic": "Set 9",
+    "text": "I usually stay at  [0]  on Sundays.\nMy father can  [1]  very well.\nI like spending time with my  [2]  after school.\nLet’s go for a  [3]  in the park.\nYour sister looks very  [4]  today.",
+    "options": [
+      [
+        "cloud",
+        "home",
+        "road"
+      ],
+      [
+        "fly",
+        "drive",
+        "big"
+      ],
+      [
+        "tree",
+        "friends",
+        "go"
+      ],
+      [
+        "walk",
+        "big",
+        "sea"
+      ],
+      [
+        "pretty",
+        "father",
+        "went"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_10",
+    "topic": "Set 10",
+    "text": "I want to travel to the  [0]  this summer.\nPlease keep your room  [1] .\nWe have English  [2]  on Monday.\nI like helping  [3]  people.\nCan you spell these  [4]  for me?",
+    "options": [
+      [
+        "country",
+        "small",
+        "big"
+      ],
+      [
+        "green",
+        "boring",
+        "clean"
+      ],
+      [
+        "class",
+        "lunch",
+        "sea"
+      ],
+      [
+        "myself",
+        "father",
+        "other"
+      ],
+      [
+        "small",
+        "bring",
+        "words"
+      ]
+    ],
+    "answers": [
+      0,
+      2,
+      0,
+      2,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_11",
+    "topic": "Set 11",
+    "text": "My bedroom is very  [0] .\nWe usually  [1]  at a hotel on vacation.\nThere are many flowers in the  [2] .\nSome  [3]  near my home are very tall.\nMy grandfather is very  [4]  but still strong.",
+    "options": [
+      [
+        "boring",
+        "small",
+        "healthy"
+      ],
+      [
+        "stay",
+        "movie",
+        "bring"
+      ],
+      [
+        "sky",
+        "garden",
+        "water"
+      ],
+      [
+        "cloud",
+        "trees",
+        "morning"
+      ],
+      [
+        "hot",
+        "old",
+        "free"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_12",
+    "topic": "Set 12",
+    "text": "I  [0]  reading books in the library.\nMy bag is a bit  [1]  for my laptop.\nCan you go to the  [2]  to buy some milk?\nThere are many  [3]  in the class.\nThey want to  [4]  the class.",
+    "options": [
+      [
+        "love",
+        "make",
+        "run"
+      ],
+      [
+        "mean",
+        "small",
+        "again"
+      ],
+      [
+        "shop",
+        "park",
+        "sea"
+      ],
+      [
+        "people",
+        "birds",
+        "trees"
+      ],
+      [
+        "room",
+        "visit",
+        "fly"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_13",
+    "topic": "Set 13",
+    "text": "I drink coffee in the  [0] .\nChildren play in the  [1] .\nWhat time do you  [2]  home?\nWe eat bread for  [3] .\nNice to  [4]  you.",
+    "options": [
+      [
+        "morning",
+        "sky",
+        "free"
+      ],
+      [
+        "park",
+        "big",
+        "hot"
+      ],
+      [
+        "leave",
+        "bring",
+        "stop"
+      ],
+      [
+        "breakfast",
+        "train",
+        "time"
+      ],
+      [
+        "meet",
+        "hate",
+        "look"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_14",
+    "topic": "Set 14",
+    "text": "Every morning, my mother  [0] the newspaper before breakfast.\nMy father usually rides his  [1] to work.\nI always  [2] my teeth twice a day.\nThe children usually  [3] breakfast before school.\nWe often  [4] the morning news together.",
+    "options": [
+      [
+        "drives",
+        "reads",
+        "paints"
+      ],
+      [
+        "kite",
+        "boat",
+        "bicycle"
+      ],
+      [
+        "brush",
+        "cook",
+        "drive"
+      ],
+      [
+        "sell",
+        "swim",
+        "eat"
+      ],
+      [
+        "watch",
+        "drive",
+        "sleep"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_15",
+    "topic": "Set 15",
+    "text": "It usually  [0] a lot in this region during autumn.\nThe weather here is quite  [1] in summer.\nPeople usually wear  [2] when it snows.\nThe sky looks quite  [3] today.\nIn spring, flowers usually  [4] in the garden.",
+    "options": [
+      [
+        "cooks",
+        "rains",
+        "sings"
+      ],
+      [
+        "hot",
+        "cheap",
+        "polite"
+      ],
+      [
+        "shorts",
+        "coats",
+        "sandals"
+      ],
+      [
+        "cheap",
+        "cloudy",
+        "friendly"
+      ],
+      [
+        "melt",
+        "freeze",
+        "grow"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_16",
+    "topic": "Set 16",
+    "text": "On Sundays, my family usually  [0] for a big lunch.\nMy grandparents like to tell  [1] about their childhood.\nMy little sister often  [2] pictures of animals.\nWe usually spend the holidays with our  [3] .\nMy parents always  [4] my decisions.",
+    "options": [
+      [
+        "travels",
+        "gathers",
+        "argues"
+      ],
+      [
+        "lies",
+        "stories",
+        "jokes"
+      ],
+      [
+        "cooks",
+        "draws",
+        "drives"
+      ],
+      [
+        "strangers",
+        "relatives",
+        "colleagues"
+      ],
+      [
+        "forget",
+        "ignore",
+        "support"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_17",
+    "topic": "Set 17",
+    "text": "Our school starts every day at  [0] o'clock.\nStudents usually wear a  [1] to school.\nMy teacher always  [2] the lesson clearly.\nWe usually have  [3] at the end of each term.\nDuring break time, students often  [4] with their friends.",
+    "options": [
+      [
+        "seven",
+        "midnight",
+        "noon"
+      ],
+      [
+        "uniform",
+        "costume",
+        "helmet"
+      ],
+      [
+        "ignores",
+        "hides",
+        "explains"
+      ],
+      [
+        "exams",
+        "parties",
+        "holidays"
+      ],
+      [
+        "chat",
+        "cook",
+        "sleep"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_18",
+    "topic": "Set 18",
+    "text": "My mother usually  [0] dinner for the whole family.\nWe often add a little  [1] to the soup.\nThis bakery sells fresh  [2] every morning.\nI usually drink a glass of  [3] before bed.\nMy favorite dish is quite  [4] .",
+    "options": [
+      [
+        "paints",
+        "cooks",
+        "drives"
+      ],
+      [
+        "glue",
+        "sand",
+        "salt"
+      ],
+      [
+        "shoes",
+        "bread",
+        "toys"
+      ],
+      [
+        "milk",
+        "paint",
+        "oil"
+      ],
+      [
+        "heavy",
+        "loud",
+        "spicy"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      1,
+      0,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_19",
+    "topic": "Set 19",
+    "text": "Our dog usually  [0] when someone knocks on the door.\nMy cat likes to sleep on the  [1] all afternoon.\nWe feed our fish  [2] a day.\nRabbits usually eat  [3] and other vegetables.\nMy brother takes the dog for a  [4] every evening.",
+    "options": [
+      [
+        "barks",
+        "cooks",
+        "sings"
+      ],
+      [
+        "stove",
+        "roof",
+        "sofa"
+      ],
+      [
+        "never",
+        "twice",
+        "rarely"
+      ],
+      [
+        "carrots",
+        "meat",
+        "bread"
+      ],
+      [
+        "swim",
+        "walk",
+        "ride"
+      ]
+    ],
+    "answers": [
+      0,
+      2,
+      1,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_20",
+    "topic": "Set 20",
+    "text": "My mother usually goes  [0] on Saturday mornings.\nThis shop offers a big  [1] every weekend.\nI usually pay by  [2] instead of cash.\nThe market sells fresh  [3] every day.\nWe usually make a shopping  [4] before going to the store.",
+    "options": [
+      [
+        "swimming",
+        "shopping",
+        "hiking"
+      ],
+      [
+        "delay",
+        "punishment",
+        "discount"
+      ],
+      [
+        "foot",
+        "hand",
+        "card"
+      ],
+      [
+        "vegetables",
+        "furniture",
+        "electronics"
+      ],
+      [
+        "speech",
+        "song",
+        "list"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      2,
+      0,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_21",
+    "topic": "Set 21",
+    "text": "My brother plays  [0] every weekend.\nI usually go  [1] in the park before work.\nOur gym offers yoga  [2] every evening.\nSwimming helps keep my body  [3] .\nWe usually train as a  [4] twice a week.",
+    "options": [
+      [
+        "piano",
+        "chess",
+        "football"
+      ],
+      [
+        "sleeping",
+        "shopping",
+        "jogging"
+      ],
+      [
+        "meals",
+        "classes",
+        "uniforms"
+      ],
+      [
+        "tired",
+        "fit",
+        "heavy"
+      ],
+      [
+        "crowd",
+        "audience",
+        "team"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_22",
+    "topic": "Set 22",
+    "text": "I usually check my  [0] first thing in the morning.\nThis app helps me  [1] my daily schedule.\nMy phone battery usually  [2] all day.\nWe often  [3] our relatives abroad through video chat.\nThis laptop is quite  [4] and easy to carry.",
+    "options": [
+      [
+        "shoes",
+        "email",
+        "garden"
+      ],
+      [
+        "destroy",
+        "organize",
+        "ignore"
+      ],
+      [
+        "grows",
+        "lasts",
+        "melts"
+      ],
+      [
+        "cook",
+        "paint",
+        "call"
+      ],
+      [
+        "heavy",
+        "old",
+        "light"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_23",
+    "topic": "Set 23",
+    "text": "The bus usually  [0] on time.\nI usually take the  [1] to work every day.\nDuring rush hour, the roads are usually quite  [2] .\nPassengers must buy a  [3] before boarding.\nThe subway station is very close to my  [4] .",
+    "options": [
+      [
+        "disappears",
+        "explodes",
+        "arrives"
+      ],
+      [
+        "helicopter",
+        "boat",
+        "train"
+      ],
+      [
+        "empty",
+        "crowded",
+        "quiet"
+      ],
+      [
+        "ticket",
+        "uniform",
+        "gift"
+      ],
+      [
+        "farm",
+        "house",
+        "forest"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_24",
+    "topic": "Set 24",
+    "text": "Our neighborhood has a small  [0] where children play.\nThe local bakery always smells  [1] in the morning.\nOur neighbors are always very  [2] to us.\nThere is a small  [3] near my house.\nThe streets in our town are usually quite  [4] .",
+    "options": [
+      [
+        "park",
+        "factory",
+        "airport"
+      ],
+      [
+        "delicious",
+        "strange",
+        "terrible"
+      ],
+      [
+        "noisy",
+        "friendly",
+        "rude"
+      ],
+      [
+        "volcano",
+        "library",
+        "desert"
+      ],
+      [
+        "dirty",
+        "flooded",
+        "clean"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_25",
+    "topic": "Set 25",
+    "text": "My colleagues and I usually have a  [0] every Monday morning.\nI usually finish my  [1] before lunchtime.\nMy boss is usually quite  [2] about deadlines.\nThe office usually opens at  [3] o'clock.\nWe usually take a short  [4] in the middle of the day.",
+    "options": [
+      [
+        "holiday",
+        "meeting",
+        "party"
+      ],
+      [
+        "dinner",
+        "report",
+        "vacation"
+      ],
+      [
+        "strict",
+        "lazy",
+        "careless"
+      ],
+      [
+        "noon",
+        "midnight",
+        "eight"
+      ],
+      [
+        "nap",
+        "break",
+        "trip"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      0,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_26",
+    "topic": "Set 26",
+    "text": "I usually drink plenty of  [0] every day.\nMy grandmother goes for a check-up  [1] .\nEating too much sugar is not very  [2] .\nI usually go to bed  [3] on weekdays.\nWe always wash our hands before  [4] .",
+    "options": [
+      [
+        "paint",
+        "water",
+        "oil"
+      ],
+      [
+        "regularly",
+        "rarely",
+        "never"
+      ],
+      [
+        "cheap",
+        "healthy",
+        "quiet"
+      ],
+      [
+        "early",
+        "late",
+        "never"
+      ],
+      [
+        "eating",
+        "sleeping",
+        "singing"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_27",
+    "topic": "Set 27",
+    "text": "My sister enjoys playing the  [0] every afternoon.\nI usually read a  [1] before going to sleep.\nMy father likes to collect old  [2] .\nWe usually listen to  [3] while doing housework.\nPainting helps me feel very  [4] .",
+    "options": [
+      [
+        "computer",
+        "football",
+        "piano"
+      ],
+      [
+        "recipe",
+        "novel",
+        "map"
+      ],
+      [
+        "plates",
+        "shoes",
+        "stamps"
+      ],
+      [
+        "music",
+        "traffic",
+        "silence"
+      ],
+      [
+        "tired",
+        "relaxed",
+        "nervous"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_28",
+    "topic": "Set 28",
+    "text": "We usually go  [0] in the mountains on weekends.\nMy family likes to have a  [1] in the park.\nOn Saturdays, I usually clean my  [2] .\nWe usually watch a  [3] together on Friday night.\nMy friends and I like to meet at the  [4] on weekends.",
+    "options": [
+      [
+        "sleeping",
+        "hiking",
+        "working"
+      ],
+      [
+        "exam",
+        "picnic",
+        "meeting"
+      ],
+      [
+        "office",
+        "room",
+        "garden"
+      ],
+      [
+        "meeting",
+        "movie",
+        "lecture"
+      ],
+      [
+        "cafe",
+        "office",
+        "hospital"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_29",
+    "topic": "Set 29",
+    "text": "Birds usually sing early in the  [0] .\nThe forest near our town is very  [1] .\nWe usually go camping near the  [2] in summer.\nBees usually fly around the colorful  [3] in the garden.\nThe mountain air always feels quite  [4] .",
+    "options": [
+      [
+        "storm",
+        "morning",
+        "night"
+      ],
+      [
+        "peaceful",
+        "loud",
+        "crowded"
+      ],
+      [
+        "airport",
+        "mall",
+        "lake"
+      ],
+      [
+        "books",
+        "cars",
+        "flowers"
+      ],
+      [
+        "fresh",
+        "heavy",
+        "dirty"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      2,
+      2,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_30",
+    "topic": "Set 30",
+    "text": "I usually  [0] the living room every weekend.\nMy brother always takes out the  [1] every evening.\nWe usually do the  [2] on Sunday mornings.\nMy mother likes to keep the kitchen very  [3] .\nI usually water the  [4] every morning.",
+    "options": [
+      [
+        "cook",
+        "vacuum",
+        "paint"
+      ],
+      [
+        "trash",
+        "furniture",
+        "carpet"
+      ],
+      [
+        "laundry",
+        "shopping",
+        "homework"
+      ],
+      [
+        "messy",
+        "dark",
+        "tidy"
+      ],
+      [
+        "windows",
+        "plants",
+        "furniture"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_31",
+    "topic": "Set 31",
+    "text": "My family usually travels  [0] once a year.\nBefore any trip, I always check the  [1] forecast.\nWe usually pack our  [2] the night before a trip.\nMy father prefers to book flights  [3] .\nTravelling by train is usually quite  [4] .",
+    "options": [
+      [
+        "backwards",
+        "underground",
+        "abroad"
+      ],
+      [
+        "weather",
+        "homework",
+        "furniture"
+      ],
+      [
+        "suitcase",
+        "kitchen",
+        "garden"
+      ],
+      [
+        "underground",
+        "loudly",
+        "online"
+      ],
+      [
+        "expensive",
+        "relaxing",
+        "dangerous"
+      ]
+    ],
+    "answers": [
+      2,
+      0,
+      0,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_32",
+    "topic": "Set 32",
+    "text": "My cousin plays the  [0] in a local band.\nThis museum usually displays modern  [1] .\nI usually sing in the school  [2] on Fridays.\nClassical music always makes me feel quite  [3] .\nMy sister takes dance  [4] every Tuesday.",
+    "options": [
+      [
+        "chess",
+        "football",
+        "guitar"
+      ],
+      [
+        "vegetables",
+        "paintings",
+        "furniture"
+      ],
+      [
+        "choir",
+        "garden",
+        "kitchen"
+      ],
+      [
+        "angry",
+        "calm",
+        "hungry"
+      ],
+      [
+        "lessons",
+        "medicine",
+        "exams"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_33",
+    "topic": "Set 33",
+    "text": "My grandmother usually bakes  [0] every weekend.\nThis recipe needs a pinch of  [1] .\nWe usually preheat the  [2] before baking a cake.\nI always add fresh  [3] to my salads.\nThis cake usually takes an hour to  [4] .",
+    "options": [
+      [
+        "bread",
+        "shoes",
+        "furniture"
+      ],
+      [
+        "paint",
+        "salt",
+        "sand"
+      ],
+      [
+        "fridge",
+        "garden",
+        "oven"
+      ],
+      [
+        "rocks",
+        "paper",
+        "herbs"
+      ],
+      [
+        "bake",
+        "melt",
+        "freeze"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      2,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_34",
+    "topic": "Set 34",
+    "text": "My mother grows several  [0] in our backyard.\nThese flowers need plenty of  [1] to grow well.\nI usually water the garden every  [2] .\nOur garden always looks quite  [3] in spring.\nMy father likes to cut the  [4] every month.",
+    "options": [
+      [
+        "rocks",
+        "animals",
+        "vegetables"
+      ],
+      [
+        "snow",
+        "sunlight",
+        "shade"
+      ],
+      [
+        "winter",
+        "morning",
+        "midnight"
+      ],
+      [
+        "dusty",
+        "colorful",
+        "empty"
+      ],
+      [
+        "grass",
+        "carpets",
+        "windows"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_35",
+    "topic": "Set 35",
+    "text": "I usually study at the  [0] after school.\nMy classmates and I often  [1] our lessons together.\nThis library usually stays open until  [2] in the evening.\nI always take careful  [3] during lectures.\nGroup study usually helps me stay  [4] .",
+    "options": [
+      [
+        "stadium",
+        "library",
+        "cinema"
+      ],
+      [
+        "review",
+        "skip",
+        "forget"
+      ],
+      [
+        "nine",
+        "noon",
+        "dawn"
+      ],
+      [
+        "naps",
+        "notes",
+        "photos"
+      ],
+      [
+        "tired",
+        "bored",
+        "focused"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_36",
+    "topic": "Set 36",
+    "text": "My friends and I usually meet at the  [0] after class.\nI always  [1] my friends when they need help.\nWe usually chat about our  [2] for the weekend.\nMy best friend always tells the truth and never  [3] .\nWe usually celebrate birthdays with a small  [4] .",
+    "options": [
+      [
+        "cafe",
+        "airport",
+        "hospital"
+      ],
+      [
+        "ignore",
+        "support",
+        "avoid"
+      ],
+      [
+        "enemies",
+        "plans",
+        "chores"
+      ],
+      [
+        "lies",
+        "helps",
+        "smiles"
+      ],
+      [
+        "party",
+        "meeting",
+        "exam"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_37",
+    "topic": "Set 37",
+    "text": "This restaurant usually serves the best  [0] in town.\nWe usually book a  [1] in advance on weekends.\nThe waiter always brings the  [2] first.\nThis cafe usually plays soft  [3] in the background.\nI always leave a small  [4] for good service.",
+    "options": [
+      [
+        "furniture",
+        "clothes",
+        "seafood"
+      ],
+      [
+        "ticket",
+        "flight",
+        "table"
+      ],
+      [
+        "bill",
+        "menu",
+        "receipt"
+      ],
+      [
+        "thunder",
+        "music",
+        "traffic"
+      ],
+      [
+        "tip",
+        "gift",
+        "note"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      1,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_38",
+    "topic": "Set 38",
+    "text": "I usually save some  [0] every month.\nMy parents always compare  [1] before buying anything expensive.\nThis store usually offers free  [2] for large orders.\nI always keep my  [3] just in case I need a refund.\nWe usually pay our bills  [4] .",
+    "options": [
+      [
+        "clothes",
+        "food",
+        "money"
+      ],
+      [
+        "colors",
+        "shapes",
+        "prices"
+      ],
+      [
+        "delivery",
+        "punishment",
+        "noise"
+      ],
+      [
+        "receipts",
+        "shoes",
+        "keys"
+      ],
+      [
+        "loudly",
+        "online",
+        "underground"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      0,
+      0,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_39",
+    "topic": "Set 39",
+    "text": "We always  [0] paper and plastic at home.\nOur town usually collects the  [1] every Tuesday.\nTurning off the lights helps save  [2] .\nMany people now prefer cloth  [3] instead of plastic ones.\nPlanting more trees helps keep the air  [4] .",
+    "options": [
+      [
+        "waste",
+        "burn",
+        "recycle"
+      ],
+      [
+        "vehicles",
+        "trash",
+        "furniture"
+      ],
+      [
+        "energy",
+        "paper",
+        "noise"
+      ],
+      [
+        "phones",
+        "bags",
+        "cars"
+      ],
+      [
+        "dirty",
+        "heavy",
+        "clean"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_40",
+    "topic": "Set 40",
+    "text": "I usually go to  [0] around ten o'clock.\nMy brother always takes a short  [1] after lunch.\nA quiet room usually helps me sleep quite  [2] .\nI always read a little before  [3] .\nToo much coffee usually keeps me  [4] at night.",
+    "options": [
+      [
+        "school",
+        "work",
+        "sleep"
+      ],
+      [
+        "walk",
+        "nap",
+        "shower"
+      ],
+      [
+        "loudly",
+        "well",
+        "badly"
+      ],
+      [
+        "lunchtime",
+        "breakfast",
+        "bedtime"
+      ],
+      [
+        "calm",
+        "awake",
+        "asleep"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_41",
+    "topic": "Set 41",
+    "text": "I usually call my parents  [0] to check on them.\nWe often send each other funny  [1] during the day.\nMy grandmother prefers to talk on the  [2] rather than text.\nI always reply to important  [3] right away.\nWe usually keep our conversations quite  [4] during work hours.",
+    "options": [
+      [
+        "daily",
+        "hourly",
+        "yearly"
+      ],
+      [
+        "bills",
+        "messages",
+        "reports"
+      ],
+      [
+        "bridge",
+        "roof",
+        "phone"
+      ],
+      [
+        "movies",
+        "emails",
+        "songs"
+      ],
+      [
+        "short",
+        "silent",
+        "endless"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_42",
+    "topic": "Set 42",
+    "text": "She always adds a little  [0] to season the soup.\nThe bakery down the street sells fresh  [1] every morning.\nI usually  [2] the eggs for about ten minutes.\nThis recipe needs two cups of  [3] and one egg.\nThe soup tastes a bit too  [4] for my liking.",
+    "options": [
+      [
+        "salt",
+        "sugar",
+        "oil"
+      ],
+      [
+        "bread",
+        "shoes",
+        "paper"
+      ],
+      [
+        "boil",
+        "paint",
+        "drive"
+      ],
+      [
+        "flour",
+        "stone",
+        "paper"
+      ],
+      [
+        "salty",
+        "loud",
+        "heavy"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_43",
+    "topic": "Set 43",
+    "text": "It looks like it might  [0] later this afternoon.\nRemember to bring an  [1] if you go outside.\nThe weather has been really  [2] these past few days.\nA cold  [3] blew through the town last night.\nWe canceled the picnic because of the sudden  [4] .",
+    "options": [
+      [
+        "rain",
+        "sing",
+        "cook"
+      ],
+      [
+        "umbrella",
+        "oven",
+        "pillow"
+      ],
+      [
+        "humid",
+        "quiet",
+        "cheap"
+      ],
+      [
+        "wind",
+        "song",
+        "bill"
+      ],
+      [
+        "storm",
+        "concert",
+        "exam"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_44",
+    "topic": "Set 44",
+    "text": "I need to  [0] these shoes because they don't fit.\nThe store is offering a big  [1] this weekend.\nCould you check if this jacket comes in a smaller  [2] ?\nI paid in  [3] instead of using my card.\nThe cashier gave me the wrong  [4] by mistake.",
+    "options": [
+      [
+        "return",
+        "cook",
+        "sleep"
+      ],
+      [
+        "discount",
+        "lecture",
+        "recipe"
+      ],
+      [
+        "size",
+        "flavor",
+        "weight"
+      ],
+      [
+        "cash",
+        "paint",
+        "sand"
+      ],
+      [
+        "receipt",
+        "umbrella",
+        "engine"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  },
+  {
+    "id": "part1_45",
+    "topic": "Set 45",
+    "text": "I try to  [0] at least three times a week.\nDrinking enough  [1] keeps you healthy.\nMy doctor advised me to get more  [2] after the surgery.\nJogging every morning makes me feel more  [3] .\nHe pulled a muscle while  [4] before the race.",
+    "options": [
+      [
+        "exercise",
+        "argue",
+        "paint"
+      ],
+      [
+        "water",
+        "oil",
+        "ink"
+      ],
+      [
+        "rest",
+        "noise",
+        "debt"
+      ],
+      [
+        "energetic",
+        "forgetful",
+        "nervous"
+      ],
+      [
+        "stretching",
+        "cooking",
+        "reading"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": ""
+  }
+]
