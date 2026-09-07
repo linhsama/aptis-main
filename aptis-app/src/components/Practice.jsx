@@ -91,8 +91,8 @@ const Practice = () => {
   const [showSolutionModal, setShowSolutionModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
 
-  const isRandom = settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
-  const isSequential = !settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+  const isRandom = (searchParams.get('random') === 'true' || searchParams.get('mode') === 'random' || settings.randomizeQuestions) && !isStudy && !isWeak && !isSlow;
+  const isSequential = !isRandom && !isStudy && !isWeak && !isSlow;
 
   const handleSelectMode = (modeName) => {
     // Reset trạng thái bài làm phiên hiện tại để có thể kéo thả thực hành lại
@@ -100,7 +100,7 @@ const Practice = () => {
     setAllScores({});
     setAllAttempted({});
     setAllItems({});
-    setQuestionStatuses({});
+    setQuestionStatuses(prefilledStatuses);
     setPrevQuestionKey('');
     setCurrentQuestionId(null);
     setStartTime(Date.now());
@@ -111,7 +111,7 @@ const Practice = () => {
       navigate('?');
     } else if (modeName === 'random') {
       updateSetting('randomizeQuestions', true);
-      navigate('?');
+      navigate('?random=true');
     } else if (modeName === 'weak') {
       updateSetting('randomizeQuestions', false);
       navigate('?weak=true');
@@ -184,11 +184,11 @@ const Practice = () => {
       const filtered = allValidQuestions.filter(q => slowIds.includes(q.id));
       return filtered.length > 0 ? filtered : allValidQuestions;
     }
-    if (settings.randomizeQuestions) {
+    if (isRandom) {
       return shuffleArray(allValidQuestions);
     }
     return allValidQuestions;
-  }, [isWeak, isSlow, settings.randomizeQuestions, allValidQuestions, resetCount]);
+  }, [isWeak, isSlow, isRandom, allValidQuestions, resetCount]);
 
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
 
@@ -553,6 +553,8 @@ const Practice = () => {
             statusClass = questionStatuses[q.id] || (allScores[q.id] === q.sentences.length ? 'correct' : 'incorrect');
           } else if (isAttempted) {
             statusClass = 'attempted';
+          } else if (questionStatuses[q.id] || prefilledStatuses[q.id]) {
+            statusClass = questionStatuses[q.id] || prefilledStatuses[q.id];
           }
 
           if (isCurrent) {

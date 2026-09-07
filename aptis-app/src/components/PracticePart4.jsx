@@ -51,8 +51,8 @@ const PracticePart4 = () => {
   const [resetCount, setResetCount] = useState(0);
   const [showResultPopup, setShowResultPopup] = useState(false);
 
-  const isRandom = settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
-  const isSequential = !settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+  const isRandom = (searchParams.get('random') === 'true' || searchParams.get('mode') === 'random' || settings.randomizeQuestions) && !isStudy && !isWeak && !isSlow;
+  const isSequential = !isRandom && !isStudy && !isWeak && !isSlow;
 
   const handleSelectMode = (modeName) => {
     // Reset session states
@@ -60,7 +60,7 @@ const PracticePart4 = () => {
     setAllChecked({});
     setAllScores({});
     setAllAttempted({});
-    setQuestionStatuses({});
+    setQuestionStatuses(prefilledStatuses);
     setCurrentQuestionId(null);
     setShowResultPopup(false);
     setStartTime(Date.now());
@@ -71,7 +71,7 @@ const PracticePart4 = () => {
       navigate('?');
     } else if (modeName === 'random') {
       updateSetting('randomizeQuestions', true);
-      navigate('?');
+      navigate('?random=true');
     } else if (modeName === 'weak') {
       updateSetting('randomizeQuestions', false);
       navigate('?weak=true');
@@ -113,7 +113,7 @@ const PracticePart4 = () => {
       if (!isPerfect) {
         weak.push(id);
         prefilled[id] = 'weak';
-      } else if (s.latestTimeSpent > 240) {
+      } else if (s.latestTimeSpent > 10) {
         slow.push(id);
         prefilled[id] = 'slow';
       } else if (s.perfectCount >= 2) {
@@ -140,11 +140,11 @@ const PracticePart4 = () => {
       const filtered = allValidQuestions.filter(q => slowIds.includes(q.id));
       return filtered.length > 0 ? filtered : allValidQuestions;
     }
-    if (settings.randomizeQuestions) {
+    if (isRandom) {
       return shuffleArray(allValidQuestions);
     }
     return allValidQuestions;
-  }, [isWeak, isSlow, settings.randomizeQuestions, allValidQuestions, resetCount]);
+  }, [isWeak, isSlow, isRandom, allValidQuestions, resetCount]);
 
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
 
@@ -506,6 +506,8 @@ const PracticePart4 = () => {
             statusClass = questionStatuses[q.id] || (allScores[q.id] === q.paragraphs.length ? 'correct' : 'incorrect');
           } else if (isAttempted) {
             statusClass = 'attempted';
+          } else if (questionStatuses[q.id] || prefilledStatuses[q.id]) {
+            statusClass = questionStatuses[q.id] || prefilledStatuses[q.id];
           }
 
           if (isCurrent) {

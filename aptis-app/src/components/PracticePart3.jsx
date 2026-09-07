@@ -51,8 +51,8 @@ const PracticePart3 = () => {
   const [resetCount, setResetCount] = useState(0);
   const [showResultPopup, setShowResultPopup] = useState(false);
 
-  const isRandom = settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
-  const isSequential = !settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+  const isRandom = (searchParams.get('random') === 'true' || searchParams.get('mode') === 'random' || settings.randomizeQuestions) && !isStudy && !isWeak && !isSlow;
+  const isSequential = !isRandom && !isStudy && !isWeak && !isSlow;
 
   const handleSelectMode = (modeName) => {
     // Reset session states
@@ -60,7 +60,7 @@ const PracticePart3 = () => {
     setAllChecked({});
     setAllScores({});
     setAllAttempted({});
-    setQuestionStatuses({});
+    setQuestionStatuses(prefilledStatuses);
     setCurrentQuestionId(null);
     setShowResultPopup(false);
     setStartTime(Date.now());
@@ -71,7 +71,7 @@ const PracticePart3 = () => {
       navigate('?');
     } else if (modeName === 'random') {
       updateSetting('randomizeQuestions', true);
-      navigate('?');
+      navigate('?random=true');
     } else if (modeName === 'weak') {
       updateSetting('randomizeQuestions', false);
       navigate('?weak=true');
@@ -113,7 +113,7 @@ const PracticePart3 = () => {
       if (!isPerfect) {
         weak.push(id);
         prefilled[id] = 'weak';
-      } else if (s.latestTimeSpent > 180) {
+      } else if (s.latestTimeSpent > 10) {
         slow.push(id);
         prefilled[id] = 'slow';
       } else if (s.perfectCount >= 2) {
@@ -128,9 +128,10 @@ const PracticePart3 = () => {
   }, [historyVersion]);
 
   const allValidQuestions = useMemo(() => {
-    return part3Data.filter(q => q.questions && q.questions.length > 0);
+    return part3Data.filter(q => q.peopleTexts && q.peopleTexts.length > 0);
   }, []);
 
+  // Stable activeQuestions for this practice session
   const activeQuestions = useMemo(() => {
     if (isWeak) {
       const filtered = allValidQuestions.filter(q => weakIds.includes(q.id));
@@ -140,11 +141,11 @@ const PracticePart3 = () => {
       const filtered = allValidQuestions.filter(q => slowIds.includes(q.id));
       return filtered.length > 0 ? filtered : allValidQuestions;
     }
-    if (settings.randomizeQuestions) {
+    if (isRandom) {
       return shuffleArray(allValidQuestions);
     }
     return allValidQuestions;
-  }, [isWeak, isSlow, settings.randomizeQuestions, allValidQuestions, resetCount]);
+  }, [isWeak, isSlow, isRandom, allValidQuestions, resetCount]);
 
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
 
@@ -501,6 +502,8 @@ const PracticePart3 = () => {
             statusClass = questionStatuses[q.id] || (allScores[q.id] === q.questions.length ? 'correct' : 'incorrect');
           } else if (isAttempted) {
             statusClass = 'attempted';
+          } else if (questionStatuses[q.id] || prefilledStatuses[q.id]) {
+            statusClass = questionStatuses[q.id] || prefilledStatuses[q.id];
           }
 
           if (isCurrent) {

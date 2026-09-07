@@ -53,15 +53,16 @@ const ListeningPart4 = () => {
   const [resetCount, setResetCount] = useState(0);
   const [showResultPopup, setShowResultPopup] = useState(false);
 
-  const isRandom = settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
-  const isSequential = !settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+  const isRandom = (searchParams.get('random') === 'true' || searchParams.get('mode') === 'random' || settings.randomizeQuestions) && !isStudy && !isWeak && !isSlow;
+  const isSequential = !isRandom && !isStudy && !isWeak && !isSlow;
 
   const handleSelectMode = (modeName) => {
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
     setAllSelectedAnswers({});
     setAllChecked({});
     setAllScores({});
     setAllAttempted({});
-    setQuestionStatuses({});
+    setQuestionStatuses(prefilledStatuses);
     setCurrentQuestionId(null);
     setShowResultPopup(false);
     setStartTime(Date.now());
@@ -72,7 +73,7 @@ const ListeningPart4 = () => {
       navigate('?');
     } else if (modeName === 'random') {
       updateSetting('randomizeQuestions', true);
-      navigate('?');
+      navigate('?random=true');
     } else if (modeName === 'weak') {
       updateSetting('randomizeQuestions', false);
       navigate('?weak=true');
@@ -141,11 +142,11 @@ const ListeningPart4 = () => {
       const filtered = allValidQuestions.filter(q => slowIds.includes(q.id));
       return filtered.length > 0 ? filtered : allValidQuestions;
     }
-    if (settings.randomizeQuestions) {
+    if (isRandom) {
       return shuffleArray(allValidQuestions);
     }
     return allValidQuestions;
-  }, [isWeak, isSlow, settings.randomizeQuestions, allValidQuestions, resetCount]);
+  }, [isWeak, isSlow, isRandom, allValidQuestions, resetCount]);
 
   const [currentQuestionId, setCurrentQuestionId] = useState(null);
 
@@ -296,6 +297,7 @@ const ListeningPart4 = () => {
 
   const jumpToQuestion = (index) => {
     if (index >= 0 && index < activeQuestions.length) {
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
       setCurrentQuestionId(activeQuestions[index].id);
       setStartTime(Date.now());
     }
@@ -486,6 +488,8 @@ const ListeningPart4 = () => {
             statusClass = questionStatuses[q.id] || (allScores[q.id] === 2 ? 'correct' : 'incorrect');
           } else if (isAttempted) {
             statusClass = 'attempted';
+          } else if (questionStatuses[q.id] || prefilledStatuses[q.id]) {
+            statusClass = questionStatuses[q.id] || prefilledStatuses[q.id];
           }
 
           if (isCurrent) {
