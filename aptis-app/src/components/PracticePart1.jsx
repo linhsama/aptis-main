@@ -643,20 +643,10 @@ const PracticePart1 = () => {
 
                       <span>{line.afterText}</span>
 
-                      {/* Result feedback icon tag */}
-                      {isChecked && (
-                        <span style={{ marginLeft: '0.5rem', display: 'inline-flex', verticalAlign: 'middle' }}>
-                          {isCorrect ? (
-                            <span className="feedback-tag correct">
-                              <Check size={12} />
-                              <span>Chính xác</span>
-                            </span>
-                          ) : (
-                            <span className="feedback-tag incorrect">
-                              <X size={12} />
-                              <span>Đáp án: {line.correctAnswerStr}</span>
-                            </span>
-                          )}
+                      {/* Result feedback tag when incorrect */}
+                      {isChecked && !isCorrect && (
+                        <span style={{ marginLeft: '0.5rem', fontSize: '0.8rem', fontWeight: 600, color: 'var(--danger)' }}>
+                          (Đáp án đúng: {line.correctAnswerStr})
                         </span>
                       )}
                     </div>

@@ -259,7 +259,17 @@ const ListeningPart3 = () => {
       localStorage.setItem('aptis_listening_history', JSON.stringify(history));
       setHistoryVersion(v => v + 1);
     } catch (e) {}
-  }, [currentQuestion, currentAnswers, startTime]);
+
+    if (isPerfect) {
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      if (currentIndex < activeQuestions.length - 1) {
+        setCurrentQuestionId(activeQuestions[currentIndex + 1].id);
+        setStartTime(Date.now());
+      } else {
+        setShowResultPopup(true);
+      }
+    }
+  }, [currentQuestion, currentAnswers, startTime, currentIndex, activeQuestions]);
 
   const handleNext = () => {
     if (currentIndex < activeQuestions.length - 1) {
@@ -286,26 +296,60 @@ const ListeningPart3 = () => {
 
   const handleResetCurrent = () => {
     if (!currentQuestion) return;
-    setAllSelectedAnswers(prev => ({ ...prev, [currentQuestion.id]: {} }));
-    setAllChecked(prev => ({ ...prev, [currentQuestion.id]: false }));
-    setAllScores(prev => ({ ...prev, [currentQuestion.id]: undefined }));
-    setAllAttempted(prev => ({ ...prev, [currentQuestion.id]: false }));
-    setQuestionStatuses(prev => ({ ...prev, [currentQuestion.id]: undefined }));
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    setAllSelectedAnswers(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllChecked(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllScores(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllAttempted(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setQuestionStatuses(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
     setStartTime(Date.now());
+    setResetCount(c => c + 1);
   };
 
   const handleResetAll = () => {
-    if (window.confirm('Bạn có chắc chắn muốn làm lại từ đầu không?')) {
-      setAllSelectedAnswers({});
-      setAllChecked({});
-      setAllScores({});
-      setAllAttempted({});
-      setQuestionStatuses({});
-      setCurrentQuestionId(activeQuestions[0]?.id);
-      setShowResultPopup(false);
-      setStartTime(Date.now());
-      setResetCount(c => c + 1);
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
+    try {
+      const historyString = localStorage.getItem('aptis_listening_history');
+      if (historyString) {
+        const history = JSON.parse(historyString);
+        const part3Ids = new Set(allValidQuestions.map(q => q.id));
+        const updated = history.filter(h => h.part !== 'part-3' && !part3Ids.has(h.id));
+        localStorage.setItem('aptis_listening_history', JSON.stringify(updated));
+      }
+    } catch (e) {
+      console.error('Failed to clear part 3 listening history', e);
     }
+
+    setAllSelectedAnswers({});
+    setAllChecked({});
+    setAllScores({});
+    setAllAttempted({});
+    setQuestionStatuses({});
+    setCurrentQuestionId(allValidQuestions[0]?.id || activeQuestions[0]?.id);
+    setShowResultPopup(false);
+    setStartTime(Date.now());
+    setResetCount(c => c + 1);
+    navigate('?');
   };
 
   const totalAttempted = Object.keys(allChecked).filter(k => allChecked[k]).length;
@@ -476,6 +520,7 @@ const ListeningPart3 = () => {
 
           {/* Audio Player */}
           <AudioPlayerBar
+            key={`${currentQuestion.id}-${resetCount}`}
             audioUrl={currentQuestion.audioUrl}
             transcript={currentQuestion.transcript}
             maxPlays={2}
