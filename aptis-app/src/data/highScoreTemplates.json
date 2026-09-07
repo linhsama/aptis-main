@@ -1,0 +1,213 @@
+{
+  "guidelines": {
+    "antiPlagiarism": "Giám khảo Aptis ESOL chấm điểm cao khi bạn sử dụng cấu trúc ngữ pháp đa dạng và diễn đạt tự nhiên theo đúng ngữ cảnh câu hỏi của đề bài, thay vì chép thuộc lòng một bài mẫu cứng nhắc. Hãy dùng khung tư duy dưới đây để phát triển ý kiến thực tế của chính bạn!",
+    "formula": "Khung tư duy = [Trả lời trực tiếp vào trọng tâm] + [Giải thích lý do cụ thể] + [Dẫn chứng trải nghiệm cá nhân / Đề xuất giải pháp]"
+  },
+  "writing": {
+    "part1": {
+      "name": "Part 1: Form Filling (1 - 5 words)",
+      "tips": "Điền câu trả lời ngắn gọn (1 - 5 từ), chú ý chính tả và ngữ pháp phù hợp ngữ cảnh của form đăng ký câu lạc bộ.",
+      "templates": [
+        {
+          "name": "Phong cách 1: Sở thích & Thói quen cá nhân",
+          "structure": "Động từ V-ing + Tân ngữ / Trạng từ thời gian",
+          "scaffold": "Playing football with my colleagues on weekends",
+          "variations": [
+            "Reading sci-fi novels before sleeping",
+            "Cooking traditional dishes for my family",
+            "Taking photographs during city tours"
+          ],
+          "connectors": ["on weekends", "in my leisure time", "regularly every morning"]
+        },
+        {
+          "name": "Phong cách 2: Nghề nghiệp & Tình trạng",
+          "structure": "Cụm danh từ súc tích",
+          "scaffold": "An undergraduate economics student",
+          "variations": [
+            "Senior web designer at a tech firm",
+            "High school teacher in Hanoi",
+            "Freelance content creator"
+          ],
+          "connectors": ["working full-time as...", "currently studying...", "based in..."]
+        }
+      ]
+    },
+    "part2": {
+      "name": "Part 2: Short Form Text (20 - 30 words)",
+      "tips": "Viết 2 - 3 câu súc tích: Nêu lý do tham gia thật lòng -> Kể trải nghiệm/sở thích -> Mong đợi giao lưu.",
+      "templates": [
+        {
+          "name": "Khung 1: Đam mê & Mong muốn kết nối (Personal Passion)",
+          "structure": "[Lý do tham gia] + [Thói quen / Kỹ năng sẵn có] + [Mục tiêu giao lưu]",
+          "scaffold": "I have been really keen on [chủ đề câu lạc bộ] for several years. In my free time, I frequently enjoy [hoạt động cụ thể]. I hope to exchange valuable experience and make new friends here.",
+          "variations": [
+            "I decided to register because I want to enhance my practical [chủ đề] skills. I often spend my evenings [hoạt động], and joining this club will provide a great learning environment.",
+            "As an enthusiastic amateur in [chủ đề], I am eager to participate in club workshops and meet people who share the same interests."
+          ],
+          "connectors": [
+            "I have been really keen on...",
+            "In my free time, I frequently enjoy...",
+            "I hope to exchange valuable experience with...",
+            "It will provide a great opportunity to..."
+          ]
+        },
+        {
+          "name": "Khung 2: Phát triển kỹ năng & Thử thách mới (Skill Development)",
+          "structure": "[Nhu cầu học hỏi] + [Kế hoạch tham gia] + [Đóng góp]",
+          "scaffold": "Although I am still a beginner in [chủ đề], I am deeply motivated to learn. I plan to attend every weekly session to improve my skills and actively support club activities.",
+          "variations": [
+            "Joining this community is a wonderful chance for me to challenge myself in [chủ đề]. I look forward to contributing actively to upcoming club projects."
+          ],
+          "connectors": [
+            "Although I am still a beginner in...",
+            "I am deeply motivated to learn...",
+            "I look forward to contributing actively to..."
+          ]
+        }
+      ]
+    },
+    "part3": {
+      "name": "Part 3: Social Club Chat (30 - 40 words / câu)",
+      "tips": "Tương tác tự nhiên như đang nhắn tin với bạn trong nhóm: Bày tỏ quan điểm riêng -> Nêu ví dụ/câu chuyện thật -> Đặt câu hỏi mở.",
+      "templates": [
+        {
+          "name": "Khung 1: Trả lời quan điểm + Kể trải nghiệm thật (Conversational & Engaging)",
+          "structure": "[Bày tỏ cảm nghĩ riêng] + [Kể trải nghiệm hoặc lý do thực tế] + [Hỏi ngược lại bạn chat]",
+          "scaffold": "Personally speaking, I believe [nêu quan điểm của bạn]. Last month, when I [kể một tình huống thực tế của bạn], it really helped me realize that [bài học rút ra]. Have you ever been in a similar situation?",
+          "variations": [
+            "From my point of view, [quan điểm]. In my daily routine, I usually [hành động thực tế] because it saves both time and money. What do you usually prefer doing?",
+            "I totally understand your point, but in my experience, [quan điểm khác biệt]. Taking [ví dụ thực tế] as an instance, it proved much more convenient. What are your thoughts?"
+          ],
+          "connectors": [
+            "Personally speaking, I believe...",
+            "From my point of view,...",
+            "In my daily routine, I usually...",
+            "Taking ... as an instance,...",
+            "Have you ever experienced something similar?"
+          ]
+        },
+        {
+          "name": "Khung 2: Đồng tình & Đề xuất sáng kiến (Agreement & Constructive Idea)",
+          "structure": "[Đồng ý với thành viên] + [Bổ sung lợi ích] + [Đề xuất hành động]",
+          "scaffold": "I completely agree with you on this matter. Doing [hoạt động] not only boosts our creativity but also strengthens our teamwork. Perhaps we could organize a small session for this next Friday?",
+          "variations": [
+            "That sounds like a brilliant suggestion! It would definitely make our meetings more engaging and memorable. Shall we bring this idea up with the club president?"
+          ],
+          "connectors": [
+            "I completely agree with you on this matter.",
+            "Not only does it boost ..., but it also...",
+            "Perhaps we could organize a...",
+            "Shall we bring this idea up with...?"
+          ]
+        }
+      ]
+    },
+    "part4": {
+      "name": "Part 4: Email Writing (Informal ~50w & Formal 120-150w)",
+      "tips": "Phân biệt rõ giọng điệu: Email 1 thân mật (tự nhiên, cảm xúc) & Email 2 trang trọng (lịch sự, phân tích vấn đề & đề xuất 2 giải pháp cụ thể).",
+      "templates": [
+        {
+          "name": "Email 1 Cho Bạn (Informal - Tự nhiên, cảm xúc)",
+          "structure": "Chào hỏi thân mật -> Bộc lộ cảm xúc về thông báo CLB -> Kể ảnh hưởng tới bản thân -> Rủ gặp trao đổi",
+          "scaffold": "Hi [Tên bạn],\n\nDid you see the latest email from our club? I was quite shocked and upset to hear that [nội dung thông báo gây ảnh hưởng]. I had already prepared everything for our upcoming plan!\n\nAre you free this Saturday? Let's grab a coffee and talk about how we can deal with this.\n\nCatch up soon,\n[Tên của bạn]",
+          "variations": [
+            "Hey [Tên bạn],\n\nHope you're doing well. Have you heard about the club's new announcement regarding [vấn đề]? Frankly, I'm really disappointed because [lý do ảnh hưởng].\n\nWhy don't we get together tomorrow evening to brainstorm what we should do?\n\nTalk soon,\n[Tên của bạn]"
+          ],
+          "connectors": [
+            "Did you see the latest email from...",
+            "I was quite shocked and upset to hear that...",
+            "Frankly, I'm really disappointed because...",
+            "Why don't we get together to...",
+            "Catch up soon!"
+          ]
+        },
+        {
+          "name": "Email 2 Cho Ban Quản Trị (Formal - Trang trọng, lịch thiệp, xây dựng)",
+          "structure": "Lời chào -> Giới thiệu tư cách thành viên -> Mục đích viết thư -> Đồng cảm với quyết định nhưng nêu khó khăn thực tế -> Đề xuất 2 giải pháp -> Kết thư",
+          "scaffold": "Dear Club President,\n\nMy name is [Tên bạn], and I have been a committed member of our club for [thời gian, vd: over a year]. I am writing to share my feedback concerning the recent announcement about [vấn đề thay đổi/hủy bỏ].\n\nWhile I completely understand the practical difficulties that the committee is currently facing, I am concerned that this change might cause inconvenience for many members. Specifically, [nêu 1 khó khăn cụ thể cho thành viên].\n\nTo address this issue constructively, I would like to respectfully propose a couple of alternative solutions:\n1. Firstly, the club could consider [Giải pháp 1, vd: holding online meetings instead of canceling].\n2. Secondly, it might be beneficial to [Giải pháp 2, vd: adjusting the schedule to Sunday morning].\n\nI hope my suggestions prove helpful for the committee. Thank you very much for your time and consideration, and I look forward to your response.\n\nYours sincerely,\n[Tên bạn]",
+          "connectors": [
+            "I am writing to share my feedback concerning...",
+            "While I completely understand the difficulties that the committee is facing...",
+            "I am concerned that this change might cause inconvenience for...",
+            "To address this issue constructively, I would like to propose...",
+            "Firstly, the club could consider...",
+            "Secondly, it might be highly beneficial to...",
+            "I hope my suggestions prove helpful for the committee.",
+            "Yours sincerely,"
+          ]
+        }
+      ]
+    }
+  },
+  "speaking": {
+    "part1": {
+      "name": "Part 1: Personal Questions (30s)",
+      "tips": "Nói trôi chảy tự nhiên: Trả lời trực tiếp -> Nêu lý do cụ thể -> Kể ví dụ đời sống thực tế.",
+      "templates": [
+        {
+          "name": "Khung Trả lời Tự nhiên & Đời thường (Authentic & Conversational)",
+          "structure": "[Câu trả lời trực tiếp] + [Lý do / Thói quen thật] + [Cảm xúc]",
+          "scaffold": "Well, to be honest, I would definitely say that [câu trả lời của bạn]. The main reason is that [lý do thực tế]. For instance, on typical weekends, I often [kể việc bạn hay làm], which always makes me feel relaxed and energized.",
+          "connectors": [
+            "Well, to be honest, I would say...",
+            "The main reason is that...",
+            "For instance, on typical weekends...",
+            "It always makes me feel relaxed and energized."
+          ]
+        }
+      ]
+    },
+    "part2": {
+      "name": "Part 2: Describe Picture & Follow-ups (45s)",
+      "tips": "Miêu tả logic theo 3 bước: Bối cảnh chung -> Chi tiết hành động/con người -> Không khí & Cảm nhận.",
+      "templates": [
+        {
+          "name": "Khung 3 Bước Miêu Tả Tự Nhiên (3-Step Observation)",
+          "structure": "Step 1: Bối cảnh | Step 2: Chi tiết người/vật | Step 3: Suy đoán không khí",
+          "scaffold": "In this photograph, I can clearly see [bối cảnh chung]. In the foreground, there is [người/vật] who seems to be [hành động cụ thể]. Around them, the atmosphere looks [cảm giác/không khí, vd: lively / tranquil], which makes me think that [suy đoán cảm xúc].",
+          "connectors": [
+            "In this photograph, I can clearly see...",
+            "In the foreground / in the background...",
+            "They seem to be enjoying...",
+            "The overall atmosphere looks very lively and pleasant."
+          ]
+        }
+      ]
+    },
+    "part3": {
+      "name": "Part 3: Compare Two Pictures (45s)",
+      "tips": "So sánh điểm chung và tương phản 2 tranh một cách linh hoạt, không lặp từ.",
+      "templates": [
+        {
+          "name": "Khung So Sánh Tương Phản Linh Hoạt (Flexible Comparison)",
+          "structure": "Chủ đề chung -> Điểm khác biệt tranh 1 & tranh 2 -> Lựa chọn & Lý do của bạn",
+          "scaffold": "Both pictures relate to the theme of [chủ đề chung], but they depict very different approaches. The first picture shows [tranh 1], which gives off a feeling of [cảm xúc 1]. In contrast, the second image highlights [tranh 2]. Personally, I lean towards [lựa chọn của bạn] because it suits my lifestyle much better.",
+          "connectors": [
+            "Both pictures relate to the theme of...",
+            "However, they depict very different approaches.",
+            "In contrast, the second image highlights...",
+            "Personally, I lean towards ... because..."
+          ]
+        }
+      ]
+    },
+    "part4": {
+      "name": "Part 4: Personal Speech (2 phút)",
+      "tips": "Liên kết mạch lạc 3 câu hỏi của đề bài: Kể câu chuyện quá khứ -> Bày tỏ cảm xúc thật -> Nêu quan điểm tương lai.",
+      "templates": [
+        {
+          "name": "Khung Kể Chuyện & Thuyết Trình Mạch Lạc (Storytelling Flow)",
+          "structure": "Mở đầu -> Trả lời Q1 (Trải nghiệm) -> Trả lời Q2 (Cảm xúc lúc đó) -> Trả lời Q3 (Ý kiến/Bài học) -> Kết luận",
+          "scaffold": "I'd like to share an experience regarding this topic. Looking back at the first question, I remember [kể trải nghiệm cụ thể trong quá khứ]. At that moment, I felt truly [cảm xúc thật], mainly because [lý do]. As for the final point about [câu hỏi 3], in my view, [quan điểm cá nhân]. That memorable experience taught me [bài học ý nghĩa].",
+          "connectors": [
+            "I'd like to share an experience regarding this topic.",
+            "Looking back at the first question, I remember when...",
+            "At that moment, I felt truly...",
+            "As for the final point, in my view,...",
+            "That memorable occasion taught me a great lesson."
+          ]
+        }
+      ]
+    }
+  }
+}

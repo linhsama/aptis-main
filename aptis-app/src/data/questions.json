@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "question2Content_1",
+    "topic": "Films",
+    "sentences": [
+      "Old movies were very different from today\\'s movies.",
+      "That\\'s because the movies were only in black and white, and sometimes without sound.",
+      "Not only did these technological limitations exist, the movies were also low budget.",
+      "Due to the lack of money, actors also had few opportunities to earn money through acting.",
+      "Now things have changed, actors and filmmakers can earn thousands of dollars from film production."
+    ],
+    "translatedSentences": [
+      "Các bộ phim cũ rất khác so với các bộ phim ngày nay.",
+      "Đó là vì phim chỉ có màu đen trắng và đôi khi không có âm thanh.",
+      "Những hạn chế về công nghệ này không chỉ tồn tại mà các bộ phim còn có kinh phí thấp.",
+      "Vì thiếu tiền nên diễn viên cũng ít có cơ hội kiếm tiền qua diễn xuất.",
+      "Bây giờ mọi thứ đã thay đổi, các diễn viên và nhà làm phim có thể kiếm được hàng ngàn đô la từ việc sản xuất phim."
+    ],
+    "keywords": [
+      "through",
+      "filmmakers",
+      "sometimes",
+      "production",
+      "movies",
+      "because",
+      "technological",
+      "different",
+      "limitations",
+      "opportunities"
+    ]
+  },
+  {
+    "id": "question2Content_2",
+    "topic": "Weekend activities",
+    "sentences": [
+      "It was held on Saturday morning, there was a 10 km race for adults.",
+      "There were 60 participants, in which Ms. Kamus kept the fastest speed and won.",
+      "After she received the prize, the following time was for children\\'s activities.",
+      "Activities including football, swimming, skipping rope, and the children played together very happily.",
+      "After playing, the children were very hungry and ate with their parents."
+    ],
+    "translatedSentences": [
+      "Nó được tổ chức vào sáng thứ Bảy, có cuộc đua 10 km dành cho người lớn.",
+      "Có 60 người tham gia, trong đó cô Kamus giữ tốc độ nhanh nhất và giành chiến thắng.",
+      "Sau khi cô nhận giải, thời gian tiếp theo là hoạt động dành cho thiếu nhi.",
+      "Các hoạt động bao gồm bóng đá, bơi lội, nhảy dây, và những đứa trẻ đã chơi cùng nhau rất vui vẻ.",
+      "Sau khi chơi, những đứa trẻ rất đói và ăn cùng với bố mẹ."
+    ],
+    "keywords": [
+      "children",
+      "morning",
+      "activities",
+      "saturday",
+      "including",
+      "participants",
+      "fastest",
+      "following",
+      "playing"
+    ]
+  },
+  {
+    "id": "question2Content_3",
+    "topic": "The famous singer",
+    "sentences": [
+      "He is a famous singer who is loved by many fans.",
+      "At the age of fifteen, he studied music at a special school.",
+      "Before becoming famous, he had to practice very hard every day.",
+      "With his unique style and clothes, he soon attracted attention.",
+      "Thanks to his talent and personality, he became well-known to a large audience."
+    ],
+    "translatedSentences": [
+      "Anh là ca sĩ nổi tiếng được nhiều người hâm mộ yêu mến.",
+      "Năm mười lăm tuổi, anh học âm nhạc tại một trường học đặc biệt.",
+      "Trước khi nổi tiếng, anh phải luyện tập rất chăm chỉ mỗi ngày.",
+      "Với phong cách và trang phục độc đáo, anh sớm thu hút sự chú ý.",
+      "Nhờ tài năng và tính cách của mình, anh ấy đã trở nên nổi tiếng với một lượng lớn khán giả."
+    ],
+    "keywords": [
+      "becoming",
+      "attention",
+      "studied",
+      "practice",
+      "famous",
+      "audience",
+      "attracted",
+      "fifteen",
+      "personality",
+      "singer"
+    ]
+  },
+  {
+    "id": "question2Content_4",
+    "topic": "Family sports day",
+    "sentences": [
+      "It took place on Sunday morning in the park, there was a race for adults.",
+      "Sixty people took part, and among them, Ms Kamus kept the fastest pace and won the race.",
+      "After she got her prize, the next part was for children's activities.",
+      "The activities were football, swimming, skipping, and more, and the kids had fun playing together.",
+      "After the games, the kids were really hungry and ate with their parents."
+    ],
+    "translatedSentences": [
+      "Nó diễn ra vào sáng chủ nhật trong công viên, có một cuộc đua dành cho người lớn.",
+      "Sáu mươi người đã tham gia và trong số đó, cô Kamus đã giữ tốc độ nhanh nhất và giành chiến thắng trong cuộc đua.",
+      "Sau khi cô nhận được giải thưởng, phần tiếp theo là các hoạt động dành cho trẻ em.",
+      "Các hoạt động như bóng đá, bơi lội, nhảy dây, v.v., và bọn trẻ đã vui chơi cùng nhau.",
+      "Sau các trò chơi, những đứa trẻ thực sự rất đói và ăn cùng với bố mẹ."
+    ],
+    "keywords": [
+      "people",
+      "children",
+      "morning",
+      "activities",
+      "really",
+      "football",
+      "fastest",
+      "sunday",
+      "parents"
+    ]
+  },
+  {
+    "id": "question2Content_5",
+    "topic": "Writing about a place",
+    "sentences": [
+      "Before writing about a place, you need to do some research on it.",
+      "It is important to learn about the people and the history there carefully.",
+      "Even if you can not visit the place, your writing will still look similar to real experiences.",
+      "You should also compare that place with your own country.",
+      "Such comparisons will make your writing more interesting and meaningful."
+    ],
+    "translatedSentences": [
+      "Trước khi viết về một địa điểm, bạn cần phải tìm hiểu một số thông tin về nó.",
+      "Điều quan trọng là phải tìm hiểu kỹ về con người và lịch sử ở đó.",
+      "Thậm chí nếu bạn không thể đến thăm địa điểm đó, bài viết của bạn vẫn sẽ giống như những trải nghiệm thực tế.",
+      "Bạn cũng nên so sánh nơi đó với đất nước của bạn.",
+      "Những so sánh như vậy sẽ làm cho bài viết của bạn thú vị và ý nghĩa hơn."
+    ],
+    "keywords": [
+      "compare",
+      "writing",
+      "comparisons",
+      "carefully",
+      "important",
+      "country",
+      "interesting",
+      "experiences",
+      "research"
+    ]
+  },
+  {
+    "id": "question2Content_6",
+    "topic": "Movies then and now",
+    "sentences": [
+      "Movies today are very different from movies in the past",
+      "In the old days, films were only in black and white, and sometimes even without sound.",
+      "In addition to these technological limits, producers had very low budgets.",
+      "Because of the lack of money, actors also earn little money from acting.",
+      "Nowadays, everything has changed: actors and producers can earn a lot of money from producing films."
+    ],
+    "translatedSentences": [
+      "Phim ngày nay khác phim ngày xưa nhiều lắm",
+      "Vào những ngày trước đây, phim chỉ có màu đen trắng, và đôi khi thậm chí không có âm thanh.",
+      "Ngoài những hạn chế về công nghệ này, các nhà sản xuất còn có ngân sách rất thấp.",
+      "Vì thiếu tiền nên diễn viên cũng kiếm được ít tiền từ diễn xuất.",
+      "Ngày nay mọi thứ đã thay đổi: diễn viên và nhà sản xuất có thể kiếm được rất nhiều tiền từ việc sản xuất phim."
+    ],
+    "keywords": [
+      "actors",
+      "producers",
+      "everything",
+      "sometimes",
+      "without",
+      "movies",
+      "technological",
+      "because",
+      "different"
+    ]
+  },
+  {
+    "id": "question2Content_7",
+    "topic": "The history of transportation",
+    "sentences": [
+      "In the past, transportation was primarily accessible to the wealthy.",
+      "Later, air travel became popular among business professionals.",
+      "Eventually, buses and trains were introduced as affordable alternatives.",
+      "These made traveling more accessible to everyone.",
+      "Today, buses and trains are among the most common transportation options."
+    ],
+    "translatedSentences": [
+      "Trước đây, phương tiện đi lại chủ yếu dành cho người giàu.",
+      "Sau đó, du lịch hàng không trở nên phổ biến trong giới doanh nhân.",
+      "Cuối cùng, xe buýt và xe lửa đã được giới thiệu như những lựa chọn thay thế hợp lý.",
+      "Những điều này làm cho việc đi du lịch trở nên dễ tiếp cận hơn với mọi người.",
+      "Ngày nay, xe buýt và xe lửa là một trong những lựa chọn giao thông phổ biến nhất."
+    ],
+    "keywords": [
+      "alternatives",
+      "traveling",
+      "options",
+      "business",
+      "transportation",
+      "eventually",
+      "professionals",
+      "accessible"
+    ]
+  },
+  {
+    "id": "question2Content_8",
+    "topic": "New coffee shop",
+    "sentences": [
+      "I arrived at the shop early in the morning, but it was crowded with people.",
+      "A waiter assisted me in finding a table and handed me the menu.",
+      "The menu was not as good as expected and quite pricey, so I decided to order a sandwich.",
+      "The sandwich was both delicious and beautifully presented.",
+      "I might return to try different types of drinks next time."
+    ],
+    "translatedSentences": [
+      "Tôi đến quán từ sáng sớm nhưng quán rất đông người.",
+      "Một người phục vụ giúp tôi tìm bàn và đưa cho tôi thực đơn.",
+      "Thực đơn không ngon như mong đợi và khá đắt nên tôi quyết định gọi một chiếc bánh sandwich.",
+      "Bánh sandwich vừa ngon vừa được trình bày đẹp mắt.",
+      "Tôi có thể quay lại để thử các loại đồ uống khác vào lần tới."
+    ],
+    "keywords": [
+      "beautifully",
+      "sandwich",
+      "assisted",
+      "morning",
+      "finding",
+      "arrived",
+      "delicious",
+      "return",
+      "expected",
+      "different"
+    ]
+  },
+  {
+    "id": "question2Content_9",
+    "topic": "Artificial intelligence",
+    "sentences": [
+      "Over the past decade, artificial intelligence has revolutionized various industries.",
+      "The early AI systems were limited to simple pattern recognition tasks.",
+      "High computational costs previously hindered the development of AI.",
+      "Nowadays, AI engineers build advanced models for complex tasks such as language translation.",
+      "Modern AI tools help businesses to analyze data and make better decisions."
+    ],
+    "translatedSentences": [
+      "Trong thập kỷ qua, trí tuệ nhân tạo đã cách mạng hóa nhiều ngành công nghiệp khác nhau.",
+      "Các hệ thống AI ban đầu được giới hạn ở các nhiệm vụ nhận dạng mẫu đơn giản.",
+      "Chi phí tính toán cao trước đây đã cản trở sự phát triển của AI.",
+      "Ngày nay, các kỹ sư AI xây dựng các mô hình tiên tiến cho các nhiệm vụ phức tạp như dịch ngôn ngữ.",
+      "Các công cụ AI hiện đại giúp các doanh nghiệp phân tích dữ liệu và đưa ra những quyết định tốt hơn."
+    ],
+    "keywords": [
+      "decisions",
+      "translation",
+      "recognition",
+      "businesses",
+      "computational",
+      "revolutionized",
+      "engineers",
+      "systems",
+      "development",
+      "intelligence"
+    ]
+  },
+  {
+    "id": "question2Content_10",
+    "topic": "Company wellness day",
+    "sentences": [
+      "This month, the wellness day took place on Friday, focusing on work-life balance.",
+      "More than 50 (con số bất kỳ) employees participated, with Mr.A (tên người) leading a workshop on stress relief.",
+      "Activities included team yoga, time management seminars, and a group walk.",
+      "After the workshops, awards were given for the most creative wellness ideas.",
+      "Employees enjoyed healthy snacks and exchanged tips for managing stress."
+    ],
+    "translatedSentences": [
+      "Tháng này, ngày chăm sóc sức khỏe diễn ra vào thứ Sáu, tập trung vào việc cân bằng giữa công việc và cuộc sống.",
+      "More than 50 (con số bất kỳ) employees participated, with Mr.A (tên người) leading a workshop on stress relief.",
+      "Các hoạt động bao gồm tập yoga theo nhóm, hội thảo về quản lý thời gian và đi bộ theo nhóm.",
+      "Sau hội thảo, các giải thưởng đã được trao cho những ý tưởng chăm sóc sức khỏe sáng tạo nhất.",
+      "Nhân viên thưởng thức đồ ăn nhẹ lành mạnh và trao đổi các mẹo để kiểm soát căng thẳng."
+    ],
+    "keywords": [
+      "participated",
+      "focusing",
+      "activities",
+      "wellness",
+      "exchanged",
+      "management",
+      "workshops",
+      "creative",
+      "employees"
+    ]
+
+  },
+  {
+    "id": "question2Content_11",
+    "topic": "Workplace evolution",
+    "sentences": [
+      "In the past, employees followed strict nine-to-five schedules.",
+      "Limited technology once restricted remote work possibilities.",
+      "Modern workplaces are adopting more flexible work models.",
+      "Managers now use software to track project progress remotely.",
+      "Today, companies experiment with shorter workweeks to boost productivity."
+    ],
+    "translatedSentences": [
+      "Trước đây, nhân viên tuân theo lịch làm việc nghiêm ngặt từ 9 giờ sáng đến 5 giờ chiều.",
+      "Công nghệ hạn chế từng hạn chế khả năng làm việc từ xa.",
+      "Nơi làm việc hiện đại đang áp dụng các mô hình làm việc linh hoạt hơn.",
+      "Các nhà quản lý hiện sử dụng phần mềm để theo dõi tiến độ dự án từ xa.",
+      "Ngày nay, các công ty đang thử nghiệm các tuần làm việc ngắn hơn để tăng năng suất."
+    ],
+    "keywords": [
+      "managers",
+      "experiment",
+      "technology",
+      "workplaces",
+      "schedules",
+      "software",
+      "possibilities",
+      "productivity",
+      "adopting",
+      "employees"
+    ]
+  },
+  {
+    "id": "question2Content_12",
+    "topic": "Music show at the park (Music festivals)",
+    "sentences": [
+      "The event was fully planned, financed, and supported by local authorities.",
+      "As a result, entry was free, and around five thousand people attended.",
+      "Many attendees arrived early and browsed local shops before the event began.",
+      "Despite the busy day, workers finished ahead of schedule and watched the famous singer perform.",
+      "The two-hour performance thrilled the audience, leaving everyone in high spirits."
+    ],
+    "translatedSentences": [
+      "Sự kiện này đã được chính quyền địa phương lên kế hoạch, tài trợ và hỗ trợ đầy đủ.",
+      "Kết quả là vào cửa miễn phí và có khoảng năm nghìn người tham dự.",
+      "Nhiều người tham dự đã đến sớm và dạo qua các cửa hàng địa phương trước khi sự kiện bắt đầu.",
+      "Bất chấp một ngày bận rộn, các công nhân đã hoàn thành trước tiến độ và xem ca sĩ nổi tiếng biểu diễn.",
+      "Buổi biểu diễn kéo dài hai tiếng đồng hồ đã làm khán giả thích thú, để lại tinh thần phấn chấn cho mọi người."
+    ],
+    "keywords": [
+      "thrilled",
+      "attendees",
+      "supported",
+      "arrived",
+      "thousand",
+      "attended",
+      "schedule",
+      "finished",
+      "performance",
+      "authorities"
+    ]
+  },
+  {
+    "id": "question2Content_13",
+    "topic": "Mae - The Math Girl",
+    "sentences": [
+      "Mae’s father worked as a nurse, and her mother was a teacher.",
+      "Her parents motivated Mae to pursue higher education and focus on scientific studies.",
+      "Mae worked diligently and achieved several remarkable milestones.",
+      "She later joined a team, contributing her skills and knowledge.",
+      "Eventually, she had the opportunity to undergo a training program in the United States."
+    ],
+    "translatedSentences": [
+      "Cha của Mae làm y tá, còn mẹ cô là giáo viên.",
+      "Cha mẹ cô đã động viên Mae theo đuổi con đường học vấn cao hơn và tập trung vào nghiên cứu khoa học.",
+      "Mae đã làm việc chăm chỉ và đạt được nhiều cột mốc đáng chú ý.",
+      "Sau đó, cô gia nhập một nhóm, đóng góp kỹ năng và kiến ​​thức của mình.",
+      "Cuối cùng, cô có cơ hội được tham gia một chương trình đào tạo tại Hoa Kỳ."
+    ],
+    "keywords": [
+      "opportunity",
+      "motivated",
+      "knowledge",
+      "contributing",
+      "father",
+      "teacher",
+      "scientific",
+      "eventually",
+      "remarkable",
+      "diligently"
+    ]
+  },
+  {
+    "id": "question2Content_14",
+    "topic": "IoT - Internet of Things ",
+    "sentences": [
+      "The Internet of Things (IoT) links everyday devices to improve their capabilities.",
+      "Early IoT devices faced limitations due to slow internet speeds and compatibility challenges.",
+      "High development costs previously slowed the widespread adoption of IoT technology.",
+      "Nowadays, engineers create smart devices for both residential and industrial applications.",
+      "Modern IoT systems provide real-time data tracking and automation features."
+    ],
+    "translatedSentences": [
+      "Internet of Things (IoT) liên kết các thiết bị hàng ngày để cải thiện khả năng của chúng.",
+      "Các thiết bị IoT đời đầu gặp phải những hạn chế do tốc độ Internet chậm và những thách thức về khả năng tương thích.",
+      "Chi phí phát triển cao trước đây đã làm chậm việc áp dụng rộng rãi công nghệ IoT.",
+      "Ngày nay, các kỹ sư tạo ra các thiết bị thông minh cho cả ứng dụng dân dụng và công nghiệp.",
+      "Các hệ thống IoT hiện đại cung cấp các tính năng tự động hóa và theo dõi dữ liệu theo thời gian thực."
+    ],
+    "keywords": [
+      "compatibility",
+      "automation",
+      "residential",
+      "applications",
+      "capabilities",
+      "internet",
+      "previously",
+      "development",
+      "tracking",
+      "limitations"
+    ]
+  },
+  {
+    "id": "question2Content_15",
+    "topic": "Eating at restaurant",
+    "sentences": [
+      "I decided to try a new café located at the end of the street.",
+      "The place was quite busy, with a lively atmosphere.",
+      "Even so, a staff member quickly noticed me and brought over the menu.",
+      "I was a bit surprised to see that there were only a few items to choose from.",
+      "In the end, I went for the most expensive salad on the menu."
+    ],
+    "translatedSentences": [
+      "Tôi quyết định thử một quán cà phê mới nằm ở cuối phố.",
+      "Nơi này khá bận rộn, với bầu không khí sôi động.",
+      "Mặc dù vậy, một nhân viên đã nhanh chóng chú ý đến tôi và mang thực đơn đến.",
+      "Tôi hơi ngạc nhiên khi thấy chỉ có một vài món đồ để lựa chọn.",
+      "Cuối cùng, tôi chọn món salad đắt nhất trong thực đơn."
+    ],
+    "keywords": [
+      "located",
+      "choose",
+      "decided",
+      "surprised",
+      "expensive",
+      "quickly",
+      "noticed",
+      "atmosphere",
+      "lively"
+    ]
+  },
+  {
+    "id": "question2Content_16",
+    "topic": "A group presentation",
+    "sentences": [
+      "First, we prepared the materials for our group presentation.",
+      "Then, we presented our topic for 10 minutes.",
+      "Throughout the presentation, we used images to explain our ideas.",
+      "After the presentation, other students asked questions.",
+      "Finally, each group member took turns answering the questions."
+    ],
+    "translatedSentences": [
+      "Đầu tiên, chúng tôi chuẩn bị tài liệu cho buổi thuyết trình của nhóm.",
+      "Sau đó, chúng tôi trình bày chủ đề của mình trong 10 phút.",
+      "Xuyên suốt bài thuyết trình, chúng tôi sử dụng hình ảnh để giải thích ý tưởng của mình.",
+      "Sau phần trình bày, các sinh viên khác đặt câu hỏi.",
+      "Cuối cùng, mỗi thành viên trong nhóm lần lượt trả lời các câu hỏi."
+    ],
+    "keywords": [
+      "materials",
+      "presented",
+      "minutes",
+      "presentation",
+      "throughout",
+      "answering",
+      "questions"
+    ]
+  },
+  {
+    "id": "question2Content_17",
+    "topic": "Workplace evolution (phiên bản 2)",
+    "sentences": [
+      "In the past, most workers followed fixed schedules from nine to five.",
+      "Because technology was limited, working from home was almost impossible.",
+      "Modern offices are now moving toward more flexible ways of working.",
+      "Managers now use digital tools to follow project progress remotely.",
+      "Many companies today are trying shorter workweeks to increase efficiency."
+    ],
+    "translatedSentences": [
+      "Trước đây, hầu hết công nhân đều tuân theo lịch trình cố định từ chín giờ đến năm giờ.",
+      "Vì công nghệ còn hạn chế nên làm việc tại nhà gần như không thể.",
+      "Các văn phòng hiện đại hiện đang hướng tới những cách làm việc linh hoạt hơn.",
+      "Các nhà quản lý hiện sử dụng các công cụ kỹ thuật số để theo dõi tiến độ dự án từ xa.",
+      "Nhiều công ty ngày nay đang cố gắng rút ngắn thời gian làm việc trong tuần để tăng hiệu quả."
+    ],
+    "keywords": [
+      "companies",
+      "flexible",
+      "offices",
+      "progress",
+      "efficiency",
+      "followed",
+      "technology",
+      "impossible",
+      "schedules",
+      "managers"
+    ]
+  },
+  {
+    "id": "question2Content_18",
+    "topic": "The first american woman in space",
+    "sentences": [
+      "Encouraged by her parents, she decided to study science at university.",
+      "Her strong academic record earned her a place in a training program in the United States.",
+      "Her passion for space led Mae to join a dedicated research team.",
+      "As a member of the team, she traveled into space and carried out numerous experiments.",
+      "Some of these experiments involved growing plants and observing animals aboard the spacecraft."
+    ],
+    "translatedSentences": [
+      "Được sự khuyến khích của cha mẹ, cô quyết định theo học ngành khoa học tại trường đại học.",
+      "Thành tích học tập xuất sắc của cô đã giúp cô được nhận vào một chương trình đào tạo ở Hoa Kỳ.",
+      "Niềm đam mê không gian đã khiến Mae gia nhập một nhóm nghiên cứu tận tâm.",
+      "Là thành viên của nhóm, cô du hành vào không gian và thực hiện nhiều thí nghiệm.",
+      "Một số thí nghiệm này liên quan đến việc trồng cây và quan sát động vật trên tàu vũ trụ."
+    ],
+    "keywords": [
+      "academic",
+      "experiments",
+      "encouraged",
+      "spacecraft",
+      "university",
+      "training",
+      "dedicated",
+      "research",
+      "traveled"
+    ]
+  },
+  {
+    "id": "question2Content_19",
+    "topic": "Social Media",
+    "sentences": [
+      "In the past, slow internet speeds made streaming or uploading videos difficult.",
+      "Early platforms offered only basic features like text posts and simple images.",
+      "Over time, social media platforms have greatly evolved in both design and functionality.",
+      "Today’s platforms use complex algorithms to personalize and shape each user’s feed.",
+      "Many influencers now earn income primarily through brand sponsorships and online ads."
+    ],
+    "translatedSentences": [
+      "Trước đây, tốc độ Internet chậm khiến việc phát trực tuyến hoặc tải video lên trở nên khó khăn.",
+      "Các nền tảng ban đầu chỉ cung cấp các tính năng cơ bản như bài đăng văn bản và hình ảnh đơn giản.",
+      "Theo thời gian, các nền tảng truyền thông xã hội đã phát triển vượt bậc cả về thiết kế và chức năng.",
+      "Các nền tảng ngày nay sử dụng các thuật toán phức tạp để cá nhân hóa và định hình nguồn cấp dữ liệu của mỗi người dùng.",
+      "Nhiều người có ảnh hưởng hiện kiếm thu nhập chủ yếu thông qua tài trợ thương hiệu và quảng cáo trực tuyến."
+    ],
+    "keywords": [
+      "features",
+      "streaming",
+      "personalize",
+      "influencers",
+      "platforms",
+      "uploading",
+      "functionality",
+      "sponsorships",
+      "algorithms"
+    ]
+  },
+  {
+    "id": "question2Content_20",
+    "topic": "University open day",
+    "sentences": [
+      "Before the open day, please contact us by phone or email so we can record your personal details.",
+      "Using this information, we’ll prepare an identification card for you to collect upon arrival.",
+      "You’ll need to show this card to enter the introductory talk and morning lectures.",
+      "Every visitor will have the chance to join a Q&A session with current students.",
+      "After the presentations, you’ll be able to explore different departments across the campus."
+    ],
+    "translatedSentences": [
+      "Trước ngày khai trương, vui lòng liên hệ với chúng tôi qua điện thoại hoặc email để chúng tôi ghi lại thông tin cá nhân của bạn.",
+      "Sử dụng thông tin này, chúng tôi sẽ chuẩn bị thẻ căn cước để bạn thu thập khi đến nơi.",
+      "Bạn sẽ cần xuất trình thẻ này để tham gia buổi nói chuyện giới thiệu và bài giảng buổi sáng.",
+      "Mỗi du khách sẽ có cơ hội tham gia phần hỏi đáp với các sinh viên hiện tại.",
+      "Sau phần trình bày, bạn sẽ có thể khám phá các khoa khác nhau trong khuôn viên trường."
+    ],
+    "keywords": [
+      "lectures",
+      "introductory",
+      "contact",
+      "visitor",
+      "personal",
+      "presentations",
+      "information",
+      "students",
+      "identification",
+      "departments"
+    ]
+  },
+  {
+    "id": "question2Content_21",
+    "topic": "AI - Artificial Intelligence",
+    "sentences": [
+      "Over the past decade, artificial intelligence has reshaped industries around the world.",
+      "Early AI systems were capable of handling only simple pattern recognition tasks.",
+      "In the past, high computational costs slowed down the progress of AI development.",
+      "Today, AI engineers design sophisticated models for applications such as language translation.",
+      "Modern AI tools enable businesses to analyze vast amounts of data and make smarter decisions."
+    ],
+    "translatedSentences": [
+      "Trong thập kỷ qua, trí tuệ nhân tạo đã định hình lại các ngành công nghiệp trên khắp thế giới.",
+      "Các hệ thống AI thời kỳ đầu chỉ có khả năng xử lý các nhiệm vụ nhận diện khuôn mẫu đơn giản.",
+      "Trước đây, chi phí tính toán cao đã làm chậm tiến độ phát triển AI.",
+      "Ngày nay, các kỹ sư AI thiết kế các mô hình phức tạp cho các ứng dụng như dịch ngôn ngữ.",
+      "Các công cụ AI hiện đại cho phép doanh nghiệp phân tích lượng dữ liệu khổng lồ và đưa ra quyết định thông minh hơn."
+    ],
+    "keywords": [
+      "handling",
+      "decisions",
+      "recognition",
+      "businesses",
+      "computational",
+      "applications",
+      "sophisticated",
+      "artificial",
+      "development",
+      "intelligence"
+    ]
+  },
+  {
+    "id": "question2Content_22",
+    "topic": "Healthy Eating",
+    "sentences": [
+      "In the past, many meals were high in sugar and unhealthy fats.",
+      "Years ago, limited access to fresh produce made healthy eating more difficult.",
+      "Modern diets now focus on fresh, whole foods instead of processed ones.",
+      "Nutritionists today teach people how to plan balanced and nutritious meals.",
+      "Nowadays, mobile apps help users track calories and discover healthy recipes."
+    ],
+    "translatedSentences": [
+      "Trước đây, nhiều bữa ăn có nhiều đường và chất béo không tốt cho sức khỏe.",
+      "Nhiều năm trước, việc tiếp cận hạn chế với các sản phẩm tươi sống khiến việc ăn uống lành mạnh trở nên khó khăn hơn.",
+      "Chế độ ăn kiêng hiện đại hiện nay tập trung vào thực phẩm tươi sống thay vì thực phẩm đã qua chế biến.",
+      "Các nhà dinh dưỡng ngày nay dạy mọi người cách lên kế hoạch cho những bữa ăn cân bằng và bổ dưỡng.",
+      "Ngày nay, các ứng dụng di động giúp người dùng theo dõi lượng calo và khám phá các công thức nấu ăn lành mạnh."
+    ],
+    "keywords": [
+      "unhealthy",
+      "calories",
+      "nowadays",
+      "nutritious",
+      "processed",
+      "limited",
+      "instead",
+      "difficult",
+      "nutritionists"
+    ]
+  },
+  {
+    "id": "question2Content_23",
+    "topic": "Wellness Fair",
+    "sentences": [
+      "The wellness fair took place on Saturday afternoon, encouraging people to adopt healthier lifestyles.",
+      "More than 60 (con số bất kỳ) participants joined the event, with Dr. A (tên người) leading an engaging fitness workshop.",
+      "The fair also included activities like cooking demonstrations, mindfulness sessions, and a fun run.",
+      "After the workshops, prizes were awarded to participants who created the most creative health posters.",
+      "Families enjoyed tasting healthy snacks and discovering practical tips for better overall wellness."
+    ],
+    "translatedSentences": [
+      "Hội chợ chăm sóc sức khỏe diễn ra vào chiều thứ bảy, khuyến khích mọi người áp dụng lối sống lành mạnh hơn.",
+      "More than 60 (con số bất kỳ) participants joined the event, with Dr. A (tên người) leading an engaging fitness workshop.",
+      "Hội chợ cũng bao gồm các hoạt động như trình diễn nấu ăn, các buổi thiền chánh niệm và chạy bộ vui nhộn.",
+      "Sau hội thảo, giải thưởng đã được trao cho những người tham gia tạo ra những áp phích sức khỏe sáng tạo nhất.",
+      "Các gia đình thích thú nếm thử các món ăn nhẹ lành mạnh và khám phá các mẹo thực tế để có sức khỏe tổng thể tốt hơn."
+    ],
+    "keywords": [
+      "engaging",
+      "discovering",
+      "demonstrations",
+      "mindfulness",
+      "participants",
+      "lifestyles",
+      "encouraging",
+      "workshops",
+      "practical"
+    ]
+  },
+  {
+    "id": "question2Content_24",
+    "topic": "The famous singer (phiên bản 2)",
+    "sentences": [
+      "He is a famous singer.",
+      "Before becoming famous, he studied music at school when he was 15.",
+      "His unique way of dressing and performing made him stand out from others.",
+      "This helped him receive many invitations for collaborations and performances.",
+      "He eventually became famous among audiences around the world."
+    ],
+    "translatedSentences": [
+      "Anh ấy là một ca sĩ nổi tiếng.",
+      "Trước khi nổi tiếng, anh học nhạc ở trường khi mới 15 tuổi.",
+      "Cách ăn mặc và biểu diễn độc đáo của anh ấy khiến anh ấy nổi bật so với những người khác.",
+      "Điều này giúp anh nhận được nhiều lời mời hợp tác, biểu diễn.",
+      "Cuối cùng anh ấy đã trở nên nổi tiếng với khán giả trên khắp thế giới."
+    ],
+    "keywords": [
+      "becoming",
+      "audiences",
+      "studied",
+      "collaborations",
+      "famous",
+      "dressing",
+      "performing",
+      "performances",
+      "eventually",
+      "singer"
+    ]
+  },
+  {
+    "id": "question2Content_25",
+    "topic": "The famous singer (phiên bản 3)",
+    "sentences": [
+      "He is a famous singer who is loved by many people.",
+      "Before becoming famous, he studied music at school when he was 15 years old.",
+      "He spent years practicing and improving his performance skills.",
+      "His unique clothing style and stage presence made him stand out.",
+      "Because of this, more and more people began to recognize and admire him."
+    ],
+    "translatedSentences": [
+      "Anh là ca sĩ nổi tiếng được nhiều người yêu mến.",
+      "Trước khi trở nên nổi tiếng, anh ấy đã học âm nhạc tại trường khi mới 15 tuổi.",
+      "Anh ấy đã dành nhiều năm luyện tập và cải thiện kỹ năng biểu diễn của mình.",
+      "Phong cách ăn mặc độc đáo và khả năng hiện diện trên sân khấu đã khiến anh trở nên nổi bật.",
+      "Vì điều này mà ngày càng có nhiều người bắt đầu nhận ra và ngưỡng mộ anh."
+    ],
+    "keywords": [
+      "becoming",
+      "presence",
+      "studied",
+      "practicing",
+      "famous",
+      "because",
+      "performance",
+      "clothing",
+      "singer",
+      "recognize"
+    ]
+  },
+  {
+    "id": "question2Content_26",
+    "topic": "Writing about a place (phiên bản 2)",
+    "sentences": [
+      "Before writing, it is important to research the place thoroughly.",
+      "To prepare well, you should learn about the people and the history of the area.",
+      "Sometimes you may not be able to visit the place, but you can still find similar information from other sources.",
+      "Comparing that place with your own country can be very helpful.",
+      "This comparison will help you gain a deeper understanding and write more effectively."
+    ],
+    "translatedSentences": [
+      "Trước khi viết, điều quan trọng là phải nghiên cứu kỹ địa điểm.",
+      "Để chuẩn bị tốt, bạn nên tìm hiểu về con người và lịch sử của khu vực.",
+      "Đôi khi bạn không thể đến địa điểm đó nhưng bạn vẫn có thể tìm thấy thông tin tương tự từ các nguồn khác.",
+      "So sánh nơi đó với đất nước của bạn có thể rất hữu ích.",
+      "Sự so sánh này sẽ giúp bạn hiểu sâu hơn và viết hiệu quả hơn."
+    ],
+    "keywords": [
+      "thoroughly",
+      "effectively",
+      "understanding",
+      "history",
+      "prepare",
+      "information",
+      "sometimes",
+      "important",
+      "country",
+      "comparing"
+    ]
+  },
+  {
+    "id": "question2Content_27",
+    "topic": "Busy coffee shop",
+    "sentences": [
+      "The café was very crowded when the customer arrived.",
+      "The staff helped them find a table and handed them a menu.",
+      "The customer was surprised because the menu was different from what they had expected.",
+      "They decided to order the most expensive item — a sandwich.",
+      "The customer said the sandwich was delicious and that they would definitely come back again."
+    ],
+    "translatedSentences": [
+      "Quán cà phê rất đông khi khách hàng đến.",
+      "Nhân viên giúp họ tìm bàn và đưa cho họ thực đơn.",
+      "Khách hàng ngạc nhiên vì thực đơn khác với những gì họ mong đợi.",
+      "Họ quyết định gọi món đắt nhất - một chiếc bánh sandwich.",
+      "Khách hàng nói bánh mì rất ngon và chắc chắn họ sẽ quay lại lần nữa."
+    ],
+    "keywords": [
+      "sandwich",
+      "helped",
+      "crowded",
+      "delicious",
+      "definitely",
+      "handed",
+      "surprised",
+      "expensive",
+      "different",
+      "customer"
+    ]
+  },
+  {
+    "id": "question2Content_28",
+    "topic": "My visit to a new coffee shop",
+    "sentences": [
+      "It was my first time visiting a new local coffee shop.",
+      "At first, I didn’t think it would be good, but I decided to give it a try.",
+      "I looked at the menu and saw many different kinds of food and drinks.",
+      "I chose one dish to try for myself.",
+      "When I tasted it, I found it really delicious and knew I would come back again."
+    ],
+    "translatedSentences": [
+      "Đây là lần đầu tiên tôi ghé thăm một quán cà phê địa phương mới.",
+      "Lúc đầu, tôi không nghĩ nó sẽ tốt nhưng tôi quyết định thử.",
+      "Tôi nhìn vào thực đơn và thấy nhiều loại đồ ăn và đồ uống khác nhau.",
+      "Tôi đã chọn một món ăn để tự mình thử.",
+      "Khi nếm thử tôi thấy nó rất ngon và biết mình sẽ quay lại lần nữa."
+    ],
+    "keywords": [
+      "coffee",
+      "delicious",
+      "myself",
+      "decided",
+      "looked",
+      "tasted",
+      "visiting",
+      "different"
+    ]
+  },
+  {
+    "id": "question2Content_29",
+    "topic": "Work",
+    "sentences": [
+      "The company offers flexible working hours to better support employees’ schedules.",
+      "Her white desk stands out in the shared open office.",
+      "She uses a planner to organize her tasks throughout the shorter workweek.",
+      "At lunchtime, she enjoys a homemade sandwich prepared with fresh ingredients.",
+      "In the evenings, they unwind by reading books on productivity and well-being."
+    ],
+    "translatedSentences": [
+      "Công ty đưa ra giờ làm việc linh hoạt để hỗ trợ tốt hơn cho lịch trình của nhân viên.",
+      "Chiếc bàn màu trắng của cô nổi bật trong văn phòng mở chung.",
+      "Cô sử dụng bảng kế hoạch để sắp xếp công việc của mình trong suốt tuần làm việc ngắn hơn.",
+      "Vào giờ ăn trưa, cô thưởng thức món bánh sandwich tự làm được chế biến từ nguyên liệu tươi ngon.",
+      "Vào buổi tối, họ thư giãn bằng cách đọc sách về năng suất và hạnh phúc."
+    ],
+    "keywords": [
+      "ingredients",
+      "shared",
+      "organize",
+      "schedules",
+      "evenings",
+      "throughout",
+      "lunchtime",
+      "stands",
+      "productivity",
+      "employees"
+    ]
+  },
+  {
+    "id": "question2Content_30",
+    "topic": "Cultural festival",
+    "sentences": [
+      "The cultural fair was held on Sunday, celebrating and showcasing local traditions.",
+      "About 60 (con số bất kỳ) participants took part, with Ms.A (tên người) leading a traditional dance group.",
+      "The event featured pottery workshops, folk music performances, and food tastings.",
+      "Families enjoyed taking photos and sharing delicious local dishes together.",
+      "At the end of the event, prizes were given to participants with the best costumes."
+    ],
+    "translatedSentences": [
+      "Hội chợ văn hóa được tổ chức vào Chủ nhật, tôn vinh và giới thiệu các truyền thống địa phương.",
+      "About 60 (con số bất kỳ) participants took part, with Ms.A (tên người) leading a traditional dance group.",
+      "Sự kiện này có các xưởng làm gốm, biểu diễn âm nhạc dân gian và nếm thử các món ăn.",
+      "Các gia đình rất thích chụp ảnh và chia sẻ những món ăn ngon của địa phương cùng nhau.",
+      "Vào cuối sự kiện, các giải thưởng đã được trao cho những người tham gia có trang phục đẹp nhất."
+    ],
+    "keywords": [
+      "delicious",
+      "celebrating",
+      "participants",
+      "traditional",
+      "performances",
+      "showcasing",
+      "costumes",
+      "families",
+      "workshops"
+    ]
+  },
+  {
+    "id": "question2Content_31",
+    "topic": "Public Transportations",
+    "sentences": [
+      "In the past, many cities had fewer bus routes because of budget limitations.",
+      "Older buses often didn’t have air conditioning or comfortable seating.",
+      "City buses today are much more efficient than those from ten years ago.",
+      "Drivers and staff now receive better training to provide improved passenger service.",
+      "Modern buses often use electric power, helping to reduce pollution in urban areas."
+    ],
+    "translatedSentences": [
+      "Trong quá khứ, nhiều thành phố có ít tuyến xe buýt hơn do những hạn chế về ngân sách.",
+      "Xe buýt cũ thường không có máy điều hòa hoặc chỗ ngồi thoải mái.",
+      "Xe buýt thành phố ngày nay hiệu quả hơn nhiều so với xe buýt mười năm trước.",
+      "Các tài xế và nhân viên hiện được đào tạo tốt hơn để cung cấp dịch vụ hành khách được cải thiện.",
+      "Xe buýt hiện đại thường sử dụng năng lượng điện, giúp giảm ô nhiễm ở khu vực đô thị."
+    ],
+    "keywords": [
+      "comfortable",
+      "passenger",
+      "pollution",
+      "conditioning",
+      "electric",
+      "efficient",
+      "because",
+      "training",
+      "limitations"
+    ]
+  },
+  {
+    "id": "question2Content_32",
+    "topic": "Tourism",
+    "sentences": [
+      "Modern tourism now provides far more choices than in the past.",
+      "In earlier times, travelers mostly depended on guidebooks and paper maps.",
+      "Back then, limited technology also meant that booking options were quite restricted.",
+      "Today, online platforms allow people to plan thoroughly and book their trips with ease.",
+      "Moreover, local guides now offer personalized tours that give visitors more authentic experiences."
+    ],
+    "translatedSentences": [
+      "Du lịch hiện đại hiện nay cung cấp nhiều sự lựa chọn hơn so với trước đây.",
+      "Trong thời gian trước đây, du khách chủ yếu phụ thuộc vào sách hướng dẫn và bản đồ giấy.",
+      "Vào thời điểm đó, công nghệ hạn chế cũng đồng nghĩa với việc các lựa chọn đặt chỗ khá hạn hẹp.",
+      "Ngày nay, các nền tảng trực tuyến cho phép mọi người lên kế hoạch kỹ lưỡng và đặt chuyến đi của họ một cách dễ dàng.",
+      "Hơn nữa, hướng dẫn viên địa phương hiện cung cấp các chuyến tham quan được cá nhân hóa mang đến cho du khách những trải nghiệm chân thực hơn."
+    ],
+    "keywords": [
+      "thoroughly",
+      "provides",
+      "platforms",
+      "technology",
+      "personalized",
+      "restricted",
+      "guidebooks",
+      "tourism",
+      "experiences",
+      "travelers"
+    ]
+  },
+  {
+    "id": "question2Content_33",
+    "topic": "New coffee shop (phiên bản 2)",
+    "sentences": [
+      "When I arrived, the place was very crowded, and the staff were extremely busy on the first day.",
+      "Even though it was crowded, the staff still managed to find a table for me.",
+      "They handed me the menu, and when I looked through it, I saw quite a variety of dishes.",
+      "After checking them all, I decided to order the most expensive sandwich.",
+      "It tasted really good with melted cheese on top, and I’ll definitely come back to this place again."
+    ],
+    "translatedSentences": [
+      "Khi tôi đến, nơi này rất đông đúc, và nhân viên thì cực kỳ bận rộn trong ngày đầu tiên.",
+      "Dù đông khách nhưng nhân viên vẫn tìm được bàn cho mình.",
+      "Họ đưa cho tôi thực đơn và khi tôi nhìn qua nó, tôi thấy khá nhiều món ăn.",
+      "Sau khi xem xét tất cả, tôi quyết định đặt chiếc bánh sandwich đắt tiền nhất.",
+      "Nó có vị rất ngon với phô mai tan chảy ở trên và tôi chắc chắn sẽ quay lại nơi này lần nữa."
+    ],
+    "keywords": [
+      "through",
+      "checking",
+      "managed",
+      "arrived",
+      "crowded",
+      "definitely",
+      "tasted",
+      "extremely",
+      "expensive",
+      "variety"
+    ]
+  },
+  {
+    "id": "question2Content_34",
+    "topic": "Healthy eating",
+    "sentences": [
+      "In the past, many meals were high in sugar and unhealthy fats.",
+      "Years ago, limited access to fresh produce made healthy eating much more challenging.",
+      "Modern diets now emphasize fresh, whole foods instead of processed ones.",
+      "Nutritionists today teach people how to create balanced and nutritious meal plans.",
+      "Nowadays, mobile apps help users track calories and discover healthy recipes to support better lifestyles."
+    ],
+    "translatedSentences": [
+      "Trước đây, nhiều bữa ăn có nhiều đường và chất béo không tốt cho sức khỏe.",
+      "Nhiều năm trước, việc tiếp cận hạn chế với các sản phẩm tươi sống khiến việc ăn uống lành mạnh trở nên khó khăn hơn nhiều.",
+      "Chế độ ăn kiêng hiện đại ngày nay nhấn mạnh vào thực phẩm tươi, nguyên bản thay vì thực phẩm chế biến sẵn.",
+      "Các nhà dinh dưỡng ngày nay dạy mọi người cách lập kế hoạch bữa ăn cân bằng và bổ dưỡng.",
+      "Ngày nay, các ứng dụng di động giúp người dùng theo dõi lượng calo và khám phá các công thức nấu ăn lành mạnh để hỗ trợ lối sống tốt hơn."
+    ],
+    "keywords": [
+      "unhealthy",
+      "nowadays",
+      "challenging",
+      "nutritious",
+      "processed",
+      "lifestyles",
+      "limited",
+      "nutritionists",
+      "emphasize"
+    ]
+  },
+  {
+    "id": "question2Content_35",
+    "topic": "Tech fair",
+    "sentences": [
+      "The tech fair took place on Saturday morning, showcasing a variety of exciting new gadgets.",
+      "More than 60 (con số bất kỳ) exhibitors participated, with Mr. A (tên người) presenting an impressive robot demonstration.",
+      "The event featured engaging activities such as VR gaming, coding workshops, and thrilling drone races.",
+      "After the demonstrations, awards were given to the creators of the most innovative products.",
+      "Visitors enjoyed complimentary coffee and snacks while exploring the interactive exhibits."
+    ],
+    "translatedSentences": [
+      "Hội chợ công nghệ diễn ra vào sáng thứ Bảy, trưng bày nhiều loại tiện ích mới thú vị.",
+      "More than 60 (con số bất kỳ) exhibitors participated, with Mr. A (tên người) presenting an impressive robot demonstration.",
+      "Sự kiện này có các hoạt động hấp dẫn như chơi game VR, hội thảo viết mã và các cuộc đua máy bay không người lái gay cấn.",
+      "Sau các cuộc trình diễn, các giải thưởng đã được trao cho những người tạo ra những sản phẩm sáng tạo nhất.",
+      "Du khách được thưởng thức cà phê và đồ ăn nhẹ miễn phí trong khi khám phá các triển lãm tương tác."
+    ],
+    "keywords": [
+      "interactive",
+      "participated",
+      "demonstration",
+      "saturday",
+      "activities",
+      "complimentary",
+      "demonstrations",
+      "innovative",
+      "showcasing",
+      "workshops"
+    ]
+  },
+  {
+    "id": "question2Content_36",
+    "topic": "End of term project",
+    "sentences": [
+      "Your end-of-term project should focus on at least two of the given topics.",
+      "It must include relevant pictures along with your own written text about the subject.",
+      "You will then use these pictures and your written work to create a class presentation.",
+      "During the presentation, you should summarize your main points, and it should last about five minutes.",
+      "Afterward, your classmates will have the opportunity to ask questions, and you will respond to them."
+    ],
+    "translatedSentences": [
+      "Dự án cuối kỳ của bạn nên tập trung vào ít nhất hai trong số các chủ đề nhất định.",
+      "Nó phải bao gồm các hình ảnh có liên quan cùng với văn bản viết của riêng bạn về chủ đề này.",
+      "Sau đó, bạn sẽ sử dụng những hình ảnh này và bài viết của mình để tạo một bài thuyết trình trước lớp.",
+      "Trong khi trình bày, bạn nên tóm tắt những điểm chính của mình và nó sẽ kéo dài khoảng năm phút.",
+      "Sau đó, các bạn cùng lớp của bạn sẽ có cơ hội đặt câu hỏi, và bạn sẽ trả lời họ."
+    ],
+    "keywords": [
+      "opportunity",
+      "classmates",
+      "project",
+      "should",
+      "presentation",
+      "summarize",
+      "pictures",
+      "relevant"
+    ]
+  },
+  {
+    "id": "question2Content_37",
+    "topic": "College Welcoming Day",
+    "sentences": [
+      "Today will begin at 10 a.m. with a short presentation.",
+      "At the end of the presentation, you will meet the heads of departments and lecturers.",
+      "These staff members will take you on a tour of the school’s buildings and sports facilities in small groups.",
+      "During this tour, you will need to stay with these students until lunchtime.",
+      "This meal will be provided on the second floor of the engineering building."
+    ],
+    "translatedSentences": [
+      "Hôm nay sẽ bắt đầu lúc 10 giờ sáng với một bài thuyết trình ngắn.",
+      "Kết thúc buổi thuyết trình, các bạn sẽ gặp lãnh đạo các khoa và giảng viên.",
+      "Những nhân viên này sẽ đưa bạn đi tham quan các tòa nhà và cơ sở thể thao của trường theo từng nhóm nhỏ.",
+      "Trong suốt chuyến tham quan này, bạn sẽ cần ở lại cùng với những học sinh này cho đến giờ ăn trưa.",
+      "Bữa ăn này sẽ được cung cấp trên tầng hai của tòa nhà kỹ thuật."
+    ],
+    "keywords": [
+      "engineering",
+      "departments",
+      "provided",
+      "students",
+      "presentation",
+      "lunchtime",
+      "buildings",
+      "facilities"
+    ]
+  },
+  {
+    "id": "question2Content_38",
+    "topic": "The history of transportation (phiên bản 2)",
+    "sentences": [
+      "In the past, traveling was something only wealthy people could afford.",
+      "The development of trains and cars made travel more convenient and affordable for the general public.",
+      "Later on, airplanes also helped make traveling easier and more accessible.",
+      "Because flying is very fast, it supports travel for both holidays and business purposes.",
+      "Today, improvements in transportation make it easier to travel to many parts of the world."
+    ],
+    "translatedSentences": [
+      "Trước đây, đi du lịch là điều chỉ những người giàu có mới có thể mua được.",
+      "Sự phát triển của tàu hỏa và ô tô đã làm cho việc đi lại trở nên thuận tiện hơn và giá cả phải chăng hơn đối với công chúng.",
+      "Sau này, máy bay cũng giúp việc đi lại dễ dàng và dễ tiếp cận hơn.",
+      "Vì bay rất nhanh nên hỗ trợ đi lại cho cả mục đích nghỉ dưỡng và công tác.",
+      "Ngày nay, những cải tiến về giao thông giúp việc đi lại đến nhiều nơi trên thế giới trở nên dễ dàng hơn."
+    ],
+    "keywords": [
+      "convenient",
+      "traveling",
+      "airplanes",
+      "transportation",
+      "holidays",
+      "accessible",
+      "improvements",
+      "development",
+      "supports",
+      "something"
+    ]
+  },
+  {
+    "id": "question2Content_39",
+    "topic": "The famous singer (phiên bản 4 - new)",
+    "sentences": [
+      "Before becoming famous at a young age, he studied art and music in high school.",
+      "During this time, he started performing on stage.",
+      "During his performances on stage, he liked wearing colorful clothes and painting his face.",
+      "This unusual way of dressing and his songs attracted people’s attention.",
+      "They then started following him on social media, and he is now very famous."
+    ],
+    "translatedSentences": [
+      "Trước khi nổi tiếng khi còn trẻ, anh học nghệ thuật và âm nhạc ở trường trung học.",
+      "Trong thời gian này, anh ấy bắt đầu biểu diễn trên sân khấu.",
+      "Khi biểu diễn trên sân khấu, anh ấy thích mặc quần áo sặc sỡ và vẽ mặt.",
+      "Cách ăn mặc khác thường này và những bài hát của anh ấy đã thu hút sự chú ý của mọi người.",
+      "Sau đó, họ bắt đầu theo dõi anh ấy trên mạng xã hội và hiện anh ấy đã rất nổi tiếng."
+    ],
+    "keywords": [
+      "becoming",
+      "attention",
+      "studied",
+      "performing",
+      "colorful",
+      "performances",
+      "started",
+      "attracted",
+      "following"
+    ]
+  }
+]

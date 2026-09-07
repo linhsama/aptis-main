@@ -1,0 +1,840 @@
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { useSettings } from '../contexts/SettingsContext';
+import Timer from './Timer';
+import {
+  CheckCircle,
+  ChevronRight,
+  ChevronLeft,
+  RotateCcw,
+  X,
+  Shuffle,
+  BookOpen,
+  AlertCircle,
+  Clock,
+  Sparkles,
+  Check
+} from 'lucide-react';
+import part3Data from '../data/part3.json';
+
+// Fisher-Yates shuffle
+function shuffleArray(array) {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
+const getOriginalQuestionNumber = (question) => {
+  if (!question) return 1;
+  const origIndex = part3Data.findIndex(q => q.id === question.id);
+  if (origIndex !== -1) return origIndex + 1;
+  const match = String(question.id).match(/\d+/);
+  return match ? parseInt(match[0], 10) : 1;
+};
+
+const PracticePart3 = () => {
+  const skill = 'reading';
+  const part = 'part-3';
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const navigate = useNavigate();
+  const { settings, updateSetting } = useSettings();
+
+  const isStudy = searchParams.get('study') === 'true';
+  const isWeak = searchParams.get('weak') === 'true';
+  const isSlow = searchParams.get('slow') === 'true';
+
+  const [historyVersion, setHistoryVersion] = useState(0);
+  const [resetCount, setResetCount] = useState(0);
+  const [showResultPopup, setShowResultPopup] = useState(false);
+
+  const isRandom = settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+  const isSequential = !settings.randomizeQuestions && !isStudy && !isWeak && !isSlow;
+
+  const handleSelectMode = (modeName) => {
+    // Reset session states
+    setAllSelectedAnswers({});
+    setAllChecked({});
+    setAllScores({});
+    setAllAttempted({});
+    setQuestionStatuses({});
+    setCurrentQuestionId(null);
+    setShowResultPopup(false);
+    setStartTime(Date.now());
+    setResetCount(c => c + 1);
+
+    if (modeName === 'sequential') {
+      updateSetting('randomizeQuestions', false);
+      navigate('?');
+    } else if (modeName === 'random') {
+      updateSetting('randomizeQuestions', true);
+      navigate('?');
+    } else if (modeName === 'weak') {
+      updateSetting('randomizeQuestions', false);
+      navigate('?weak=true');
+    } else if (modeName === 'slow') {
+      updateSetting('randomizeQuestions', false);
+      navigate('?slow=true');
+    } else if (modeName === 'study') {
+      updateSetting('randomizeQuestions', false);
+      navigate('?study=true');
+    }
+  };
+
+  const { weakIds, slowIds, masteredIds, prefilledStatuses } = useMemo(() => {
+    const history = JSON.parse(localStorage.getItem('aptis_history') || '[]');
+    const stats = {};
+    const sortedHistory = [...history]
+      .filter(h => (!h.skill || h.skill === 'reading') && (h.part === 'part-3' || !h.part))
+      .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    sortedHistory.forEach(item => {
+      const id = item.id;
+      if (id) {
+        if (!stats[id]) stats[id] = { perfectCount: 0, latestScore: 0, latestTotal: 7, latestTimeSpent: 0 };
+        stats[id].latestScore = item.score;
+        stats[id].latestTotal = item.total || 7;
+        stats[id].latestTimeSpent = item.timeSpent || 0;
+        if (item.score === item.total) stats[id].perfectCount += 1;
+      }
+    });
+
+    const weak = [];
+    const slow = [];
+    const mastered = [];
+    const prefilled = {};
+
+    Object.keys(stats).forEach(id => {
+      const s = stats[id];
+      const isPerfect = s.latestScore === s.latestTotal;
+      if (!isPerfect) {
+        weak.push(id);
+        prefilled[id] = 'weak';
+      } else if (s.latestTimeSpent > 180) {
+        slow.push(id);
+        prefilled[id] = 'slow';
+      } else if (s.perfectCount >= 2) {
+        mastered.push(id);
+        prefilled[id] = 'mastered';
+      } else {
+        prefilled[id] = 'correct';
+      }
+    });
+
+    return { weakIds: weak, slowIds: slow, masteredIds: mastered, prefilledStatuses: prefilled };
+  }, [historyVersion]);
+
+  const allValidQuestions = useMemo(() => {
+    return part3Data.filter(q => q.questions && q.questions.length > 0);
+  }, []);
+
+  const activeQuestions = useMemo(() => {
+    if (isWeak) {
+      const filtered = allValidQuestions.filter(q => weakIds.includes(q.id));
+      return filtered.length > 0 ? filtered : allValidQuestions;
+    }
+    if (isSlow) {
+      const filtered = allValidQuestions.filter(q => slowIds.includes(q.id));
+      return filtered.length > 0 ? filtered : allValidQuestions;
+    }
+    if (settings.randomizeQuestions) {
+      return shuffleArray(allValidQuestions);
+    }
+    return allValidQuestions;
+  }, [isWeak, isSlow, settings.randomizeQuestions, allValidQuestions, resetCount]);
+
+  const [currentQuestionId, setCurrentQuestionId] = useState(null);
+
+  useEffect(() => {
+    if (activeQuestions.length > 0) {
+      if (!currentQuestionId || !activeQuestions.some(q => q.id === currentQuestionId)) {
+        setCurrentQuestionId(activeQuestions[0].id);
+      }
+    }
+  }, [activeQuestions, currentQuestionId]);
+
+  const currentQuestion = useMemo(() => {
+    if (activeQuestions.length === 0) return null;
+    const found = activeQuestions.find(q => q.id === currentQuestionId);
+    return found || activeQuestions[0];
+  }, [activeQuestions, currentQuestionId]);
+
+  const currentIndex = currentQuestion ? activeQuestions.findIndex(q => q.id === currentQuestion.id) : 0;
+
+  const [allSelectedAnswers, setAllSelectedAnswers] = useState({});
+  const [allChecked, setAllChecked] = useState({});
+  const [allScores, setAllScores] = useState({});
+  const [allAttempted, setAllAttempted] = useState({});
+  const [allTimes, setAllTimes] = useState({});
+
+  const selectedAnswers = currentQuestion ? (allSelectedAnswers[currentQuestion.id] || {}) : {};
+  const isChecked = currentQuestion ? !!allChecked[currentQuestion.id] : false;
+  const score = currentQuestion ? (allScores[currentQuestion.id] || 0) : 0;
+
+  const [questionStatuses, setQuestionStatuses] = useState(prefilledStatuses);
+
+  useEffect(() => {
+    setQuestionStatuses(prev => ({ ...prefilledStatuses, ...prev }));
+  }, [prefilledStatuses]);
+
+  const [startTime, setStartTime] = useState(Date.now());
+  const [prevQuestionKey, setPrevQuestionKey] = useState('');
+
+  // Pre-fill answers in study mode
+  const currentQuestionKey = `${currentQuestion?.id}-${isStudy}`;
+  if (currentQuestionKey !== prevQuestionKey && currentQuestion) {
+    setPrevQuestionKey(currentQuestionKey);
+    setStartTime(Date.now());
+
+    if (isStudy && !allChecked[currentQuestion.id]) {
+      const correctAnswers = {};
+      currentQuestion.questions.forEach((q, idx) => {
+        correctAnswers[idx] = q.answer;
+      });
+      setAllSelectedAnswers(prev => ({ ...prev, [currentQuestion.id]: correctAnswers }));
+      setAllScores(prev => ({ ...prev, [currentQuestion.id]: currentQuestion.questions.length }));
+      setAllChecked(prev => ({ ...prev, [currentQuestion.id]: true }));
+      setAllAttempted(prev => ({ ...prev, [currentQuestion.id]: true }));
+    }
+  }
+
+  const handleSelect = (questionIndex, personIndex) => {
+    if (isChecked && !isStudy) return;
+    setAllSelectedAnswers(prev => ({
+      ...prev,
+      [currentQuestion.id]: {
+        ...(prev[currentQuestion.id] || {}),
+        [questionIndex]: personIndex
+      }
+    }));
+    setAllAttempted(prev => ({ ...prev, [currentQuestion.id]: true }));
+  };
+
+  const handleCheck = useCallback(() => {
+    if (!currentQuestion) return;
+
+    let currentScore = 0;
+    currentQuestion.questions.forEach((q, idx) => {
+      if (selectedAnswers[idx] === q.answer) {
+        currentScore++;
+      }
+    });
+
+    const timeSpent = Math.max(1, Math.floor((Date.now() - startTime) / 1000));
+    setAllTimes(prev => ({ ...prev, [currentQuestion.id]: timeSpent }));
+    setAllScores(prev => ({ ...prev, [currentQuestion.id]: currentScore }));
+    setAllChecked(prev => ({ ...prev, [currentQuestion.id]: true }));
+    setAllAttempted(prev => ({ ...prev, [currentQuestion.id]: true }));
+
+    const isPerfect = currentScore === currentQuestion.questions.length;
+    const isSlowAttempt = isPerfect && timeSpent > 180;
+    setQuestionStatuses(prev => ({
+      ...prev,
+      [currentQuestion.id]: !isPerfect ? 'incorrect' : (isSlowAttempt ? 'slow' : 'correct')
+    }));
+
+    // Save history
+    try {
+      const historyString = localStorage.getItem('aptis_history');
+      const history = historyString ? JSON.parse(historyString) : [];
+      history.push({
+        id: currentQuestion.id,
+        topic: currentQuestion.topic,
+        score: currentScore,
+        total: currentQuestion.questions.length,
+        timeSpent,
+        skill,
+        part,
+        date: new Date().toISOString()
+      });
+      localStorage.setItem('aptis_history', JSON.stringify(history));
+    } catch (e) {
+      console.error('Failed to save history', e);
+    }
+
+    // Update history version on check so stats update
+    setHistoryVersion(v => v + 1);
+
+    if (isPerfect) {
+      setShowResultPopup(false);
+      if (currentIndex < activeQuestions.length - 1) {
+        setCurrentQuestionId(activeQuestions[currentIndex + 1].id);
+      }
+    } else {
+      setShowResultPopup(true);
+    }
+  }, [currentQuestion, selectedAnswers, startTime, currentIndex, activeQuestions]);
+
+  const handleExamTimeUp = useCallback(() => {
+    handleCheck();
+  }, [handleCheck]);
+
+  const handleNext = useCallback(() => {
+    if (currentIndex < activeQuestions.length - 1) {
+      setCurrentQuestionId(activeQuestions[currentIndex + 1].id);
+      setShowResultPopup(false);
+    }
+  }, [currentIndex, activeQuestions]);
+
+  const handlePrev = useCallback(() => {
+    if (currentIndex > 0) {
+      setCurrentQuestionId(activeQuestions[currentIndex - 1].id);
+      setShowResultPopup(false);
+    }
+  }, [currentIndex, activeQuestions]);
+
+  const jumpToQuestion = (index) => {
+    setCurrentQuestionId(activeQuestions[index].id);
+    setShowResultPopup(false);
+  };
+
+  const handleResetQuestion = () => {
+    if (!currentQuestion) return;
+    setShowResultPopup(false);
+    setAllSelectedAnswers(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllChecked(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllScores(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setAllAttempted(prev => ({ ...prev, [currentQuestion.id]: false }));
+    setQuestionStatuses(prev => {
+      const next = { ...prev };
+      delete next[currentQuestion.id];
+      return next;
+    });
+    setStartTime(Date.now());
+  };
+
+  const handleResetAll = () => {
+    try {
+      const historyString = localStorage.getItem('aptis_history');
+      if (historyString) {
+        const history = JSON.parse(historyString);
+        const part3Ids = new Set(part3Data.map(q => q.id));
+        const updated = history.filter(h => h.part !== 'part-3' && !part3Ids.has(h.id));
+        localStorage.setItem('aptis_history', JSON.stringify(updated));
+      }
+    } catch (e) {
+      console.error('Failed to clear part 3 history', e);
+    }
+
+    const defaultFirst = part3Data[0];
+    updateSetting('randomizeQuestions', false);
+    navigate('?');
+    setShowResultPopup(false);
+    setAllSelectedAnswers({});
+    setAllChecked({});
+    setAllScores({});
+    setAllAttempted({});
+    setQuestionStatuses({});
+    setPrevQuestionKey('');
+    setCurrentQuestionId(defaultFirst ? defaultFirst.id : null);
+    setResetCount(c => c + 1);
+    setHistoryVersion(v => v + 1);
+    setStartTime(Date.now());
+  };
+
+  // Keyboard shortcut support
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+
+      if (e.key === 'ArrowRight') {
+        if (currentIndex < activeQuestions.length - 1) {
+          e.preventDefault();
+          handleNext();
+        }
+      } else if (e.key === 'ArrowLeft') {
+        if (currentIndex > 0) {
+          e.preventDefault();
+          handlePrev();
+        }
+      } else if (e.key === 'Enter') {
+        if (!isChecked && !isStudy) {
+          e.preventDefault();
+          handleCheck();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, activeQuestions.length, handleNext, handlePrev, handleCheck, isChecked, isStudy]);
+
+  if (!currentQuestion) {
+    return (
+      <div className="practice-container">
+        <div className="panel-card" style={{ padding: '3rem', textAlign: 'center' }}>
+          <h2>Không tìm thấy câu hỏi trong mục này.</h2>
+          <p className="text-muted" style={{ marginTop: '0.5rem' }}>Hãy chọn danh mục khác hoặc đặt lại bộ đề.</p>
+          <button onClick={() => navigate('/practice/reading/part-3')} className="btn btn-primary" style={{ margin: '1.5rem auto 0' }}>
+            Quay lại danh sách Part 3
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const isAllAnswered = currentQuestion.questions.every((_, idx) => selectedAnswers[idx] !== undefined);
+
+  return (
+    <div className="practice-container">
+      {/* Top Header Card */}
+      <div className="practice-top-card">
+        <div className="practice-header-row">
+          <div className="practice-title-group">
+            <span className="practice-badge-skill">Reading · Part 3</span>
+            <div className="practice-topic-badge" title="Chủ đề bài đọc">
+              <Sparkles size={14} color="var(--primary)" />
+              <span>Set {getOriginalQuestionNumber(currentQuestion)}: {currentQuestion.topic || `Set ${getOriginalQuestionNumber(currentQuestion)}`}</span>
+            </div>
+            <Timer
+              key={`exam-${resetCount}`}
+              initialSeconds={20 * 60}
+              onTimeUp={handleExamTimeUp}
+              resetKey={`exam-${resetCount}`}
+              isPaused={isStudy || isChecked}
+            />
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+            {/* Mode Toggles */}
+            <button
+              title="Làm bài theo thứ tự chuẩn từ 1 đến hết"
+              onClick={() => handleSelectMode('sequential')}
+              className={`btn btn-small ${isSequential ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ padding: '0.35rem 0.65rem' }}
+            >
+              <span>Theo thứ tự</span>
+            </button>
+
+            <button
+              title="Đảo ngẫu nhiên các bài trong đề"
+              onClick={() => handleSelectMode('random')}
+              className={`btn btn-small ${isRandom ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ padding: '0.35rem 0.65rem' }}
+            >
+              <Shuffle size={13} />
+              <span>Ngẫu nhiên</span>
+            </button>
+
+            <button
+              title="Luyện tập các câu đã từng làm sai"
+              onClick={() => handleSelectMode('weak')}
+              disabled={weakIds.length === 0}
+              className={`btn btn-small ${isWeak ? 'btn-primary' : 'btn-secondary'}`}
+              style={{
+                padding: '0.35rem 0.65rem',
+                borderColor: isWeak ? 'var(--danger)' : undefined,
+                color: isWeak ? '#fff' : weakIds.length > 0 ? 'var(--danger)' : 'var(--text-light)',
+                background: isWeak ? 'var(--danger)' : undefined
+              }}
+            >
+              <AlertCircle size={13} />
+              <span>Câu sai ({weakIds.length})</span>
+            </button>
+
+            <button
+              title="Luyện tập các câu hoàn thành chậm"
+              onClick={() => handleSelectMode('slow')}
+              disabled={slowIds.length === 0}
+              className={`btn btn-small ${isSlow ? 'btn-primary' : 'btn-secondary'}`}
+              style={{
+                padding: '0.35rem 0.65rem',
+                borderColor: isSlow ? '#f59e0b' : undefined,
+                color: isSlow ? '#fff' : slowIds.length > 0 ? '#d97706' : 'var(--text-light)',
+                background: isSlow ? '#f59e0b' : undefined
+              }}
+            >
+              <Clock size={13} />
+              <span>Làm chậm ({slowIds.length})</span>
+            </button>
+
+            <button
+              title="Chế độ học: Xem trước đáp án chuẩn"
+              onClick={() => handleSelectMode('study')}
+              className={`btn btn-small ${isStudy ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ padding: '0.35rem 0.65rem' }}
+            >
+              <BookOpen size={13} />
+              <span>Học tập</span>
+            </button>
+
+            <div style={{ width: '1px', height: '20px', background: 'var(--border)', margin: '0 0.2rem' }}></div>
+
+            <button
+              onClick={handleResetAll}
+              className="btn btn-small btn-secondary"
+              title="Đặt lại toàn bộ bài tập Part 3"
+              style={{ padding: '0.35rem 0.65rem' }}
+            >
+              <RotateCcw size={13} />
+              <span>Reset</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Question Navigation Board */}
+      <div className="question-board" style={{ margin: 0 }}>
+        {activeQuestions.map((q, idx) => {
+          const setNum = getOriginalQuestionNumber(q);
+          const isFinished = allChecked[q.id];
+          const isAttempted = allAttempted[q.id];
+          const isCurrent = q.id === currentQuestion.id;
+
+          let statusClass = 'unattempted';
+          if (isFinished) {
+            statusClass = questionStatuses[q.id] || (allScores[q.id] === q.questions.length ? 'correct' : 'incorrect');
+          } else if (isAttempted) {
+            statusClass = 'attempted';
+          }
+
+          if (isCurrent) {
+            statusClass = `${statusClass} current`;
+          }
+
+          return (
+            <button
+              key={q.id}
+              className={`q-nav-btn ${statusClass}`}
+              onClick={() => jumpToQuestion(idx)}
+              title={`Set ${setNum}: ${q.topic || 'Part 3'}`}
+            >
+              {setNum}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* SPLIT SCREEN LAYOUT: Left (Passage) & Right (Questions) */}
+      <div className="part3-split-layout">
+        
+        {/* Left Column: People's Statements (Khung đoạn văn) */}
+        <div className="part3-reading-card">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: '0.4rem', borderBottom: '1px solid var(--border)' }}>
+            <div>
+              <h3 style={{ fontSize: '0.98rem', fontWeight: 700, color: 'var(--text-main)', margin: 0 }}>
+                Đoạn văn (Ý kiến 4 người A, B, C, D)
+              </h3>
+              <p className="text-muted" style={{ fontSize: '0.8rem', margin: '0.1rem 0 0 0' }}>
+                Đọc kỹ đoạn phát biểu của từng người để trả lời các câu hỏi bên phải.
+              </p>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
+            {currentQuestion.peopleTexts.map((text, idx) => {
+              const char = String.fromCharCode(65 + idx);
+              return (
+                <div key={idx} className="part3-person-item">
+                  <div className="part3-person-header">
+                    <div className="part3-person-badge">{char}</div>
+                    <span>Người {char}</span>
+                  </div>
+                  <div
+                    className="part3-person-text"
+                    dangerouslySetInnerHTML={{ __html: text }}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Right Column: Questions & Options (Khung câu hỏi) */}
+        <div className="part3-questions-card">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: '0.4rem', borderBottom: '1px solid var(--border)' }}>
+            <div>
+              <h3 style={{ fontSize: '0.98rem', fontWeight: 700, color: 'var(--text-main)', margin: 0 }}>
+                {isStudy ? 'Đáp án chuẩn 7 câu hỏi' : 'Danh sách 7 câu hỏi'}
+              </h3>
+              <p className="text-muted" style={{ fontSize: '0.8rem', margin: '0.1rem 0 0 0' }}>
+                Chọn người (A, B, C, D) tương ứng với nội dung câu hỏi.
+              </p>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem', flex: 1 }}>
+            {currentQuestion.questions.map((q, qIdx) => {
+              const userChoice = selectedAnswers[qIdx];
+              const isCorrect = isChecked ? userChoice === q.answer : null;
+              const correctChar = String.fromCharCode(65 + q.answer);
+
+              let itemClass = '';
+              if (isChecked) {
+                itemClass = isCorrect ? 'is-correct' : 'is-incorrect';
+              }
+
+              return (
+                <div key={qIdx} className={`part3-question-item ${itemClass}`}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '0.5rem' }}>
+                    <div className="part3-question-text">
+                      <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.35rem' }}>
+                        {qIdx + 1}.
+                      </span>
+                      <span>{q.text}</span>
+                    </div>
+
+                    {/* Feedback tag */}
+                    {isChecked && (
+                      <div style={{ flexShrink: 0 }}>
+                        {isCorrect ? (
+                          <span className="feedback-tag correct" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
+                            <Check size={11} />
+                            <span>Đúng</span>
+                          </span>
+                        ) : (
+                          <span className="feedback-tag incorrect" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
+                            <X size={11} />
+                            <span>Đáp án: {correctChar}</span>
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Options row A, B, C, D */}
+                  <div className="part3-options-row">
+                    {[0, 1, 2, 3].map(personIdx => {
+                      const char = String.fromCharCode(65 + personIdx);
+                      const isSelected = userChoice === personIdx;
+                      let optClass = '';
+
+                      if (isChecked && personIdx === q.answer) {
+                        optClass = 'is-correct-answer';
+                      } else if (isChecked && isSelected && !isCorrect) {
+                        optClass = 'is-wrong-selection';
+                      } else if (isSelected) {
+                        optClass = 'is-selected';
+                      }
+
+                      return (
+                        <button
+                          key={personIdx}
+                          disabled={isChecked}
+                          onClick={() => handleSelect(qIdx, personIdx)}
+                          className={`part3-opt-btn ${optClass}`}
+                        >
+                          {char}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Action Controls Bar */}
+          <div className="action-bar" style={{ paddingTop: '0.65rem', borderTop: '1px solid var(--border)', marginTop: 'auto' }}>
+            <div>
+              <button
+                onClick={handlePrev}
+                disabled={currentIndex === 0}
+                className="btn btn-secondary btn-small"
+                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+              >
+                <ChevronLeft size={16} />
+                <span>Quay lại</span>
+                <span className="kbd-hint" style={{ fontSize: '0.72rem', padding: '0 3px' }}>←</span>
+              </button>
+            </div>
+
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
+              {isChecked && !isStudy && (
+                <button
+                  onClick={handleResetQuestion}
+                  className="btn btn-secondary btn-small"
+                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                >
+                  <RotateCcw size={14} />
+                  <span>Thử lại</span>
+                </button>
+              )}
+
+              {!isStudy && !isChecked && (
+                <button
+                  onClick={handleCheck}
+                  disabled={!isAllAnswered}
+                  className="btn btn-primary btn-small"
+                  style={{ minWidth: '110px', borderRadius: 0, padding: '0.35rem 0.85rem', fontSize: '0.85rem' }}
+                >
+                  <CheckCircle size={16} />
+                  <span>Kiểm tra</span>
+                  <span className="kbd-hint" style={{ background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' }}>Enter</span>
+                </button>
+              )}
+
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === activeQuestions.length - 1}
+                className={`btn btn-small ${isChecked || isStudy ? 'btn-primary' : 'btn-secondary'}`}
+                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+              >
+                <span>Tiếp theo</span>
+                <ChevronRight size={16} />
+                <span className="kbd-hint" style={isChecked ? { background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' } : { fontSize: '0.72rem', padding: '0 3px' }}>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {/* RESULT POPUP MODAL (When has wrong answers) */}
+      {showResultPopup && (
+        <div className="custom-modal-overlay" onClick={() => setShowResultPopup(false)}>
+          <div
+            className="popup-content popup-large"
+            onClick={(e) => e.stopPropagation()}
+            style={{ borderRadius: 0, maxWidth: '600px', maxHeight: '88vh', display: 'flex', flexDirection: 'column' }}
+          >
+            {/* Modal Header */}
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              padding: '0.85rem 1.15rem',
+              borderBottom: '1px solid var(--border)',
+              background: '#f8fafc'
+            }}>
+              <div>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-main)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                  <CheckCircle size={18} color="var(--success)" />
+                  <span>Kết quả Set {getOriginalQuestionNumber(currentQuestion)}</span>
+                  <span style={{
+                    fontSize: '0.78rem',
+                    fontWeight: 700,
+                    padding: '0.15rem 0.5rem',
+                    borderRadius: 0,
+                    background: score === currentQuestion.questions.length ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
+                    color: score === currentQuestion.questions.length ? 'var(--success)' : 'var(--danger)',
+                    border: `1px solid ${score === currentQuestion.questions.length ? 'var(--success)' : 'var(--danger)'}`
+                  }}>
+                    {score}/{currentQuestion.questions.length} câu đúng
+                  </span>
+                </h3>
+                <p className="text-muted" style={{ fontSize: '0.78rem', margin: '0.15rem 0 0 0' }}>
+                  Chủ đề: <strong>{currentQuestion.topic || `Set ${getOriginalQuestionNumber(currentQuestion)}`}</strong>
+                </p>
+              </div>
+              <button
+                className="close-btn"
+                onClick={() => setShowResultPopup(false)}
+                title="Đóng (Esc)"
+                style={{ borderRadius: 0 }}
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            {/* Modal Body with Questions breakdown */}
+            <div style={{ padding: '0.85rem 1.15rem', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.45rem', flex: 1 }}>
+              {currentQuestion.questions.map((q, qIdx) => {
+                const userChoice = selectedAnswers[qIdx];
+                const isCorrect = userChoice === q.answer;
+                const correctChar = String.fromCharCode(65 + q.answer);
+                const userChar = userChoice !== undefined ? String.fromCharCode(65 + userChoice) : 'Chưa chọn';
+
+                return (
+                  <div
+                    key={qIdx}
+                    style={{
+                      padding: '0.55rem 0.75rem',
+                      background: isCorrect ? 'rgba(16, 185, 129, 0.04)' : 'rgba(239, 68, 68, 0.04)',
+                      border: '1px solid var(--border)',
+                      borderLeft: `3px solid ${isCorrect ? 'var(--success)' : 'var(--danger)'}`,
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.2rem',
+                      borderRadius: 0
+                    }}
+                  >
+                    <div style={{ fontSize: '0.9rem', lineHeight: '1.45', color: 'var(--text-main)' }}>
+                      <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.35rem' }}>
+                        {qIdx + 1}.
+                      </span>
+                      <span>{q.text}</span>
+                    </div>
+
+                    <div style={{ fontSize: '0.84rem', display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+                      <span style={{ color: 'var(--success)', fontWeight: 600 }}>
+                        Đáp án đúng: <strong>Người {correctChar}</strong>
+                      </span>
+                      {!isCorrect && (
+                        <span style={{ color: 'var(--danger)', fontSize: '0.8rem' }}>
+                          (Bạn chọn: <span style={{ textDecoration: 'line-through' }}>Người {userChar}</span>)
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Modal Footer */}
+            <div style={{
+              padding: '0.65rem 1.15rem',
+              borderTop: '1px solid var(--border)',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              background: '#f8fafc',
+              borderRadius: 0
+            }}>
+              <button
+                className="btn btn-secondary btn-small"
+                onClick={() => {
+                  setShowResultPopup(false);
+                  handleResetQuestion();
+                }}
+                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+              >
+                <RotateCcw size={14} />
+                <span>Làm lại câu này</span>
+              </button>
+
+              <div style={{ display: 'flex', gap: '0.4rem' }}>
+                <button
+                  className="btn btn-secondary btn-small"
+                  onClick={() => setShowResultPopup(false)}
+                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                >
+                  Đóng
+                </button>
+                <button
+                  className="btn btn-primary btn-small"
+                  onClick={() => {
+                    setShowResultPopup(false);
+                    handleNext();
+                  }}
+                  disabled={currentIndex === activeQuestions.length - 1}
+                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                >
+                  <span>Câu tiếp theo</span>
+                  <ChevronRight size={14} />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default PracticePart3;

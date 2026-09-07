@@ -1,0 +1,2117 @@
+[
+  {
+    "id": "part1_1",
+    "topic": "Set 1",
+    "text": "Where is the train [0] in this town?\nThe bus [1] here every morning.\nThe traffic light is [2] so you can go now.\nWe usually have [3] at 7 p.m.\nDo you like watching [4] on weekends?",
+    "options": [
+      [
+        "station",
+        "school",
+        "market"
+      ],
+      [
+        "runs",
+        "stops",
+        "flies"
+      ],
+      [
+        "red",
+        "yellow",
+        "green"
+      ],
+      [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      [
+        "books",
+        "movies",
+        "hotdog"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      2,
+      1
+    ],
+    "translatedText": "Ga xe lửa ở thị trấn này ở đâu?\nXe buýt dừng ở đây mỗi buổi sáng.\nĐèn giao thông màu xanh nên bạn có thể đi bây giờ.\nChúng tôi thường ăn tối lúc 7 giờ tối.\nBạn có thích xem phim vào cuối tuần không?",
+    "translatedSentences": [
+      "Ga xe lửa ở thị trấn này ở đâu?",
+      "Xe buýt dừng ở đây mỗi buổi sáng.",
+      "Đèn giao thông màu xanh nên bạn có thể đi bây giờ.",
+      "Chúng tôi thường ăn tối lúc 7 giờ tối.",
+      "Bạn có thích xem phim vào cuối tuần không?"
+    ]
+  },
+  {
+    "id": "part1_2",
+    "topic": "Set 2",
+    "text": "I always study in the [0] before school.\nMy [1] and I play football after class.\nI always [2] my bag on the chair.\nApples are very [3] for your health.\nWe eat rice and [4] every day.",
+    "options": [
+      [
+        "morning",
+        "sea",
+        "roof"
+      ],
+      [
+        "friends",
+        "dog",
+        "tree"
+      ],
+      [
+        "leave",
+        "go",
+        "love"
+      ],
+      [
+        "hate",
+        "lovely",
+        "good"
+      ],
+      [
+        "food",
+        "books",
+        "games"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "translatedText": "Tôi luôn học bài vào buổi sáng trước khi đến trường.\nBạn bè và tôi chơi bóng đá sau giờ học.\nTôi luôn để cặp sách của mình trên ghế.\nTáo rất tốt cho sức khỏe của bạn.\nChúng tôi ăn cơm và thức ăn mỗi ngày.",
+    "translatedSentences": [
+      "Tôi luôn học bài vào buổi sáng trước khi đến trường.",
+      "Bạn bè và tôi chơi bóng đá sau giờ học.",
+      "Tôi luôn để cặp sách của mình trên ghế.",
+      "Táo rất tốt cho sức khỏe của bạn.",
+      "Chúng tôi ăn cơm và thức ăn mỗi ngày."
+    ]
+  },
+  {
+    "id": "part1_3",
+    "topic": "Set 3",
+    "text": "Where is your [0] ?\nDo you talk to [1] at work?\nIs the task [2] for you?\nWhat do you [3] in the morning?\nWhat do you like to [4] on TV?",
+    "options": [
+      [
+        "home",
+        "sea",
+        "park"
+      ],
+      [
+        "customers",
+        "bird",
+        "chair"
+      ],
+      [
+        "easy",
+        "go",
+        "bring"
+      ],
+      [
+        "prepare",
+        "big",
+        "team"
+      ],
+      [
+        "watch",
+        "read",
+        "take"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Nhà của bạn ở đâu?\nBạn có nói chuyện với khách hàng ở nơi làm việc không?\nNhiệm vụ này có dễ đối với bạn không?\nBạn chuẩn bị những gì vào buổi sáng?\nBạn thích xem gì trên TV?",
+    "translatedSentences": [
+      "Nhà của bạn ở đâu?",
+      "Bạn có nói chuyện với khách hàng ở nơi làm việc không?",
+      "Nhiệm vụ này có dễ đối với bạn không?",
+      "Bạn chuẩn bị những gì vào buổi sáng?",
+      "Bạn thích xem gì trên TV?"
+    ]
+  },
+  {
+    "id": "part1_4",
+    "topic": "Set 4",
+    "text": "Do you jog in the [0] in the morning?\nDoes the gym offer [1] for yoga?\nIs English [2] for you?\nWhat do you eat for [3] every day?\nDo you practice [4] to relax?",
+    "options": [
+      [
+        "park",
+        "moon",
+        "tree"
+      ],
+      [
+        "classes",
+        "running",
+        "books"
+      ],
+      [
+        "easy",
+        "try",
+        "bye"
+      ],
+      [
+        "breakfast",
+        "love",
+        "cold"
+      ],
+      [
+        "meditation",
+        "book",
+        "healthy"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Bạn có chạy bộ trong công viên vào buổi sáng không?\nPhòng tập có cung cấp các lớp học yoga không?\nTiếng Anh có dễ với bạn không?\nBạn ăn gì cho bữa sáng mỗi ngày?\nBạn có tập thiền để thư giãn không?",
+    "translatedSentences": [
+      "Bạn có chạy bộ trong công viên vào buổi sáng không?",
+      "Phòng tập có cung cấp các lớp học yoga không?",
+      "Tiếng Anh có dễ với bạn không?",
+      "Bạn ăn gì cho bữa sáng mỗi ngày?",
+      "Bạn có tập thiền để thư giãn không?"
+    ]
+  },
+  {
+    "id": "part1_5",
+    "topic": "Set 5",
+    "text": "Is your neighborhood [0] ?\nHow do you usually [1] to work?\nWhen did you meet your friend [2] ?\nCan you [3] French?\nDo you like going out [4] with your friends?",
+    "options": [
+      [
+        "friendly",
+        "hate",
+        "big"
+      ],
+      [
+        "run",
+        "walk",
+        "buy"
+      ],
+      [
+        "first",
+        "love",
+        "bring"
+      ],
+      [
+        "speak",
+        "big",
+        "most"
+      ],
+      [
+        "alone",
+        "together",
+        "morning"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "translatedText": "Khu phố của bạn có thân thiện không?\nBạn thường đi bộ đi làm như thế nào?\nBạn gặp bạn của mình lần đầu khi nào?\nBạn có nói được tiếng Pháp không?\nBạn có thích đi chơi cùng nhau với bạn bè không?",
+    "translatedSentences": [
+      "Khu phố của bạn có thân thiện không?",
+      "Bạn thường đi bộ đi làm như thế nào?",
+      "Bạn gặp bạn của mình lần đầu khi nào?",
+      "Bạn có nói được tiếng Pháp không?",
+      "Bạn có thích đi chơi cùng nhau với bạn bè không?"
+    ]
+  },
+  {
+    "id": "part1_6",
+    "topic": "Set 6",
+    "text": "I go to school by  [0] .\nThe buildings in my city are very  [1] .\nThere are many green  [2]  near my home.\nI eat  [3]  with my family every morning.\nI play  [4]  to feel relaxed.",
+    "options": [
+      [
+        "spaceship",
+        "plane",
+        "bicycle"
+      ],
+      [
+        "hate",
+        "tall",
+        "went"
+      ],
+      [
+        "road",
+        "buy",
+        "trees"
+      ],
+      [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      [
+        "games",
+        "make",
+        "time"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      2,
+      0,
+      0
+    ],
+    "translatedText": "Tôi đi học bằng xe đạp.\nCác tòa nhà trong thành phố của tôi rất cao.\nCó nhiều công viên xanh gần nhà tôi.\nTôi ăn sáng với gia đình mỗi buổi sáng.\nTôi chơi thể thao để cảm thấy thư giãn.",
+    "translatedSentences": [
+      "Tôi đi học bằng xe đạp.",
+      "Các tòa nhà trong thành phố của tôi rất cao.",
+      "Có nhiều công viên xanh gần nhà tôi.",
+      "Tôi ăn sáng với gia đình mỗi buổi sáng.",
+      "Tôi chơi thể thao để cảm thấy thư giãn."
+    ]
+  },
+  {
+    "id": "part1_7",
+    "topic": "Set 7",
+    "text": "I want to  [0]  my grandparents this weekend.\nMy  [1]  is very clean and bright.\nThe weather is  [2]  today.\nWe went to the city by  [3] .\nI can  [4]  English very well.",
+    "options": [
+      [
+        "visit",
+        "clean",
+        "run"
+      ],
+      [
+        "room",
+        "father",
+        "mother"
+      ],
+      [
+        "big",
+        "hot",
+        "small"
+      ],
+      [
+        "spaceship",
+        "plane",
+        "train"
+      ],
+      [
+        "make",
+        "speak",
+        "love"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "translatedText": "Bác sĩ bảo tôi nghỉ ngơi nhiều hơn.\nBạn có tập thể dục vào buổi sáng không?\nUống nước giúp bạn khỏe mạnh.\nTôi cố gắng ngủ tám tiếng mỗi đêm.\nCô ấy đi bộ đến chỗ làm để giữ gìn vóc dáng.",
+    "translatedSentences": [
+      "Bác sĩ bảo tôi nghỉ ngơi nhiều hơn.",
+      "Bạn có tập thể dục vào buổi sáng không?",
+      "Uống nước giúp bạn khỏe mạnh.",
+      "Tôi cố gắng ngủ tám tiếng mỗi đêm.",
+      "Cô ấy đi bộ đến chỗ làm để giữ gìn vóc dáng."
+    ]
+  },
+  {
+    "id": "part1_8",
+    "topic": "Set 8",
+    "text": "My uncle works on a  [0] .\nThe children were very  [1]  about the trip.\nTurn  [2]  at the next corner.\nWe walked along the  [3]  to the park.\nI usually  [4]  milk in the morning.",
+    "options": [
+      [
+        "farm",
+        "compare",
+        "spare"
+      ],
+      [
+        "run",
+        "excited",
+        "most"
+      ],
+      [
+        "big",
+        "left",
+        "go"
+      ],
+      [
+        "water",
+        "street",
+        "cloud"
+      ],
+      [
+        "stone",
+        "drink",
+        "school"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "translatedText": "Thư viện mở cửa lúc chín giờ sáng.\nHọc sinh có thể mượn tối đa năm cuốn sách.\nVui lòng giữ im lặng trong phòng đọc.\nTôi thường học ở thư viện sau giờ học.\nThủ thư đã giúp tôi tìm cuốn sách.",
+    "translatedSentences": [
+      "Thư viện mở cửa lúc chín giờ sáng.",
+      "Học sinh có thể mượn tối đa năm cuốn sách.",
+      "Vui lòng giữ im lặng trong phòng đọc.",
+      "Tôi thường học ở thư viện sau giờ học.",
+      "Thủ thư đã giúp tôi tìm cuốn sách."
+    ]
+  },
+  {
+    "id": "part1_9",
+    "topic": "Set 9",
+    "text": "I usually stay at  [0]  on Sundays.\nMy father can  [1]  very well.\nI like spending time with my  [2]  after school.\nLet’s go for a  [3]  in the park.\nYour sister looks very  [4]  today.",
+    "options": [
+      [
+        "cloud",
+        "home",
+        "road"
+      ],
+      [
+        "fly",
+        "drive",
+        "big"
+      ],
+      [
+        "tree",
+        "friends",
+        "go"
+      ],
+      [
+        "walk",
+        "big",
+        "sea"
+      ],
+      [
+        "pretty",
+        "father",
+        "went"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "translatedText": "Bộ phim bắt đầu lúc bảy giờ tối.\nChúng tôi mua vé xem phim trên mạng.\nRạp chiếu phim rất đông đúc vào cuối tuần.\nAnh ấy thích xem phim hành động.\nBắp rang bơ ở rạp chiếu phim rất ngon.",
+    "translatedSentences": [
+      "Bộ phim bắt đầu lúc bảy giờ tối.",
+      "Chúng tôi mua vé xem phim trên mạng.",
+      "Rạp chiếu phim rất đông đúc vào cuối tuần.",
+      "Anh ấy thích xem phim hành động.",
+      "Bắp rang bơ ở rạp chiếu phim rất ngon."
+    ]
+  },
+  {
+    "id": "part1_10",
+    "topic": "Set 10",
+    "text": "I want to travel to the  [0]  this summer.\nPlease keep your room  [1] .\nWe have English  [2]  on Monday.\nI like helping  [3]  people.\nCan you spell these  [4]  for me?",
+    "options": [
+      [
+        "country",
+        "small",
+        "big"
+      ],
+      [
+        "green",
+        "boring",
+        "clean"
+      ],
+      [
+        "class",
+        "lunch",
+        "sea"
+      ],
+      [
+        "myself",
+        "father",
+        "other"
+      ],
+      [
+        "small",
+        "bring",
+        "words"
+      ]
+    ],
+    "answers": [
+      0,
+      2,
+      0,
+      2,
+      2
+    ],
+    "translatedText": "Chúng tôi đi tàu đến bãi biển.\nBầu trời trong xanh và đầy nắng hôm nay.\nTrẻ em đang chơi đùa trên cát.\nTôi thích bơi ở biển vào mùa hè.\nChúng tôi đã có một buổi dã ngoại tuyệt vời bên bờ biển.",
+    "translatedSentences": [
+      "Chúng tôi đi tàu đến bãi biển.",
+      "Bầu trời trong xanh và đầy nắng hôm nay.",
+      "Trẻ em đang chơi đùa trên cát.",
+      "Tôi thích bơi ở biển vào mùa hè.",
+      "Chúng tôi đã có một buổi dã ngoại tuyệt vời bên bờ biển."
+    ]
+  },
+  {
+    "id": "part1_11",
+    "topic": "Set 11",
+    "text": "My bedroom is very  [0] .\nWe usually  [1]  at a hotel on vacation.\nThere are many flowers in the  [2] .\nSome  [3]  near my home are very tall.\nMy grandfather is very  [4]  but still strong.",
+    "options": [
+      [
+        "boring",
+        "small",
+        "healthy"
+      ],
+      [
+        "stay",
+        "movie",
+        "bring"
+      ],
+      [
+        "sky",
+        "garden",
+        "water"
+      ],
+      [
+        "cloud",
+        "trees",
+        "morning"
+      ],
+      [
+        "hot",
+        "old",
+        "free"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "translatedText": "Chuyến tàu tiếp theo đến Luân Đôn khởi hành lúc 10 giờ sáng.\nHành khách nên mua vé trước khi lên tàu.\nXe buýt rất đông vào giờ cao điểm.\nNhà ga xe lửa nằm ở trung tâm thành phố.\nChuyến bay bị hoãn do thời tiết xấu.",
+    "translatedSentences": [
+      "Chuyến tàu tiếp theo đến Luân Đôn khởi hành lúc 10 giờ sáng.",
+      "Hành khách nên mua vé trước khi lên tàu.",
+      "Xe buýt rất đông vào giờ cao điểm.",
+      "Nhà ga xe lửa nằm ở trung tâm thành phố.",
+      "Chuyến bay bị hoãn do thời tiết xấu."
+    ]
+  },
+  {
+    "id": "part1_12",
+    "topic": "Set 12",
+    "text": "I  [0]  reading books in the library.\nMy bag is a bit  [1]  for my laptop.\nCan you go to the  [2]  to buy some milk?\nThere are many  [3]  in the class.\nThey want to  [4]  the class.",
+    "options": [
+      [
+        "love",
+        "make",
+        "run"
+      ],
+      [
+        "mean",
+        "small",
+        "again"
+      ],
+      [
+        "shop",
+        "park",
+        "sea"
+      ],
+      [
+        "people",
+        "birds",
+        "trees"
+      ],
+      [
+        "room",
+        "visit",
+        "fly"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "translatedText": "Tôi muốn thử chiếc áo sơ mi này với kích cỡ khác.\nCửa hàng giảm giá cho sinh viên.\nCô ấy thanh toán quần áo bằng thẻ tín dụng.\nPhòng thử đồ ở đằng kia.\nChợ bán trái cây và rau củ tươi.",
+    "translatedSentences": [
+      "Tôi muốn thử chiếc áo sơ mi này với kích cỡ khác.",
+      "Cửa hàng giảm giá cho sinh viên.",
+      "Cô ấy thanh toán quần áo bằng thẻ tín dụng.",
+      "Phòng thử đồ ở đằng kia.",
+      "Chợ bán trái cây và rau củ tươi."
+    ]
+  },
+  {
+    "id": "part1_13",
+    "topic": "Set 13",
+    "text": "I drink coffee in the  [0] .\nChildren play in the  [1] .\nWhat time do you  [2]  home?\nWe eat bread for  [3] .\nNice to  [4]  you.",
+    "options": [
+      [
+        "morning",
+        "sky",
+        "free"
+      ],
+      [
+        "park",
+        "big",
+        "hot"
+      ],
+      [
+        "leave",
+        "bring",
+        "stop"
+      ],
+      [
+        "breakfast",
+        "train",
+        "time"
+      ],
+      [
+        "meet",
+        "hate",
+        "look"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Tôi thường uống một tách cà phê vào buổi sáng.\nNhà hàng này phục vụ các món ăn truyền thống ngon tuyệt.\nChúng ta có thể xem thực đơn trước khi gọi món không?\nAnh ấy đã gọi món bít tết và khoai tây chiên cho bữa tối.\nMón tráng miệng quá ngọt đối với tôi.",
+    "translatedSentences": [
+      "Tôi thường uống một tách cà phê vào buổi sáng.",
+      "Nhà hàng này phục vụ các món ăn truyền thống ngon tuyệt.",
+      "Chúng ta có thể xem thực đơn trước khi gọi món không?",
+      "Anh ấy đã gọi món bít tết và khoai tây chiên cho bữa tối.",
+      "Món tráng miệng quá ngọt đối với tôi."
+    ]
+  },
+  {
+    "id": "part1_14",
+    "topic": "Set 14",
+    "text": "Every morning, my mother  [0] the newspaper before breakfast.\nMy father usually rides his  [1] to work.\nI always  [2] my teeth twice a day.\nThe children usually  [3] breakfast before school.\nWe often  [4] the morning news together.",
+    "options": [
+      [
+        "drives",
+        "reads",
+        "paints"
+      ],
+      [
+        "kite",
+        "boat",
+        "bicycle"
+      ],
+      [
+        "brush",
+        "cook",
+        "drive"
+      ],
+      [
+        "sell",
+        "swim",
+        "eat"
+      ],
+      [
+        "watch",
+        "drive",
+        "sleep"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "translatedText": "Hôm nay trời nắng và ấm áp.\nĐừng quên mang theo ô đề phòng trời mưa.\nNhiệt độ dự kiến sẽ giảm vào tối nay.\nGió thổi rất mạnh suốt cả ngày.\nTuyết bắt đầu rơi vào sáng sớm.",
+    "translatedSentences": [
+      "Hôm nay trời nắng và ấm áp.",
+      "Đừng quên mang theo ô đề phòng trời mưa.",
+      "Nhiệt độ dự kiến sẽ giảm vào tối nay.",
+      "Gió thổi rất mạnh suốt cả ngày.",
+      "Tuyết bắt đầu rơi vào sáng sớm."
+    ]
+  },
+  {
+    "id": "part1_15",
+    "topic": "Set 15",
+    "text": "It usually  [0] a lot in this region during autumn.\nThe weather here is quite  [1] in summer.\nPeople usually wear  [2] when it snows.\nThe sky looks quite  [3] today.\nIn spring, flowers usually  [4] in the garden.",
+    "options": [
+      [
+        "cooks",
+        "rains",
+        "sings"
+      ],
+      [
+        "hot",
+        "cheap",
+        "polite"
+      ],
+      [
+        "shorts",
+        "coats",
+        "sandals"
+      ],
+      [
+        "cheap",
+        "cloudy",
+        "friendly"
+      ],
+      [
+        "melt",
+        "freeze",
+        "grow"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    "translatedText": "Chúng tôi đã đặt một khách sạn gần trung tâm thành phố.\nAnh ấy thích đi du lịch và khám phá những địa điểm mới.\nĐừng quên đóng gói hộ chiếu của bạn.\nChuyến tham quan có hướng dẫn viên bắt đầu lúc chín giờ sáng.\nHọ đã chụp rất nhiều ảnh trong kỳ nghỉ.",
+    "translatedSentences": [
+      "Chúng tôi đã đặt một khách sạn gần trung tâm thành phố.",
+      "Anh ấy thích đi du lịch và khám phá những địa điểm mới.",
+      "Đừng quên đóng gói hộ chiếu của bạn.",
+      "Chuyến tham quan có hướng dẫn viên bắt đầu lúc chín giờ sáng.",
+      "Họ đã chụp rất nhiều ảnh trong kỳ nghỉ."
+    ]
+  },
+  {
+    "id": "part1_16",
+    "topic": "Set 16",
+    "text": "On Sundays, my family usually  [0] for a big lunch.\nMy grandparents like to tell  [1] about their childhood.\nMy little sister often  [2] pictures of animals.\nWe usually spend the holidays with our  [3] .\nMy parents always  [4] my decisions.",
+    "options": [
+      [
+        "travels",
+        "gathers",
+        "argues"
+      ],
+      [
+        "lies",
+        "stories",
+        "jokes"
+      ],
+      [
+        "cooks",
+        "draws",
+        "drives"
+      ],
+      [
+        "strangers",
+        "relatives",
+        "colleagues"
+      ],
+      [
+        "forget",
+        "ignore",
+        "support"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "translatedText": "Tôi bắt đầu làm việc lúc chín giờ sáng mỗi ngày.\nĐồng nghiệp của tôi luôn sẵn lòng giúp đỡ.\nChúng tôi có một cuộc họp quan trọng vào chiều nay.\nCô ấy đã nộp báo cáo trước thời hạn.\nLàm việc tại nhà mang lại cho tôi sự linh hoạt hơn.",
+    "translatedSentences": [
+      "Tôi bắt đầu làm việc lúc chín giờ sáng mỗi ngày.",
+      "Đồng nghiệp của tôi luôn sẵn lòng giúp đỡ.",
+      "Chúng tôi có một cuộc họp quan trọng vào chiều nay.",
+      "Cô ấy đã nộp báo cáo trước thời hạn.",
+      "Làm việc tại nhà mang lại cho tôi sự linh hoạt hơn."
+    ]
+  },
+  {
+    "id": "part1_17",
+    "topic": "Set 17",
+    "text": "Our school starts every day at  [0] o'clock.\nStudents usually wear a  [1] to school.\nMy teacher always  [2] the lesson clearly.\nWe usually have  [3] at the end of each term.\nDuring break time, students often  [4] with their friends.",
+    "options": [
+      [
+        "seven",
+        "midnight",
+        "noon"
+      ],
+      [
+        "uniform",
+        "costume",
+        "helmet"
+      ],
+      [
+        "ignores",
+        "hides",
+        "explains"
+      ],
+      [
+        "exams",
+        "parties",
+        "holidays"
+      ],
+      [
+        "chat",
+        "cook",
+        "sleep"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "translatedText": "Học sinh phải mặc đồng phục đến trường.\nBài thi môn toán khó hơn tôi nghĩ.\nGiáo viên luôn giải thích bài học rất rõ ràng.\nChúng tôi thường có các kỳ thi vào cuối mỗi học kỳ.\nTrong giờ giải lao, học sinh thường trò chuyện với bạn bè.",
+    "translatedSentences": [
+      "Học sinh phải mặc đồng phục đến trường.",
+      "Bài thi môn toán khó hơn tôi nghĩ.",
+      "Giáo viên luôn giải thích bài học rất rõ ràng.",
+      "Chúng tôi thường có các kỳ thi vào cuối mỗi học kỳ.",
+      "Trong giờ giải lao, học sinh thường trò chuyện với bạn bè."
+    ]
+  },
+  {
+    "id": "part1_18",
+    "topic": "Set 18",
+    "text": "My mother usually  [0] dinner for the whole family.\nWe often add a little  [1] to the soup.\nThis bakery sells fresh  [2] every morning.\nI usually drink a glass of  [3] before bed.\nMy favorite dish is quite  [4] .",
+    "options": [
+      [
+        "paints",
+        "cooks",
+        "drives"
+      ],
+      [
+        "glue",
+        "sand",
+        "salt"
+      ],
+      [
+        "shoes",
+        "bread",
+        "toys"
+      ],
+      [
+        "milk",
+        "paint",
+        "oil"
+      ],
+      [
+        "heavy",
+        "loud",
+        "spicy"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      1,
+      0,
+      2
+    ],
+    "translatedText": "Mẹ tôi thường nấu bữa tối cho cả gia đình.\nChúng tôi thường thêm một chút muối vào súp.\nTiệm bánh này bán bánh mì tươi mỗi sáng.\nTôi thường uống một ly sữa trước khi đi ngủ.\nMón ăn yêu thích của tôi khá cay.",
+    "translatedSentences": [
+      "Mẹ tôi thường nấu bữa tối cho cả gia đình.",
+      "Chúng tôi thường thêm một chút muối vào súp.",
+      "Tiệm bánh này bán bánh mì tươi mỗi sáng.",
+      "Tôi thường uống một ly sữa trước khi đi ngủ.",
+      "Món ăn yêu thích của tôi khá cay."
+    ]
+  },
+  {
+    "id": "part1_19",
+    "topic": "Set 19",
+    "text": "Our dog usually  [0] when someone knocks on the door.\nMy cat likes to sleep on the  [1] all afternoon.\nWe feed our fish  [2] a day.\nRabbits usually eat  [3] and other vegetables.\nMy brother takes the dog for a  [4] every evening.",
+    "options": [
+      [
+        "barks",
+        "cooks",
+        "sings"
+      ],
+      [
+        "stove",
+        "roof",
+        "sofa"
+      ],
+      [
+        "never",
+        "twice",
+        "rarely"
+      ],
+      [
+        "carrots",
+        "meat",
+        "bread"
+      ],
+      [
+        "swim",
+        "walk",
+        "ride"
+      ]
+    ],
+    "answers": [
+      0,
+      2,
+      1,
+      0,
+      1
+    ],
+    "translatedText": "Con chó của chúng tôi thường sủa khi có ai đó gõ cửa.\nCon mèo của tôi thích ngủ trên ghế sofa suốt cả buổi chiều.\nChúng tôi cho cá ăn hai lần một ngày.\nThỏ thường ăn cà rốt và các loại rau khác.\nAnh trai tôi dắt chó đi dạo mỗi tối.",
+    "translatedSentences": [
+      "Con chó của chúng tôi thường sủa khi có ai đó gõ cửa.",
+      "Con mèo của tôi thích ngủ trên ghế sofa suốt cả buổi chiều.",
+      "Chúng tôi cho cá ăn hai lần một ngày.",
+      "Thỏ thường ăn cà rốt và các loại rau khác.",
+      "Anh trai tôi dắt chó đi dạo mỗi tối."
+    ]
+  },
+  {
+    "id": "part1_20",
+    "topic": "Set 20",
+    "text": "My mother usually goes  [0] on Saturday mornings.\nThis shop offers a big  [1] every weekend.\nI usually pay by  [2] instead of cash.\nThe market sells fresh  [3] every day.\nWe usually make a shopping  [4] before going to the store.",
+    "options": [
+      [
+        "swimming",
+        "shopping",
+        "hiking"
+      ],
+      [
+        "delay",
+        "punishment",
+        "discount"
+      ],
+      [
+        "foot",
+        "hand",
+        "card"
+      ],
+      [
+        "vegetables",
+        "furniture",
+        "electronics"
+      ],
+      [
+        "speech",
+        "song",
+        "list"
+      ]
+    ],
+    "answers": [
+      1,
+      2,
+      2,
+      0,
+      2
+    ],
+    "translatedText": "Mẹ tôi thường đi mua sắm vào sáng thứ Bảy.\nCửa hàng này giảm giá lớn vào mỗi cuối tuần.\nTôi thường thanh toán bằng thẻ thay vì tiền mặt.\nKhu chợ bán rau củ tươi mỗi ngày.\nChúng tôi thường lập danh sách mua sắm trước khi đến cửa hàng.",
+    "translatedSentences": [
+      "Mẹ tôi thường đi mua sắm vào sáng thứ Bảy.",
+      "Cửa hàng này giảm giá lớn vào mỗi cuối tuần.",
+      "Tôi thường thanh toán bằng thẻ thay vì tiền mặt.",
+      "Khu chợ bán rau củ tươi mỗi ngày.",
+      "Chúng tôi thường lập danh sách mua sắm trước khi đến cửa hàng."
+    ]
+  },
+  {
+    "id": "part1_21",
+    "topic": "Set 21",
+    "text": "My brother plays  [0] every weekend.\nI usually go  [1] in the park before work.\nOur gym offers yoga  [2] every evening.\nSwimming helps keep my body  [3] .\nWe usually train as a  [4] twice a week.",
+    "options": [
+      [
+        "piano",
+        "chess",
+        "football"
+      ],
+      [
+        "sleeping",
+        "shopping",
+        "jogging"
+      ],
+      [
+        "meals",
+        "classes",
+        "uniforms"
+      ],
+      [
+        "tired",
+        "fit",
+        "heavy"
+      ],
+      [
+        "crowd",
+        "audience",
+        "team"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      1,
+      2
+    ],
+    "translatedText": "Anh trai tôi chơi bóng đá vào mỗi cuối tuần.\nTôi thường đi chạy bộ trong công viên trước giờ làm việc.\nPhòng tập của chúng tôi có các lớp học yoga vào mỗi buổi tối.\nBơi lội giúp cơ thể tôi giữ được vóc dáng cân đối.\nChúng tôi thường tập luyện theo đội hai lần một tuần.",
+    "translatedSentences": [
+      "Anh trai tôi chơi bóng đá vào mỗi cuối tuần.",
+      "Tôi thường đi chạy bộ trong công viên trước giờ làm việc.",
+      "Phòng tập của chúng tôi có các lớp học yoga vào mỗi buổi tối.",
+      "Bơi lội giúp cơ thể tôi giữ được vóc dáng cân đối.",
+      "Chúng tôi thường tập luyện theo đội hai lần một tuần."
+    ]
+  },
+  {
+    "id": "part1_22",
+    "topic": "Set 22",
+    "text": "I usually check my  [0] first thing in the morning.\nThis app helps me  [1] my daily schedule.\nMy phone battery usually  [2] all day.\nWe often  [3] our relatives abroad through video chat.\nThis laptop is quite  [4] and easy to carry.",
+    "options": [
+      [
+        "shoes",
+        "email",
+        "garden"
+      ],
+      [
+        "destroy",
+        "organize",
+        "ignore"
+      ],
+      [
+        "grows",
+        "lasts",
+        "melts"
+      ],
+      [
+        "cook",
+        "paint",
+        "call"
+      ],
+      [
+        "heavy",
+        "old",
+        "light"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "translatedText": "Tôi thường kiểm tra email đầu tiên vào buổi sáng.\nỨng dụng này giúp tôi sắp xếp lịch trình hàng ngày.\nPin điện thoại của tôi thường dùng được cả ngày.\nChúng tôi thường gọi cho người thân ở nước ngoài qua trò chuyện video.\nChiếc máy tính xách tay này khá nhẹ và dễ mang theo.",
+    "translatedSentences": [
+      "Tôi thường kiểm tra email đầu tiên vào buổi sáng.",
+      "Ứng dụng này giúp tôi sắp xếp lịch trình hàng ngày.",
+      "Pin điện thoại của tôi thường dùng được cả ngày.",
+      "Chúng tôi thường gọi cho người thân ở nước ngoài qua trò chuyện video.",
+      "Chiếc máy tính xách tay này khá nhẹ và dễ mang theo."
+    ]
+  },
+  {
+    "id": "part1_23",
+    "topic": "Set 23",
+    "text": "The bus usually  [0] on time.\nI usually take the  [1] to work every day.\nDuring rush hour, the roads are usually quite  [2] .\nPassengers must buy a  [3] before boarding.\nThe subway station is very close to my  [4] .",
+    "options": [
+      [
+        "disappears",
+        "explodes",
+        "arrives"
+      ],
+      [
+        "helicopter",
+        "boat",
+        "train"
+      ],
+      [
+        "empty",
+        "crowded",
+        "quiet"
+      ],
+      [
+        "ticket",
+        "uniform",
+        "gift"
+      ],
+      [
+        "farm",
+        "house",
+        "forest"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      0,
+      1
+    ],
+    "translatedText": "Xe buýt thường đến đúng giờ.\nTôi thường đi tàu đi làm mỗi ngày.\nVào giờ cao điểm, đường phố thường khá đông đúc.\nHành khách phải mua vé trước khi lên tàu.\nGa tàu điện ngầm rất gần nhà tôi.",
+    "translatedSentences": [
+      "Xe buýt thường đến đúng giờ.",
+      "Tôi thường đi tàu đi làm mỗi ngày.",
+      "Vào giờ cao điểm, đường phố thường khá đông đúc.",
+      "Hành khách phải mua vé trước khi lên tàu.",
+      "Ga tàu điện ngầm rất gần nhà tôi."
+    ]
+  },
+  {
+    "id": "part1_24",
+    "topic": "Set 24",
+    "text": "Our neighborhood has a small  [0] where children play.\nThe local bakery always smells  [1] in the morning.\nOur neighbors are always very  [2] to us.\nThere is a small  [3] near my house.\nThe streets in our town are usually quite  [4] .",
+    "options": [
+      [
+        "park",
+        "factory",
+        "airport"
+      ],
+      [
+        "delicious",
+        "strange",
+        "terrible"
+      ],
+      [
+        "noisy",
+        "friendly",
+        "rude"
+      ],
+      [
+        "volcano",
+        "library",
+        "desert"
+      ],
+      [
+        "dirty",
+        "flooded",
+        "clean"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    "translatedText": "Khu phố của chúng tôi có một công viên nhỏ nơi trẻ em vui chơi.\nTiệm bánh địa phương luôn thơm phức vào buổi sáng.\nNhững người hàng xóm luôn rất thân thiện với chúng tôi.\nCó một thư viện nhỏ gần nhà tôi.\nĐường phố ở thị trấn chúng tôi thường khá sạch sẽ.",
+    "translatedSentences": [
+      "Khu phố của chúng tôi có một công viên nhỏ nơi trẻ em vui chơi.",
+      "Tiệm bánh địa phương luôn thơm phức vào buổi sáng.",
+      "Những người hàng xóm luôn rất thân thiện với chúng tôi.",
+      "Có một thư viện nhỏ gần nhà tôi.",
+      "Đường phố ở thị trấn chúng tôi thường khá sạch sẽ."
+    ]
+  },
+  {
+    "id": "part1_25",
+    "topic": "Set 25",
+    "text": "My colleagues and I usually have a  [0] every Monday morning.\nI usually finish my  [1] before lunchtime.\nMy boss is usually quite  [2] about deadlines.\nThe office usually opens at  [3] o'clock.\nWe usually take a short  [4] in the middle of the day.",
+    "options": [
+      [
+        "holiday",
+        "meeting",
+        "party"
+      ],
+      [
+        "dinner",
+        "report",
+        "vacation"
+      ],
+      [
+        "strict",
+        "lazy",
+        "careless"
+      ],
+      [
+        "noon",
+        "midnight",
+        "eight"
+      ],
+      [
+        "nap",
+        "break",
+        "trip"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      0,
+      2,
+      1
+    ],
+    "translatedText": "Các đồng nghiệp và tôi thường họp vào sáng thứ Hai.\nTôi thường hoàn thành báo cáo trước giờ ăn trưa.\nSếp của tôi thường khá nghiêm khắc về thời hạn.\nVăn phòng thường mở cửa lúc tám giờ.\nChúng tôi thường nghỉ ngơi một chút vào giữa ngày.",
+    "translatedSentences": [
+      "Các đồng nghiệp và tôi thường họp vào sáng thứ Hai.",
+      "Tôi thường hoàn thành báo cáo trước giờ ăn trưa.",
+      "Sếp của tôi thường khá nghiêm khắc về thời hạn.",
+      "Văn phòng thường mở cửa lúc tám giờ.",
+      "Chúng tôi thường nghỉ ngơi một chút vào giữa ngày."
+    ]
+  },
+  {
+    "id": "part1_26",
+    "topic": "Set 26",
+    "text": "I usually drink plenty of  [0] every day.\nMy grandmother goes for a check-up  [1] .\nEating too much sugar is not very  [2] .\nI usually go to bed  [3] on weekdays.\nWe always wash our hands before  [4] .",
+    "options": [
+      [
+        "paint",
+        "water",
+        "oil"
+      ],
+      [
+        "regularly",
+        "rarely",
+        "never"
+      ],
+      [
+        "cheap",
+        "healthy",
+        "quiet"
+      ],
+      [
+        "early",
+        "late",
+        "never"
+      ],
+      [
+        "eating",
+        "sleeping",
+        "singing"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "translatedText": "Tôi thường uống nhiều nước mỗi ngày.\nBà tôi đi khám sức khỏe định kỳ thường xuyên.\nĂn quá nhiều đường không tốt cho sức khỏe.\nTôi thường đi ngủ sớm vào các ngày trong tuần.\nChúng tôi luôn rửa tay trước khi ăn.",
+    "translatedSentences": [
+      "Tôi thường uống nhiều nước mỗi ngày.",
+      "Bà tôi đi khám sức khỏe định kỳ thường xuyên.",
+      "Ăn quá nhiều đường không tốt cho sức khỏe.",
+      "Tôi thường đi ngủ sớm vào các ngày trong tuần.",
+      "Chúng tôi luôn rửa tay trước khi ăn."
+    ]
+  },
+  {
+    "id": "part1_27",
+    "topic": "Set 27",
+    "text": "My sister enjoys playing the  [0] every afternoon.\nI usually read a  [1] before going to sleep.\nMy father likes to collect old  [2] .\nWe usually listen to  [3] while doing housework.\nPainting helps me feel very  [4] .",
+    "options": [
+      [
+        "computer",
+        "football",
+        "piano"
+      ],
+      [
+        "recipe",
+        "novel",
+        "map"
+      ],
+      [
+        "plates",
+        "shoes",
+        "stamps"
+      ],
+      [
+        "music",
+        "traffic",
+        "silence"
+      ],
+      [
+        "tired",
+        "relaxed",
+        "nervous"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    "translatedText": "Em gái tôi thích chơi đàn piano mỗi buổi chiều.\nTôi thường đọc một cuốn tiểu thuyết trước khi đi ngủ.\nBố tôi thích sưu tầm tem cũ.\nChúng tôi thường nghe nhạc trong khi làm việc nhà.\nVẽ tranh giúp tôi cảm thấy rất thư giãn.",
+    "translatedSentences": [
+      "Em gái tôi thích chơi đàn piano mỗi buổi chiều.",
+      "Tôi thường đọc một cuốn tiểu thuyết trước khi đi ngủ.",
+      "Bố tôi thích sưu tầm tem cũ.",
+      "Chúng tôi thường nghe nhạc trong khi làm việc nhà.",
+      "Vẽ tranh giúp tôi cảm thấy rất thư giãn."
+    ]
+  },
+  {
+    "id": "part1_28",
+    "topic": "Set 28",
+    "text": "We usually go  [0] in the mountains on weekends.\nMy family likes to have a  [1] in the park.\nOn Saturdays, I usually clean my  [2] .\nWe usually watch a  [3] together on Friday night.\nMy friends and I like to meet at the  [4] on weekends.",
+    "options": [
+      [
+        "sleeping",
+        "hiking",
+        "working"
+      ],
+      [
+        "exam",
+        "picnic",
+        "meeting"
+      ],
+      [
+        "office",
+        "room",
+        "garden"
+      ],
+      [
+        "meeting",
+        "movie",
+        "lecture"
+      ],
+      [
+        "cafe",
+        "office",
+        "hospital"
+      ]
+    ],
+    "answers": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "translatedText": "Chúng tôi thường đi leo núi vào cuối tuần.\nGia đình tôi thích đi dã ngoại ở công viên.\nVào các ngày thứ Bảy, tôi thường dọn dẹp phòng của mình.\nChúng tôi thường xem phim cùng nhau vào tối thứ Sáu.\nBạn bè và tôi thích gặp nhau ở quán cà phê vào cuối tuần.",
+    "translatedSentences": [
+      "Chúng tôi thường đi leo núi vào cuối tuần.",
+      "Gia đình tôi thích đi dã ngoại ở công viên.",
+      "Vào các ngày thứ Bảy, tôi thường dọn dẹp phòng của mình.",
+      "Chúng tôi thường xem phim cùng nhau vào tối thứ Sáu.",
+      "Bạn bè và tôi thích gặp nhau ở quán cà phê vào cuối tuần."
+    ]
+  },
+  {
+    "id": "part1_29",
+    "topic": "Set 29",
+    "text": "Birds usually sing early in the  [0] .\nThe forest near our town is very  [1] .\nWe usually go camping near the  [2] in summer.\nBees usually fly around the colorful  [3] in the garden.\nThe mountain air always feels quite  [4] .",
+    "options": [
+      [
+        "storm",
+        "morning",
+        "night"
+      ],
+      [
+        "peaceful",
+        "loud",
+        "crowded"
+      ],
+      [
+        "airport",
+        "mall",
+        "lake"
+      ],
+      [
+        "books",
+        "cars",
+        "flowers"
+      ],
+      [
+        "fresh",
+        "heavy",
+        "dirty"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      2,
+      2,
+      0
+    ],
+    "translatedText": "Chim chóc thường hót vào sáng sớm.\nKhu rừng gần thị trấn của chúng tôi rất yên bình.\nChúng tôi thường đi cắm trại gần hồ vào mùa hè.\nNhững chú ong thường bay quanh những bông hoa đầy màu sắc trong vườn.\nKhông khí trên núi luôn cho cảm giác rất trong lành.",
+    "translatedSentences": [
+      "Chim chóc thường hót vào sáng sớm.",
+      "Khu rừng gần thị trấn của chúng tôi rất yên bình.",
+      "Chúng tôi thường đi cắm trại gần hồ vào mùa hè.",
+      "Những chú ong thường bay quanh những bông hoa đầy màu sắc trong vườn.",
+      "Không khí trên núi luôn cho cảm giác rất trong lành."
+    ]
+  },
+  {
+    "id": "part1_30",
+    "topic": "Set 30",
+    "text": "I usually  [0] the living room every weekend.\nMy brother always takes out the  [1] every evening.\nWe usually do the  [2] on Sunday mornings.\nMy mother likes to keep the kitchen very  [3] .\nI usually water the  [4] every morning.",
+    "options": [
+      [
+        "cook",
+        "vacuum",
+        "paint"
+      ],
+      [
+        "trash",
+        "furniture",
+        "carpet"
+      ],
+      [
+        "laundry",
+        "shopping",
+        "homework"
+      ],
+      [
+        "messy",
+        "dark",
+        "tidy"
+      ],
+      [
+        "windows",
+        "plants",
+        "furniture"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    "translatedText": "Tôi thường hút bụi phòng khách vào mỗi cuối tuần.\nAnh trai tôi luôn đi đổ rác vào mỗi buổi tối.\nChúng tôi thường giặt quần áo vào sáng Chủ nhật.\nMẹ tôi thích giữ cho nhà bếp thật ngăn nắp.\nTôi thường tưới cây mỗi buổi sáng.",
+    "translatedSentences": [
+      "Tôi thường hút bụi phòng khách vào mỗi cuối tuần.",
+      "Anh trai tôi luôn đi đổ rác vào mỗi buổi tối.",
+      "Chúng tôi thường giặt quần áo vào sáng Chủ nhật.",
+      "Mẹ tôi thích giữ cho nhà bếp thật ngăn nắp.",
+      "Tôi thường tưới cây mỗi buổi sáng."
+    ]
+  },
+  {
+    "id": "part1_31",
+    "topic": "Set 31",
+    "text": "My family usually travels  [0] once a year.\nBefore any trip, I always check the  [1] forecast.\nWe usually pack our  [2] the night before a trip.\nMy father prefers to book flights  [3] .\nTravelling by train is usually quite  [4] .",
+    "options": [
+      [
+        "backwards",
+        "underground",
+        "abroad"
+      ],
+      [
+        "weather",
+        "homework",
+        "furniture"
+      ],
+      [
+        "suitcase",
+        "kitchen",
+        "garden"
+      ],
+      [
+        "underground",
+        "loudly",
+        "online"
+      ],
+      [
+        "expensive",
+        "relaxing",
+        "dangerous"
+      ]
+    ],
+    "answers": [
+      2,
+      0,
+      0,
+      2,
+      1
+    ],
+    "translatedText": "Gia đình tôi thường đi du lịch nước ngoài mỗi năm một lần.\nTrước mỗi chuyến đi, tôi luôn xem dự báo thời tiết.\nChúng tôi thường đóng gói vali vào đêm trước chuyến đi.\nBố tôi thích đặt vé máy bay trực tuyến.\nĐi du lịch bằng tàu hỏa thường khá thư giãn.",
+    "translatedSentences": [
+      "Gia đình tôi thường đi du lịch nước ngoài mỗi năm một lần.",
+      "Trước mỗi chuyến đi, tôi luôn xem dự báo thời tiết.",
+      "Chúng tôi thường đóng gói vali vào đêm trước chuyến đi.",
+      "Bố tôi thích đặt vé máy bay trực tuyến.",
+      "Đi du lịch bằng tàu hỏa thường khá thư giãn."
+    ]
+  },
+  {
+    "id": "part1_32",
+    "topic": "Set 32",
+    "text": "My cousin plays the  [0] in a local band.\nThis museum usually displays modern  [1] .\nI usually sing in the school  [2] on Fridays.\nClassical music always makes me feel quite  [3] .\nMy sister takes dance  [4] every Tuesday.",
+    "options": [
+      [
+        "chess",
+        "football",
+        "guitar"
+      ],
+      [
+        "vegetables",
+        "paintings",
+        "furniture"
+      ],
+      [
+        "choir",
+        "garden",
+        "kitchen"
+      ],
+      [
+        "angry",
+        "calm",
+        "hungry"
+      ],
+      [
+        "lessons",
+        "medicine",
+        "exams"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    "translatedText": "Anh họ tôi chơi đàn guitar trong một ban nhạc địa phương.\nBảo tàng này thường trưng bày các bức tranh hiện đại.\nTôi thường hát trong dàn hợp xướng của trường vào các ngày thứ Sáu.\nNhạc cổ điển luôn làm cho tôi cảm thấy khá bình yên.\nEm gái tôi học các lớp khiêu vũ vào mỗi thứ Ba.",
+    "translatedSentences": [
+      "Anh họ tôi chơi đàn guitar trong một ban nhạc địa phương.",
+      "Bảo tàng này thường trưng bày các bức tranh hiện đại.",
+      "Tôi thường hát trong dàn hợp xướng của trường vào các ngày thứ Sáu.",
+      "Nhạc cổ điển luôn làm cho tôi cảm thấy khá bình yên.",
+      "Em gái tôi học các lớp khiêu vũ vào mỗi thứ Ba."
+    ]
+  },
+  {
+    "id": "part1_33",
+    "topic": "Set 33",
+    "text": "My grandmother usually bakes  [0] every weekend.\nThis recipe needs a pinch of  [1] .\nWe usually preheat the  [2] before baking a cake.\nI always add fresh  [3] to my salads.\nThis cake usually takes an hour to  [4] .",
+    "options": [
+      [
+        "bread",
+        "shoes",
+        "furniture"
+      ],
+      [
+        "paint",
+        "salt",
+        "sand"
+      ],
+      [
+        "fridge",
+        "garden",
+        "oven"
+      ],
+      [
+        "rocks",
+        "paper",
+        "herbs"
+      ],
+      [
+        "bake",
+        "melt",
+        "freeze"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      2,
+      0
+    ],
+    "translatedText": "Bà tôi thường nướng bánh mì vào mỗi cuối tuần.\nCông thức này cần một nhúm muối.\nChúng tôi thường làm nóng lò trước khi nướng bánh.\nTôi luôn thêm các loại rau thơm tươi vào món salad của mình.\nChiếc bánh này thường mất một giờ để nướng.",
+    "translatedSentences": [
+      "Bà tôi thường nướng bánh mì vào mỗi cuối tuần.",
+      "Công thức này cần một nhúm muối.",
+      "Chúng tôi thường làm nóng lò trước khi nướng bánh.",
+      "Tôi luôn thêm các loại rau thơm tươi vào món salad của mình.",
+      "Chiếc bánh này thường mất một giờ để nướng."
+    ]
+  },
+  {
+    "id": "part1_34",
+    "topic": "Set 34",
+    "text": "My mother grows several  [0] in our backyard.\nThese flowers need plenty of  [1] to grow well.\nI usually water the garden every  [2] .\nOur garden always looks quite  [3] in spring.\nMy father likes to cut the  [4] every month.",
+    "options": [
+      [
+        "rocks",
+        "animals",
+        "vegetables"
+      ],
+      [
+        "snow",
+        "sunlight",
+        "shade"
+      ],
+      [
+        "winter",
+        "morning",
+        "midnight"
+      ],
+      [
+        "dusty",
+        "colorful",
+        "empty"
+      ],
+      [
+        "grass",
+        "carpets",
+        "windows"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "translatedText": "Mẹ tôi trồng vài loại rau ở sân sau nhà.\nNhững bông hoa này cần nhiều ánh sáng mặt trời để phát triển tốt.\nTôi thường tưới vườn mỗi buổi sáng.\nKhu vườn của chúng tôi luôn trông rực rỡ sắc màu vào mùa xuân.\nBố tôi thích cắt cỏ mỗi tháng một lần.",
+    "translatedSentences": [
+      "Mẹ tôi trồng vài loại rau ở sân sau nhà.",
+      "Những bông hoa này cần nhiều ánh sáng mặt trời để phát triển tốt.",
+      "Tôi thường tưới vườn mỗi buổi sáng.",
+      "Khu vườn của chúng tôi luôn trông rực rỡ sắc màu vào mùa xuân.",
+      "Bố tôi thích cắt cỏ mỗi tháng một lần."
+    ]
+  },
+  {
+    "id": "part1_35",
+    "topic": "Set 35",
+    "text": "I usually study at the  [0] after school.\nMy classmates and I often  [1] our lessons together.\nThis library usually stays open until  [2] in the evening.\nI always take careful  [3] during lectures.\nGroup study usually helps me stay  [4] .",
+    "options": [
+      [
+        "stadium",
+        "library",
+        "cinema"
+      ],
+      [
+        "review",
+        "skip",
+        "forget"
+      ],
+      [
+        "nine",
+        "noon",
+        "dawn"
+      ],
+      [
+        "naps",
+        "notes",
+        "photos"
+      ],
+      [
+        "tired",
+        "bored",
+        "focused"
+      ]
+    ],
+    "answers": [
+      1,
+      0,
+      0,
+      1,
+      2
+    ],
+    "translatedText": "Tôi thường học ở thư viện sau giờ học.\nCác bạn cùng lớp và tôi thường cùng nhau ôn tập bài học.\nThư viện này thường mở cửa đến chín giờ tối.\nTôi luôn ghi chép cẩn thận trong các buổi giảng.\nHọc nhóm thường giúp tôi tập trung hơn.",
+    "translatedSentences": [
+      "Tôi thường học ở thư viện sau giờ học.",
+      "Các bạn cùng lớp và tôi thường cùng nhau ôn tập bài học.",
+      "Thư viện này thường mở cửa đến chín giờ tối.",
+      "Tôi luôn ghi chép cẩn thận trong các buổi giảng.",
+      "Học nhóm thường giúp tôi tập trung hơn."
+    ]
+  },
+  {
+    "id": "part1_36",
+    "topic": "Set 36",
+    "text": "My friends and I usually meet at the  [0] after class.\nI always  [1] my friends when they need help.\nWe usually chat about our  [2] for the weekend.\nMy best friend always tells the truth and never  [3] .\nWe usually celebrate birthdays with a small  [4] .",
+    "options": [
+      [
+        "cafe",
+        "airport",
+        "hospital"
+      ],
+      [
+        "ignore",
+        "support",
+        "avoid"
+      ],
+      [
+        "enemies",
+        "plans",
+        "chores"
+      ],
+      [
+        "lies",
+        "helps",
+        "smiles"
+      ],
+      [
+        "party",
+        "meeting",
+        "exam"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "translatedText": "Bạn bè và tôi thường gặp nhau ở quán cà phê sau giờ học.\nTôi luôn ủng hộ bạn bè khi họ cần giúp đỡ.\nChúng tôi thường trò chuyện về kế hoạch cho cuối tuần.\nBạn thân nhất của tôi luôn nói thật và không bao giờ nói dối.\nChúng tôi thường kỷ niệm sinh nhật bằng một bữa tiệc nhỏ.",
+    "translatedSentences": [
+      "Bạn bè và tôi thường gặp nhau ở quán cà phê sau giờ học.",
+      "Tôi luôn ủng hộ bạn bè khi họ cần giúp đỡ.",
+      "Chúng tôi thường trò chuyện về kế hoạch cho cuối tuần.",
+      "Bạn thân nhất của tôi luôn nói thật và không bao giờ nói dối.",
+      "Chúng tôi thường kỷ niệm sinh nhật bằng một bữa tiệc nhỏ."
+    ]
+  },
+  {
+    "id": "part1_37",
+    "topic": "Set 37",
+    "text": "This restaurant usually serves the best  [0] in town.\nWe usually book a  [1] in advance on weekends.\nThe waiter always brings the  [2] first.\nThis cafe usually plays soft  [3] in the background.\nI always leave a small  [4] for good service.",
+    "options": [
+      [
+        "furniture",
+        "clothes",
+        "seafood"
+      ],
+      [
+        "ticket",
+        "flight",
+        "table"
+      ],
+      [
+        "bill",
+        "menu",
+        "receipt"
+      ],
+      [
+        "thunder",
+        "music",
+        "traffic"
+      ],
+      [
+        "tip",
+        "gift",
+        "note"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      1,
+      1,
+      0
+    ],
+    "translatedText": "Nhà hàng này thường phục vụ hải sản ngon nhất trong thị trấn.\nChúng tôi thường đặt bàn trước vào các ngày cuối tuần.\nNgười phục vụ luôn mang thực đơn đến trước.\nQuán cà phê này thường phát nhạc nhẹ nhàng ở nền.\nTôi luôn để lại một khoản tiền boa nhỏ cho dịch vụ tốt.",
+    "translatedSentences": [
+      "Nhà hàng này thường phục vụ hải sản ngon nhất trong thị trấn.",
+      "Chúng tôi thường đặt bàn trước vào các ngày cuối tuần.",
+      "Người phục vụ luôn mang thực đơn đến trước.",
+      "Quán cà phê này thường phát nhạc nhẹ nhàng ở nền.",
+      "Tôi luôn để lại một khoản tiền boa nhỏ cho dịch vụ tốt."
+    ]
+  },
+  {
+    "id": "part1_38",
+    "topic": "Set 38",
+    "text": "I usually save some  [0] every month.\nMy parents always compare  [1] before buying anything expensive.\nThis store usually offers free  [2] for large orders.\nI always keep my  [3] just in case I need a refund.\nWe usually pay our bills  [4] .",
+    "options": [
+      [
+        "clothes",
+        "food",
+        "money"
+      ],
+      [
+        "colors",
+        "shapes",
+        "prices"
+      ],
+      [
+        "delivery",
+        "punishment",
+        "noise"
+      ],
+      [
+        "receipts",
+        "shoes",
+        "keys"
+      ],
+      [
+        "loudly",
+        "online",
+        "underground"
+      ]
+    ],
+    "answers": [
+      2,
+      2,
+      0,
+      0,
+      1
+    ],
+    "translatedText": "Tôi thường tiết kiệm một khoản tiền mỗi tháng.\nBố mẹ tôi luôn so sánh giá cả trước khi mua bất cứ thứ gì đắt tiền.\nCửa hàng này thường giao hàng miễn phí cho các đơn hàng lớn.\nTôi luôn giữ lại các hóa đơn phòng khi cần hoàn tiền.\nChúng tôi thường thanh toán hóa đơn trực tuyến.",
+    "translatedSentences": [
+      "Tôi thường tiết kiệm một khoản tiền mỗi tháng.",
+      "Bố mẹ tôi luôn so sánh giá cả trước khi mua bất cứ thứ gì đắt tiền.",
+      "Cửa hàng này thường giao hàng miễn phí cho các đơn hàng lớn.",
+      "Tôi luôn giữ lại các hóa đơn phòng khi cần hoàn tiền.",
+      "Chúng tôi thường thanh toán hóa đơn trực tuyến."
+    ]
+  },
+  {
+    "id": "part1_39",
+    "topic": "Set 39",
+    "text": "We always  [0] paper and plastic at home.\nOur town usually collects the  [1] every Tuesday.\nTurning off the lights helps save  [2] .\nMany people now prefer cloth  [3] instead of plastic ones.\nPlanting more trees helps keep the air  [4] .",
+    "options": [
+      [
+        "waste",
+        "burn",
+        "recycle"
+      ],
+      [
+        "vehicles",
+        "trash",
+        "furniture"
+      ],
+      [
+        "energy",
+        "paper",
+        "noise"
+      ],
+      [
+        "phones",
+        "bags",
+        "cars"
+      ],
+      [
+        "dirty",
+        "heavy",
+        "clean"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    "translatedText": "Chúng tôi luôn tái chế giấy và đồ nhựa ở nhà.\nThị trấn của chúng tôi thường thu gom rác vào mỗi thứ Ba.\nTắt đèn giúp tiết kiệm năng lượng.\nNhiều người hiện nay thích dùng túi vải thay vì túi nhựa.\nTrồng thêm cây xanh giúp giữ cho không khí trong lành.",
+    "translatedSentences": [
+      "Chúng tôi luôn tái chế giấy và đồ nhựa ở nhà.",
+      "Thị trấn của chúng tôi thường thu gom rác vào mỗi thứ Ba.",
+      "Tắt đèn giúp tiết kiệm năng lượng.",
+      "Nhiều người hiện nay thích dùng túi vải thay vì túi nhựa.",
+      "Trồng thêm cây xanh giúp giữ cho không khí trong lành."
+    ]
+  },
+  {
+    "id": "part1_40",
+    "topic": "Set 40",
+    "text": "I usually go to  [0] around ten o'clock.\nMy brother always takes a short  [1] after lunch.\nA quiet room usually helps me sleep quite  [2] .\nI always read a little before  [3] .\nToo much coffee usually keeps me  [4] at night.",
+    "options": [
+      [
+        "school",
+        "work",
+        "sleep"
+      ],
+      [
+        "walk",
+        "nap",
+        "shower"
+      ],
+      [
+        "loudly",
+        "well",
+        "badly"
+      ],
+      [
+        "lunchtime",
+        "breakfast",
+        "bedtime"
+      ],
+      [
+        "calm",
+        "awake",
+        "asleep"
+      ]
+    ],
+    "answers": [
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "translatedText": "Tôi thường đi ngủ vào khoảng mười giờ.\nAnh trai tôi luôn chợp mắt một lát sau bữa trưa.\nMột căn phòng yên tĩnh thường giúp tôi ngủ rất ngon.\nTôi luôn đọc sách một chút trước giờ đi ngủ.\nUống quá nhiều cà phê thường khiến tôi tỉnh táo vào ban đêm.",
+    "translatedSentences": [
+      "Tôi thường đi ngủ vào khoảng mười giờ.",
+      "Anh trai tôi luôn chợp mắt một lát sau bữa trưa.",
+      "Một căn phòng yên tĩnh thường giúp tôi ngủ rất ngon.",
+      "Tôi luôn đọc sách một chút trước giờ đi ngủ.",
+      "Uống quá nhiều cà phê thường khiến tôi tỉnh táo vào ban đêm."
+    ]
+  },
+  {
+    "id": "part1_41",
+    "topic": "Set 41",
+    "text": "I usually call my parents  [0] to check on them.\nWe often send each other funny  [1] during the day.\nMy grandmother prefers to talk on the  [2] rather than text.\nI always reply to important  [3] right away.\nWe usually keep our conversations quite  [4] during work hours.",
+    "options": [
+      [
+        "daily",
+        "hourly",
+        "yearly"
+      ],
+      [
+        "bills",
+        "messages",
+        "reports"
+      ],
+      [
+        "bridge",
+        "roof",
+        "phone"
+      ],
+      [
+        "movies",
+        "emails",
+        "songs"
+      ],
+      [
+        "short",
+        "silent",
+        "endless"
+      ]
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "translatedText": "Tôi thường gọi điện cho bố mẹ hàng ngày để hỏi thăm.\nChúng tôi thường gửi cho nhau những tin nhắn hài hước trong ngày.\nBà tôi thích nói chuyện điện thoại hơn là nhắn tin.\nTôi luôn trả lời các email quan trọng ngay lập tức.\nChúng tôi thường giữ các cuộc trò chuyện ngắn gọn trong giờ làm việc.",
+    "translatedSentences": [
+      "Tôi thường gọi điện cho bố mẹ hàng ngày để hỏi thăm.",
+      "Chúng tôi thường gửi cho nhau những tin nhắn hài hước trong ngày.",
+      "Bà tôi thích nói chuyện điện thoại hơn là nhắn tin.",
+      "Tôi luôn trả lời các email quan trọng ngay lập tức.",
+      "Chúng tôi thường giữ các cuộc trò chuyện ngắn gọn trong giờ làm việc."
+    ]
+  },
+  {
+    "id": "part1_42",
+    "topic": "Set 42",
+    "text": "She always adds a little  [0] to season the soup.\nThe bakery down the street sells fresh  [1] every morning.\nI usually  [2] the eggs for about ten minutes.\nThis recipe needs two cups of  [3] and one egg.\nThe soup tastes a bit too  [4] for my liking.",
+    "options": [
+      [
+        "salt",
+        "sugar",
+        "oil"
+      ],
+      [
+        "bread",
+        "shoes",
+        "paper"
+      ],
+      [
+        "boil",
+        "paint",
+        "drive"
+      ],
+      [
+        "flour",
+        "stone",
+        "paper"
+      ],
+      [
+        "salty",
+        "loud",
+        "heavy"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Cô ấy luôn thêm một chút muối để nêm nếm món súp.\nTiệm bánh ở cuối phố bán bánh mì tươi mỗi sáng.\nTôi thường luộc trứng trong khoảng mười phút.\nCông thức này cần hai cốc bột mì và một quả trứng.\nMón súp có vị hơi quá mặn so với khẩu vị của tôi.",
+    "translatedSentences": [
+      "Cô ấy luôn thêm một chút muối để nêm nếm món súp.",
+      "Tiệm bánh ở cuối phố bán bánh mì tươi mỗi sáng.",
+      "Tôi thường luộc trứng trong khoảng mười phút.",
+      "Công thức này cần hai cốc bột mì và một quả trứng.",
+      "Món súp có vị hơi quá mặn so với khẩu vị của tôi."
+    ]
+  },
+  {
+    "id": "part1_43",
+    "topic": "Set 43",
+    "text": "It looks like it might  [0] later this afternoon.\nRemember to bring an  [1] if you go outside.\nThe weather has been really  [2] these past few days.\nA cold  [3] blew through the town last night.\nWe canceled the picnic because of the sudden  [4] .",
+    "options": [
+      [
+        "rain",
+        "sing",
+        "cook"
+      ],
+      [
+        "umbrella",
+        "oven",
+        "pillow"
+      ],
+      [
+        "humid",
+        "quiet",
+        "cheap"
+      ],
+      [
+        "wind",
+        "song",
+        "bill"
+      ],
+      [
+        "storm",
+        "concert",
+        "exam"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Trông như trời có thể sẽ mưa vào chiều nay.\nHãy nhớ mang theo ô nếu bạn đi ra ngoài.\nThời tiết mấy ngày qua thực sự rất ẩm ướt.\nMột cơn gió lạnh đã thổi qua thị trấn vào đêm qua.\nChúng tôi đã hủy buổi dã ngoại vì cơn bão bất ngờ.",
+    "translatedSentences": [
+      "Trông như trời có thể sẽ mưa vào chiều nay.",
+      "Hãy nhớ mang theo ô nếu bạn đi ra ngoài.",
+      "Thời tiết mấy ngày qua thực sự rất ẩm ướt.",
+      "Một cơn gió lạnh đã thổi qua thị trấn vào đêm qua.",
+      "Chúng tôi đã hủy buổi dã ngoại vì cơn bão bất ngờ."
+    ]
+  },
+  {
+    "id": "part1_44",
+    "topic": "Set 44",
+    "text": "I need to  [0] these shoes because they don't fit.\nThe store is offering a big  [1] this weekend.\nCould you check if this jacket comes in a smaller  [2] ?\nI paid in  [3] instead of using my card.\nThe cashier gave me the wrong  [4] by mistake.",
+    "options": [
+      [
+        "return",
+        "cook",
+        "sleep"
+      ],
+      [
+        "discount",
+        "lecture",
+        "recipe"
+      ],
+      [
+        "size",
+        "flavor",
+        "weight"
+      ],
+      [
+        "cash",
+        "paint",
+        "sand"
+      ],
+      [
+        "receipt",
+        "umbrella",
+        "engine"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Tôi cần trả lại đôi giày này vì chúng không vừa.\nCửa hàng đang giảm giá lớn vào cuối tuần này.\nBạn có thể kiểm tra xem chiếc áo khoác này có kích cỡ nhỏ hơn không?\nTôi đã thanh toán bằng tiền mặt thay vì sử dụng thẻ.\nThu ngân đã đưa nhầm hóa đơn cho tôi do nhầm lẫn.",
+    "translatedSentences": [
+      "Tôi cần trả lại đôi giày này vì chúng không vừa.",
+      "Cửa hàng đang giảm giá lớn vào cuối tuần này.",
+      "Bạn có thể kiểm tra xem chiếc áo khoác này có kích cỡ nhỏ hơn không?",
+      "Tôi đã thanh toán bằng tiền mặt thay vì sử dụng thẻ.",
+      "Thu ngân đã đưa nhầm hóa đơn cho tôi do nhầm lẫn."
+    ]
+  },
+  {
+    "id": "part1_45",
+    "topic": "Set 45",
+    "text": "I try to  [0] at least three times a week.\nDrinking enough  [1] keeps you healthy.\nMy doctor advised me to get more  [2] after the surgery.\nJogging every morning makes me feel more  [3] .\nHe pulled a muscle while  [4] before the race.",
+    "options": [
+      [
+        "exercise",
+        "argue",
+        "paint"
+      ],
+      [
+        "water",
+        "oil",
+        "ink"
+      ],
+      [
+        "rest",
+        "noise",
+        "debt"
+      ],
+      [
+        "energetic",
+        "forgetful",
+        "nervous"
+      ],
+      [
+        "stretching",
+        "cooking",
+        "reading"
+      ]
+    ],
+    "answers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "translatedText": "Tôi cố gắng tập thể dục ít nhất ba lần một tuần.\nUống đủ nước giúp bạn khỏe mạnh.\nBác sĩ khuyên tôi nên nghỉ ngơi nhiều hơn sau ca phẫu thuật.\nChạy bộ mỗi sáng khiến tôi cảm thấy tràn đầy năng lượng hơn.\nAnh ấy đã bị căng cơ khi đang khởi động trước cuộc đua.",
+    "translatedSentences": [
+      "Tôi cố gắng tập thể dục ít nhất ba lần một tuần.",
+      "Uống đủ nước giúp bạn khỏe mạnh.",
+      "Bác sĩ khuyên tôi nên nghỉ ngơi nhiều hơn sau ca phẫu thuật.",
+      "Chạy bộ mỗi sáng khiến tôi cảm thấy tràn đầy năng lượng hơn.",
+      "Anh ấy đã bị căng cơ khi đang khởi động trước cuộc đua."
+    ]
+  }
+]
