@@ -564,10 +564,10 @@ const PracticePart1 = () => {
 
         {/* Study Mode View: Directly show correct answers & bilingual sentences */}
         {isStudy ? (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
-            <div style={{ marginBottom: '0.15rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
+            <div style={{ marginBottom: '0.25rem' }}>
               <h4 style={{
-                fontSize: '0.92rem',
+                fontSize: '0.94rem',
                 fontWeight: 700,
                 color: 'var(--primary)',
                 margin: 0,
@@ -578,7 +578,7 @@ const PracticePart1 = () => {
                 <BookOpen size={16} />
                 <span>Đáp án chuẩn Set {getOriginalQuestionNumber(currentQuestion)}</span>
               </h4>
-              <p className="text-muted" style={{ fontSize: '0.8rem', margin: '0.1rem 0 0 0' }}>
+              <p className="text-muted" style={{ fontSize: '0.82rem', margin: '0.15rem 0 0 0' }}>
                 Chủ đề: <strong>{currentQuestion.topic || `Set ${getOriginalQuestionNumber(currentQuestion)}`}</strong>
               </p>
             </div>
@@ -586,23 +586,23 @@ const PracticePart1 = () => {
             {sentenceLines.map((line) => (
               <div
                 key={line.lineIndex}
-                className="sentence-item"
-                style={{ cursor: 'default', background: '#f8fafc', padding: '0.45rem 0.75rem', borderLeft: '3px solid var(--primary)', display: 'flex', flexDirection: 'column', gap: '0.2rem', borderRadius: 0 }}
+                className="part1-line-item is-correct"
+                style={{ cursor: 'default' }}
               >
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <div className="sentence-slot-num" style={{ background: 'var(--primary)', color: '#fff', borderColor: 'var(--primary)', borderRadius: 0, width: '20px', height: '20px', fontSize: '0.75rem' }}>
+                <div className="part1-sentence-content">
+                  <div className="part1-slot-badge">
                     {line.blankIdx + 1}
                   </div>
-                  <div style={{ flex: 1, fontSize: '0.92rem', lineHeight: '1.45', color: 'var(--text-main)' }}>
+                  <div className="part1-sentence-text">
                     <span>{line.beforeText}</span>
-                    <strong style={{ color: 'var(--success)', background: 'rgba(16, 185, 129, 0.12)', padding: '0.08rem 0.35rem', borderRadius: 0, margin: '0 0.2rem', borderBottom: '2px solid var(--success)' }}>
+                    <strong className="part1-inline-blank correct">
                       {line.correctAnswerStr}
                     </strong>
                     <span>{line.afterText}</span>
                   </div>
                 </div>
                 {currentQuestion.translatedSentences && currentQuestion.translatedSentences[line.blankIdx] && (
-                  <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)', fontStyle: 'italic', paddingLeft: '1.75rem' }}>
+                  <div style={{ fontSize: '0.84rem', color: '#64748b', fontStyle: 'italic', paddingLeft: '2.25rem', lineHeight: '1.5' }}>
                     {currentQuestion.translatedSentences[line.blankIdx]}
                   </div>
                 )}
@@ -625,27 +625,18 @@ const PracticePart1 = () => {
                 <div
                   key={line.lineIndex}
                   className={`part1-line-item ${rowClass}`}
-                  style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    gap: '0.35rem',
-                    padding: '0.45rem 0.75rem',
-                    borderRadius: 0,
-                    border: '1px solid var(--border)'
-                  }}
                 >
                   {/* Top: Sentence with Blank */}
-                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', width: '100%' }}>
-                    <div className="part1-slot-badge" style={{ borderRadius: 0 }}>
+                  <div className="part1-sentence-content">
+                    <div className="part1-slot-badge">
                       {line.blankIdx + 1}
                     </div>
 
-                    <div style={{ fontSize: '0.92rem', lineHeight: '1.45', color: 'var(--text-main)', flex: 1 }}>
+                    <div className="part1-sentence-text">
                       <span>{line.beforeText}</span>
 
                       <span
                         className={`part1-inline-blank ${!userChoice ? 'empty' : isChecked ? (isCorrect ? 'correct' : 'incorrect') : ''}`}
-                        style={{ borderRadius: 0 }}
                       >
                         {userChoice || '_____'}
                       </span>
@@ -654,15 +645,15 @@ const PracticePart1 = () => {
 
                       {/* Result feedback icon tag */}
                       {isChecked && (
-                        <span style={{ marginLeft: '0.4rem', display: 'inline-flex', verticalAlign: 'middle' }}>
+                        <span style={{ marginLeft: '0.5rem', display: 'inline-flex', verticalAlign: 'middle' }}>
                           {isCorrect ? (
-                            <span className="feedback-tag correct" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
-                              <Check size={11} />
-                              <span>Đúng</span>
+                            <span className="feedback-tag correct">
+                              <Check size={12} />
+                              <span>Chính xác</span>
                             </span>
                           ) : (
-                            <span className="feedback-tag incorrect" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
-                              <X size={11} />
+                            <span className="feedback-tag incorrect">
+                              <X size={12} />
                               <span>Đáp án: {line.correctAnswerStr}</span>
                             </span>
                           )}
@@ -671,8 +662,8 @@ const PracticePart1 = () => {
                     </div>
                   </div>
 
-                  {/* Bottom: Options Row A, B, C (xuống hàng) */}
-                  <div className="part1-options-row" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', flexWrap: 'wrap', paddingLeft: '1.85rem' }}>
+                  {/* Bottom: Options Row A, B, C */}
+                  <div className="part1-options-row">
                     {line.options.map((opt, optIdx) => {
                       const optLetter = String.fromCharCode(65 + optIdx); // A, B, C
                       const isSelected = userChoice === opt;
@@ -692,9 +683,8 @@ const PracticePart1 = () => {
                           disabled={isChecked}
                           onClick={() => handleSelectOption(line.blankIdx, opt)}
                           className={`part1-opt-btn ${optClass}`}
-                          style={{ padding: '0.22rem 0.65rem', fontSize: '0.85rem', borderRadius: 0 }}
                         >
-                          <span style={{ fontWeight: 700, marginRight: '0.25rem', opacity: 0.85 }}>
+                          <span style={{ fontWeight: 700, opacity: 0.85 }}>
                             {optLetter}.
                           </span>
                           <span>{opt}</span>
@@ -709,17 +699,17 @@ const PracticePart1 = () => {
         )}
 
         {/* Action Controls Bar */}
-        <div className="action-bar" style={{ paddingTop: '0.65rem', borderTop: '1px solid var(--border)' }}>
+        <div className="action-bar" style={{ paddingTop: '0.85rem', marginTop: '0.5rem', borderTop: '1px solid var(--border)' }}>
           <div>
             <button
               onClick={handlePrev}
               disabled={currentIndex === 0}
               className="btn btn-secondary btn-small"
-              style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+              style={{ padding: '0.45rem 0.85rem', fontSize: '0.86rem', borderRadius: '8px' }}
             >
               <ChevronLeft size={16} />
               <span>Quay lại</span>
-              <span className="kbd-hint" style={{ fontSize: '0.72rem', padding: '0 3px' }}>←</span>
+              <span className="kbd-hint">←</span>
             </button>
           </div>
 
@@ -728,7 +718,7 @@ const PracticePart1 = () => {
               <button
                 onClick={handleResetQuestion}
                 className="btn btn-secondary btn-small"
-                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                style={{ padding: '0.45rem 0.85rem', fontSize: '0.86rem', borderRadius: '8px' }}
               >
                 <RotateCcw size={14} />
                 <span>Thử lại</span>
@@ -740,11 +730,11 @@ const PracticePart1 = () => {
                 onClick={handleCheck}
                 disabled={!isAllBlanksFilled}
                 className="btn btn-primary btn-small"
-                style={{ minWidth: '110px', borderRadius: 0, padding: '0.35rem 0.85rem', fontSize: '0.85rem' }}
+                style={{ minWidth: '115px', padding: '0.45rem 0.95rem', fontSize: '0.86rem', borderRadius: '8px' }}
               >
                 <CheckCircle size={16} />
                 <span>Kiểm tra</span>
-                <span className="kbd-hint" style={{ background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' }}>Enter</span>
+                <span className="kbd-hint" style={{ background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent' }}>Enter</span>
               </button>
             )}
 
@@ -752,15 +742,14 @@ const PracticePart1 = () => {
               onClick={handleNext}
               disabled={currentIndex === activeQuestions.length - 1}
               className={`btn btn-small ${isChecked || isStudy ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+              style={{ padding: '0.45rem 0.85rem', fontSize: '0.86rem', borderRadius: '8px' }}
             >
               <span>Tiếp theo</span>
               <ChevronRight size={16} />
-              <span className="kbd-hint" style={isChecked ? { background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' } : { fontSize: '0.72rem', padding: '0 3px' }}>→</span>
+              <span className="kbd-hint" style={isChecked ? { background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent' } : {}}>→</span>
             </button>
           </div>
         </div>
-
       </div>
 
       {/* RESULT & TRANSLATION POPUP MODAL */}
@@ -769,26 +758,26 @@ const PracticePart1 = () => {
           <div
             className="popup-content popup-large"
             onClick={(e) => e.stopPropagation()}
-            style={{ borderRadius: 0, maxWidth: '600px', maxHeight: '88vh', display: 'flex', flexDirection: 'column' }}
+            style={{ borderRadius: '16px', maxWidth: '620px', maxHeight: '88vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}
           >
             {/* Modal Header */}
             <div style={{
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              padding: '0.85rem 1.15rem',
+              padding: '1rem 1.25rem',
               borderBottom: '1px solid var(--border)',
               background: '#f8fafc'
             }}>
               <div>
-                <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-main)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-main)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.45rem' }}>
                   <CheckCircle size={18} color="var(--success)" />
                   <span>Kết quả Set {getOriginalQuestionNumber(currentQuestion)}</span>
                   <span style={{
                     fontSize: '0.78rem',
                     fontWeight: 700,
-                    padding: '0.15rem 0.5rem',
-                    borderRadius: 0,
+                    padding: '0.15rem 0.55rem',
+                    borderRadius: '6px',
                     background: score === currentQuestion.answers.length ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
                     color: score === currentQuestion.answers.length ? 'var(--success)' : 'var(--danger)',
                     border: `1px solid ${score === currentQuestion.answers.length ? 'var(--success)' : 'var(--danger)'}`
@@ -804,14 +793,14 @@ const PracticePart1 = () => {
                 className="close-btn"
                 onClick={() => setShowResultPopup(false)}
                 title="Đóng (Esc)"
-                style={{ borderRadius: 0 }}
+                style={{ borderRadius: '50%' }}
               >
                 <X size={18} />
               </button>
             </div>
 
             {/* Modal Body with Sentences & Vietnamese Translations */}
-            <div style={{ padding: '0.85rem 1.15rem', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.5rem', flex: 1 }}>
+            <div style={{ padding: '1rem 1.25rem', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.6rem', flex: 1 }}>
               {sentenceLines.map((line) => {
                 const userChoice = selectedAnswers[line.blankIdx];
                 const isCorrect = userChoice === line.correctAnswerStr;
@@ -819,27 +808,27 @@ const PracticePart1 = () => {
                   <div
                     key={line.lineIndex}
                     style={{
-                      padding: '0.55rem 0.75rem',
-                      background: isCorrect ? 'rgba(16, 185, 129, 0.04)' : 'rgba(239, 68, 68, 0.04)',
-                      border: '1px solid var(--border)',
-                      borderLeft: `3px solid ${isCorrect ? 'var(--success)' : 'var(--danger)'}`,
+                      padding: '0.65rem 0.85rem',
+                      background: isCorrect ? '#f0fdf4' : '#fef2f2',
+                      border: `1px solid ${isCorrect ? '#bbf7d0' : '#fecaca'}`,
+                      borderLeft: `4px solid ${isCorrect ? '#10b981' : '#ef4444'}`,
                       display: 'flex',
                       flexDirection: 'column',
-                      gap: '0.2rem',
-                      borderRadius: 0
+                      gap: '0.25rem',
+                      borderRadius: '10px'
                     }}
                   >
                     <div style={{ fontSize: '0.9rem', lineHeight: '1.45', color: 'var(--text-main)' }}>
-                      <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.35rem' }}>
+                      <span style={{ fontWeight: 800, color: 'var(--primary)', marginRight: '0.35rem' }}>
                         {line.blankIdx + 1}.
                       </span>
                       <span>{line.beforeText}</span>
                       <strong style={{
                         color: 'var(--success)',
-                        background: 'rgba(16, 185, 129, 0.12)',
-                        padding: '0.08rem 0.35rem',
+                        background: 'rgba(16, 185, 129, 0.15)',
+                        padding: '0.08rem 0.4rem',
                         borderBottom: '2px solid var(--success)',
-                        borderRadius: 0,
+                        borderRadius: '4px',
                         margin: '0 0.15rem'
                       }}>
                         {line.correctAnswerStr}
@@ -854,7 +843,7 @@ const PracticePart1 = () => {
                     </div>
 
                     {currentQuestion.translatedSentences && currentQuestion.translatedSentences[line.blankIdx] && (
-                      <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontStyle: 'italic', paddingLeft: '1rem' }}>
+                      <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontStyle: 'italic', paddingLeft: '1rem', lineHeight: '1.45' }}>
                         {currentQuestion.translatedSentences[line.blankIdx]}
                       </div>
                     )}
@@ -865,13 +854,12 @@ const PracticePart1 = () => {
 
             {/* Modal Footer */}
             <div style={{
-              padding: '0.65rem 1.15rem',
+              padding: '0.85rem 1.25rem',
               borderTop: '1px solid var(--border)',
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              background: '#f8fafc',
-              borderRadius: 0
+              background: '#f8fafc'
             }}>
               <button
                 className="btn btn-secondary btn-small"
@@ -879,17 +867,17 @@ const PracticePart1 = () => {
                   setShowResultPopup(false);
                   handleResetQuestion();
                 }}
-                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
               >
                 <RotateCcw size={14} />
                 <span>Làm lại câu này</span>
               </button>
 
-              <div style={{ display: 'flex', gap: '0.4rem' }}>
+              <div style={{ display: 'flex', gap: '0.5rem' }}>
                 <button
                   className="btn btn-secondary btn-small"
                   onClick={() => setShowResultPopup(false)}
-                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                  style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
                 >
                   Đóng
                 </button>
@@ -900,7 +888,7 @@ const PracticePart1 = () => {
                     handleNext();
                   }}
                   disabled={currentIndex === activeQuestions.length - 1}
-                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                  style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
                 >
                   <span>Câu tiếp theo</span>
                   <ChevronRight size={14} />

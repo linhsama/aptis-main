@@ -593,13 +593,13 @@ const PracticePart3 = () => {
                     {isChecked && (
                       <div style={{ flexShrink: 0 }}>
                         {isCorrect ? (
-                          <span className="feedback-tag correct" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
-                            <Check size={11} />
+                          <span className="feedback-tag correct">
+                            <Check size={12} />
                             <span>Đúng</span>
                           </span>
                         ) : (
-                          <span className="feedback-tag incorrect" style={{ padding: '0.08rem 0.35rem', fontSize: '0.72rem', borderRadius: 0 }}>
-                            <X size={11} />
+                          <span className="feedback-tag incorrect">
+                            <X size={12} />
                             <span>Đáp án: {correctChar}</span>
                           </span>
                         )}
@@ -640,17 +640,17 @@ const PracticePart3 = () => {
           </div>
 
           {/* Action Controls Bar */}
-          <div className="action-bar" style={{ paddingTop: '0.65rem', borderTop: '1px solid var(--border)', marginTop: 'auto' }}>
+          <div className="action-bar" style={{ paddingTop: '0.85rem', marginTop: 'auto', borderTop: '1px solid var(--border)' }}>
             <div>
               <button
                 onClick={handlePrev}
                 disabled={currentIndex === 0}
                 className="btn btn-secondary btn-small"
-                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                style={{ borderRadius: '8px', padding: '0.45rem 0.85rem', fontSize: '0.86rem' }}
               >
                 <ChevronLeft size={16} />
                 <span>Quay lại</span>
-                <span className="kbd-hint" style={{ fontSize: '0.72rem', padding: '0 3px' }}>←</span>
+                <span className="kbd-hint">←</span>
               </button>
             </div>
 
@@ -659,7 +659,7 @@ const PracticePart3 = () => {
                 <button
                   onClick={handleResetQuestion}
                   className="btn btn-secondary btn-small"
-                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                  style={{ borderRadius: '8px', padding: '0.45rem 0.85rem', fontSize: '0.86rem' }}
                 >
                   <RotateCcw size={14} />
                   <span>Thử lại</span>
@@ -671,11 +671,11 @@ const PracticePart3 = () => {
                   onClick={handleCheck}
                   disabled={!isAllAnswered}
                   className="btn btn-primary btn-small"
-                  style={{ minWidth: '110px', borderRadius: 0, padding: '0.35rem 0.85rem', fontSize: '0.85rem' }}
+                  style={{ minWidth: '115px', borderRadius: '8px', padding: '0.45rem 0.95rem', fontSize: '0.86rem' }}
                 >
                   <CheckCircle size={16} />
                   <span>Kiểm tra</span>
-                  <span className="kbd-hint" style={{ background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' }}>Enter</span>
+                  <span className="kbd-hint" style={{ background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent' }}>Enter</span>
                 </button>
               )}
 
@@ -683,11 +683,11 @@ const PracticePart3 = () => {
                 onClick={handleNext}
                 disabled={currentIndex === activeQuestions.length - 1}
                 className={`btn btn-small ${isChecked || isStudy ? 'btn-primary' : 'btn-secondary'}`}
-                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                style={{ borderRadius: '8px', padding: '0.45rem 0.85rem', fontSize: '0.86rem' }}
               >
                 <span>Tiếp theo</span>
                 <ChevronRight size={16} />
-                <span className="kbd-hint" style={isChecked ? { background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent', fontSize: '0.72rem', padding: '0 3px' } : { fontSize: '0.72rem', padding: '0 3px' }}>→</span>
+                <span className="kbd-hint" style={isChecked ? { background: 'rgba(255,255,255,0.25)', color: '#fff', borderColor: 'transparent' } : {}}>→</span>
               </button>
             </div>
           </div>
@@ -701,26 +701,26 @@ const PracticePart3 = () => {
           <div
             className="popup-content popup-large"
             onClick={(e) => e.stopPropagation()}
-            style={{ borderRadius: 0, maxWidth: '600px', maxHeight: '88vh', display: 'flex', flexDirection: 'column' }}
+            style={{ borderRadius: '16px', maxWidth: '620px', maxHeight: '88vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}
           >
             {/* Modal Header */}
             <div style={{
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              padding: '0.85rem 1.15rem',
+              padding: '1rem 1.25rem',
               borderBottom: '1px solid var(--border)',
               background: '#f8fafc'
             }}>
               <div>
-                <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-main)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--text-main)', margin: 0, display: 'flex', alignItems: 'center', gap: '0.45rem' }}>
                   <CheckCircle size={18} color="var(--success)" />
                   <span>Kết quả Set {getOriginalQuestionNumber(currentQuestion)}</span>
                   <span style={{
                     fontSize: '0.78rem',
                     fontWeight: 700,
-                    padding: '0.15rem 0.5rem',
-                    borderRadius: 0,
+                    padding: '0.15rem 0.55rem',
+                    borderRadius: '6px',
                     background: score === currentQuestion.questions.length ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
                     color: score === currentQuestion.questions.length ? 'var(--success)' : 'var(--danger)',
                     border: `1px solid ${score === currentQuestion.questions.length ? 'var(--success)' : 'var(--danger)'}`
@@ -736,14 +736,14 @@ const PracticePart3 = () => {
                 className="close-btn"
                 onClick={() => setShowResultPopup(false)}
                 title="Đóng (Esc)"
-                style={{ borderRadius: 0 }}
+                style={{ borderRadius: '50%' }}
               >
                 <X size={18} />
               </button>
             </div>
 
             {/* Modal Body with Questions breakdown */}
-            <div style={{ padding: '0.85rem 1.15rem', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.45rem', flex: 1 }}>
+            <div style={{ padding: '1rem 1.25rem', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '0.6rem', flex: 1 }}>
               {currentQuestion.questions.map((q, qIdx) => {
                 const userChoice = selectedAnswers[qIdx];
                 const isCorrect = userChoice === q.answer;
@@ -754,18 +754,18 @@ const PracticePart3 = () => {
                   <div
                     key={qIdx}
                     style={{
-                      padding: '0.55rem 0.75rem',
-                      background: isCorrect ? 'rgba(16, 185, 129, 0.04)' : 'rgba(239, 68, 68, 0.04)',
-                      border: '1px solid var(--border)',
-                      borderLeft: `3px solid ${isCorrect ? 'var(--success)' : 'var(--danger)'}`,
+                      padding: '0.65rem 0.85rem',
+                      background: isCorrect ? '#f0fdf4' : '#fef2f2',
+                      border: `1px solid ${isCorrect ? '#bbf7d0' : '#fecaca'}`,
+                      borderLeft: `4px solid ${isCorrect ? '#10b981' : '#ef4444'}`,
                       display: 'flex',
                       flexDirection: 'column',
-                      gap: '0.2rem',
-                      borderRadius: 0
+                      gap: '0.25rem',
+                      borderRadius: '10px'
                     }}
                   >
                     <div style={{ fontSize: '0.9rem', lineHeight: '1.45', color: 'var(--text-main)' }}>
-                      <span style={{ fontWeight: 700, color: 'var(--primary)', marginRight: '0.35rem' }}>
+                      <span style={{ fontWeight: 800, color: 'var(--primary)', marginRight: '0.35rem' }}>
                         {qIdx + 1}.
                       </span>
                       <span>{q.text}</span>
@@ -788,13 +788,12 @@ const PracticePart3 = () => {
 
             {/* Modal Footer */}
             <div style={{
-              padding: '0.65rem 1.15rem',
+              padding: '0.85rem 1.25rem',
               borderTop: '1px solid var(--border)',
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
-              background: '#f8fafc',
-              borderRadius: 0
+              background: '#f8fafc'
             }}>
               <button
                 className="btn btn-secondary btn-small"
@@ -802,17 +801,17 @@ const PracticePart3 = () => {
                   setShowResultPopup(false);
                   handleResetQuestion();
                 }}
-                style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
               >
                 <RotateCcw size={14} />
                 <span>Làm lại câu này</span>
               </button>
 
-              <div style={{ display: 'flex', gap: '0.4rem' }}>
+              <div style={{ display: 'flex', gap: '0.5rem' }}>
                 <button
                   className="btn btn-secondary btn-small"
                   onClick={() => setShowResultPopup(false)}
-                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                  style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
                 >
                   Đóng
                 </button>
@@ -823,7 +822,7 @@ const PracticePart3 = () => {
                     handleNext();
                   }}
                   disabled={currentIndex === activeQuestions.length - 1}
-                  style={{ borderRadius: 0, padding: '0.35rem 0.75rem', fontSize: '0.85rem' }}
+                  style={{ borderRadius: '8px', padding: '0.4rem 0.85rem', fontSize: '0.85rem' }}
                 >
                   <span>Câu tiếp theo</span>
                   <ChevronRight size={14} />
